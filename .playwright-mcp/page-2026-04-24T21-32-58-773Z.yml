@@ -1,0 +1,78 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - paragraph [ref=e7]: Leadership Practice for Students
+        - heading "Practise real business decisions." [level=1] [ref=e8]
+        - paragraph [ref=e9]: A focused tool for university students to run short business simulations, reveal leadership strengths, and find peers with complementary judgment.
+      - generic [ref=e10]:
+        - generic [ref=e11]: 3 decisions
+        - generic [ref=e12]: 4 minutes
+        - generic [ref=e13]: instant skill feedback
+      - generic [ref=e14]:
+        - link "Get started" [ref=e15] [cursor=pointer]:
+          - /url: /onboarding
+          - button "Get started" [ref=e16]
+        - button "View demo profile" [ref=e17]
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - paragraph [ref=e20]: Core Product Loop
+        - heading "Simulate. Measure. Match." [level=2] [ref=e21]
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - paragraph [ref=e24]: Simulate
+          - paragraph [ref=e25]: Short, realistic business trade-offs.
+        - generic [ref=e26]:
+          - paragraph [ref=e27]: Measure
+          - paragraph [ref=e28]: Turn choices into visible leadership signal.
+        - generic [ref=e29]:
+          - paragraph [ref=e30]: Match
+          - paragraph [ref=e31]: Connect with peers who complement your strengths.
+  - generic [ref=e32]:
+    - generic [ref=e33]:
+      - paragraph [ref=e34]: Three Demo Pathways
+      - heading "Three good ways to demo the product." [level=2] [ref=e35]
+    - generic [ref=e36]:
+      - article [ref=e37]:
+        - generic [ref=e38]:
+          - paragraph [ref=e39]: Pathway 1
+          - heading "First-time user" [level=3] [ref=e40]
+          - paragraph [ref=e41]: A student wants to practise business decision-making before a pitch, internship interview, or startup meeting.
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - paragraph [ref=e44]: Flow
+            - paragraph [ref=e45]: Landing -> onboarding -> simulation -> feedback
+          - generic [ref=e46]:
+            - paragraph [ref=e47]: Value
+            - paragraph [ref=e48]: Gets immediate value in one short session.
+      - article [ref=e49]:
+        - generic [ref=e50]:
+          - paragraph [ref=e51]: Pathway 2
+          - heading "Returning user" [level=3] [ref=e52]
+          - paragraph [ref=e53]: A student comes back, sees a weaker skill, and reruns the same scenario with a clearer improvement goal.
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Flow
+            - paragraph [ref=e57]: Dashboard -> retake simulation -> score delta
+          - generic [ref=e58]:
+            - paragraph [ref=e59]: Value
+            - paragraph [ref=e60]: Understands progress, not just performance.
+      - article [ref=e61]:
+        - generic [ref=e62]:
+          - paragraph [ref=e63]: Pathway 3
+          - heading "Peer discovery" [level=3] [ref=e64]
+          - paragraph [ref=e65]: A student uses their skill profile to find someone with complementary strengths for a project, society role, or startup idea.
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - paragraph [ref=e68]: Flow
+            - paragraph [ref=e69]: Dashboard -> network -> connect
+          - generic [ref=e70]:
+            - paragraph [ref=e71]: Value
+            - paragraph [ref=e72]: Turns feedback into a useful next step.
+  - generic [ref=e73]:
+    - paragraph [ref=e74]: A clearer way to practise leadership before internships, ventures, and interviews.
+    - link "Enter product" [ref=e75] [cursor=pointer]:
+      - /url: /onboarding
+      - generic [ref=e76]:
+        - text: Enter product
+        - img [ref=e77]

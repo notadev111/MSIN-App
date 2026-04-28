@@ -1,0 +1,44 @@
+
+> web@0.1.0 dev
+> next dev -p 3002
+
+   ▲ Next.js 15.5.14
+   - Local:        http://localhost:3002
+   - Network:      http://192.168.1.203:3002
+
+ ✓ Starting...
+ ✓ Ready in 2s
+ ○ Compiling / ...
+ ✓ Compiled / in 1854ms (1451 modules)
+ GET / 200 in 2764ms
+ ○ Compiling /simulation ...
+ ✓ Compiled /simulation in 527ms (821 modules)
+ ✓ Compiled in 802ms (673 modules)
+ GET /favicon.ico 200 in 1610ms
+ GET /simulation?id=kartika-succession 200 in 1909ms
+ GET / 200 in 164ms
+ ○ Compiling /onboarding ...
+ ✓ Compiled /onboarding in 617ms (1534 modules)
+ GET /onboarding 200 in 866ms
+ GET / 200 in 96ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 973ms (1555 modules)
+ GET /dashboard 200 in 1276ms
+ GET /simulation?id=kartika-succession 200 in 103ms
+ ○ Compiling /feedback ...
+ ✓ Compiled /feedback in 1151ms (1588 modules)
+ GET /feedback 200 in 1469ms
+ GET /dashboard 200 in 97ms
+ ○ Compiling /profile ...
+ ✓ Compiled /profile in 653ms (1595 modules)
+ GET /profile 200 in 942ms
+ ○ Compiling /network ...
+ ✓ Compiled /network in 708ms (1602 modules)
+ GET /network 200 in 1097ms
+ ○ Compiling /_error ...
+ GET /network 200 in 1849ms
+ ✓ Compiled /profile in 14.6s (1908 modules)
+ ✓ Compiled (1913 modules)
+ GET /dashboard 500 in 20939ms
+ GET /profile 200 in 11774ms
+ GET /dashboard 200 in 4554ms

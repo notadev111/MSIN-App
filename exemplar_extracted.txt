@@ -1,0 +1,911 @@
+GoCash
+CA S H WITHDRAWALS
+
+
+
+
+                     1
+MSIN0144 Assignment 2
+                        2
+Word Count: 3,243
+1 Executive Summary........................................................................................ 4
+
+2 Scope ............................................................................................................. 5
+
+3 Definition of GoCash...................................................................................... 6
+
+4 Lean BMC ....................................................................................................... 6
+   4.1 Problems, Solutions, and Unique Value Propositions................................................ 8
+
+   4.2 Revenue Streams and Cost Structure ....................................................................... 9
+
+   4.3 Key Metrics and Channels ....................................................................................... 10
+
+   4.4 Professionals Required..............................................................................................12
+
+5 Market Analysis ............................................................................................13
+   5.1 Value Net Model .........................................................................................................14
+
+6 Our Customers............................................................................................. 16
+
+7 Overall Feasibility of GoCash....................................................................... 2 2
+
+8 Appendix...................................................................................................... 26
+
+9 Bibliography ................................................................................................36
+
+
+
+
+                                                                                                                                3
+      oCash is revolutionizing cash access in the digital age. GoCash turns
+      neighborhood shops into "virtual ATMs," democratizing cash distribution in
+developing nations with smartphones and P OS systems. This technique cuts cash access
+expenses and eliminates ATM searches. GoCash is a location-based app that connects
+cash withdrawers with local businesses depositors, fostering community engagement
+and local economy. This approach appeals to digital-age consumers who expect new,
+digital-first solutions.
+
+You can benefit from GoCash's pioneering digital financial innovation and futuristic
+service compared to traditional banking and ATM withdrawals. Low withdrawal costs
+save time and money. For cash anytime, wherever, GoCash intends to grow across the
+Middle East. PCI DSS-compliant payment processors or secure bank connections protect
+user data, ensuring peace of mind. GoCash is simple. The process starts with app
+download and registration on main platforms. Connecting bank or credit cards takes a
+few steps.             shows how selecting the amount and payment type generates an
+app QR code for withdrawals. Next, scan the QR code at a GoCash Partner Shop to get
+cash instantly.
+
+
+
+
+                           QR Code
+
+GoCash oﬀers ease, security, and financial innovation. It simplifies cash withdrawals and
+meets the growing need for digital solutions, advancing the personal finance digital
+revolution. As GoCash expands its network and capabilities, cash withdrawals will
+become more convenient, aﬀordable, and secure. Commercializing a disruptive service
+is tough despite its potential. The global shift to digital services during the COVID-19
+
+                                                                                       4
+pandemic has enhanced digital finance and mobile payments [1]. Going digital across
+industries reveals a growing desire for GoCash, which makes financial transactions quick,
+secure, and eﬀicient.
+
+GoCash and other mobile payment platforms are booming. This market is expected to
+grow 23.8% from 2021 to 2026, reaching $13.08 trillion globally. Smartphone use and
+digital payment platform trust are promoting cashless transactions and financial asset
+management [2–6]. GoCash must navigate market penetration, regulatory compliance,
+and user adoption in this competitive environment to succeed. The service capitalizes
+on the public's growing distaste for traditional banking and reliance on mobile financial
+services by turning local businesses into virtual ATMs. To achieve market share and a
+lasting competitive edge, GoCash must secure transactions, provide a seamless user
+experience, and establish a dense network of partner retailers and financial institutions.
+
+Finally, amid Jordan's dynamic digital payment ecosystem, GoCash will ease cash
+withdrawals and boost local businesses. GoCash can launch and scale in Jordan because
+many people use digital payments. GoCash can make a major eﬀect in a growing market
+by oﬀering a convenient, safe, and economical cash access alternative. GoCash's
+success will improve Jordan's digital financial ecosystem and encourage cash
+management and distribution innovation elsewhere.
+
+
+
+
+    his paper discusses GoCash's strategic potential as a fintech startup, specifically in
+    the digital cash withdrawal market. We will use a variety of analytical techniques and
+methods to analyse GoCash's business model, market position, and growth potential in
+the competitive fintech ecosystem.
+
+We will use the Lean Business Model Canvas (BMC) to define GoCash's value proposition,
+target client segments, critical operations, financial streams, and partnerships. By
+breaking down GoCash's plan into actionable pieces, we can evaluate its business model
+assumptions.
+
+The Market Attractiveness Map and Value Net Model will help us comprehend market
+dynamics and GoCash's role. These assessments will illuminate the competitive
+environment, threats, and collaboration opportunities to determine GoCash's market
+share and competitive advantage. By segmenting GoCash's target market and soliciting
+client input, we can tailor our strategy to user demands. This process helps GoCash
+identify strategic pivots and improve market fit.
+
+After this exploration, a brief SWOT analysis will reveal GoCash's risks and potential. This
+simplified approach tests GoCash's feasibility and outlines a market entry and growth
+strategy.
+
+
+
+                                                                                          5
+      oCash is a digital service that turns local shops into mini-ATMs. Instead of going to
+     a regular ATM as shown in                , you can use the GoCash app on your
+smartphone to find a nearby shop where you can withdraw or deposit cash. It's designed
+to make getting cash easier and helps local businesses attract more customers.
+
+
+
+
+                  ATMs in some areas are separated and damaged.
+
+
+
+
+    he template showcased in                 was developed to crystallize the concepts
+    surrounding GoCash into a concrete format, facilitating easy communication of
+these ideas with stakeholders. This structure aimed to address critical questions such as
+"Is there a need to create this product?" and "Is it possible to establish a sustainable
+business model around these services?" This process included creating a prototype an
+implementing the build-measure-learn feedback cycle, which is a fundamental aspect of
+the Lean startup approach.
+
+
+
+
+                                                                                         6
+         Lean BMC
+.
+The template showcased in                   was developed to crystallize the concepts
+surrounding GoCash into a concrete format, facilitating easy communication of these
+ideas with stakeholders. This structure aimed to address critical questions such as "Is
+there a need to create this product?" and "Is it possible to establish a sustainable business
+model around these services?" This process included creating a prototype and
+implementing the build-measure-learn feedback cycle, which is a fundamental aspect of
+the Lean startup approach.
+
+          introduces a Lean canvas model, a variation distinct from Alex Osterwalder’s
+original Business Model Canvas (BMC) as outlined in                    . This adapted Lean
+BMC framework emphasizes problems, solutions, key metrics, and unfair advantages
+over the original elements of key partners, activities, resources, and customer
+relationships. This shift gears the canvas towards a more problem-focused approach,
+aligning perfectly with GoCash’s mission to address specific customer challenges. This
+methodology resonates with the philosophy of prioritizing the customer's needs and
+problems over merely pushing a service or product. It echoes Brian Tracy’s wisdom:
+“Approach each customer with the intention of helping them solve a problem or achieve
+a goal, not just to sell a product or service” [7]. This mindset underscores the importance
+
+                                                                                           7
+of understanding the problem thoroughly as the critical first step in delivering genuine
+value to customers, reinforcing the canvas's utility in strategizing solutions for GoCash.
+
+
+
+
+Python was used to produce               , a heat map of Jordanian cities' ATM numbers,
+which shows GoCash's rollout strategy. With full information in                , the map's
+colours indicate ATM concentration in each city. This graphic depiction shows regional
+ATM availability discrepancies using multiple data sources [8 – 17].
+
+The heat map supports GoCash's market entry strategy by emphasising the need for
+more cash withdrawal choices, especially in locations with faint colour gradients
+indicating ATM shortage. GoCash aims to alleviate the frustration of 70% of the target
+demographic over the lack of ATMs by converting local shops into cash access points,
+increasing the number of cash withdrawal locations by 30% in the first quarter of
+operations.
+
+The heat map also assists GoCash's cost-eﬀective positioning. GoCash is a cheaper
+alternative to banks with transaction costs of $0.35, 50% less than the national average
+of $0.70 [18]. The map shows where GoCash's lower fees and more withdrawal stations
+could be most useful.
+
+GoCash's 24/7 availability addresses limited banking hours, which is a major benefit in
+Jordan, as Aloyoun says "Jordan is a cash culture." As 46% of the population prefers the
+use of cash [19]. GoCash's strengthened security measures answer 80% of digital
+banking clients' growing worries about transaction security, making 24/7 service
+availability important.
+
+GoCash's increased foot traﬀic supports local businesses, aligning with 60% of the
+population's community-centric ideals [20]. More than 75% of Jordanians are unbanked,
+suggesting a large market for mobile payment systems like GoCash [21–24].
+
+In conclusion, the heat map shows GoCash's potential in Jordan, a country ready to
+modernise its cash-based economy with fintech.
+
+
+
+
+                                                                                         8
+Heat Map
+
+
+
+
+           9
+While commission costs vary by transaction volume, they are a strategic expense that
+helps the GoCash network grow. These commissions are investments that increase
+service coverage and consumer convenience by incentivizing shops to participate.
+
+As illustrated in        , GoCash's first-year cash flow projection graph shows a positive
+and expanding net cash flow. The year starts at $265,833.33 and ends with over $3.19
+million in net cash flow. Growth shows GoCash's solid revenue model and cost control,
+indicating long-term growth and profitability. These projections show that GoCash's
+operational strategy can generate significant income from transaction fees, shop
+subscriptions, and bank integration fees while managing expenses related to technology,
+marketing, operations, and commissions. The financial prognosis shows that GoCash's
+business approach works and that it can capitalise on market opportunities to build a
+fintech edge.
+
+GoCash's financial story is characterised by a planned and strategic approach to
+managing income streams and costs, where each component is quantified and aligned
+with company goals. The revenue model capitalises on strong sales volume and
+competitive pricing, while the cost structure balances essential expenses and expansion
+investments. Economic restriction should let GoCash flourish and lead the industry.
+
+
+
+
+         Monthly and cumulative net cash flow
+
+
+
+
+GoCash's active users and transaction volume indicate its great engagement and market
+reach, demonstrating its service eﬀectiveness. GoCash's strategic network and regional
+expansion shows its goal of making financial services accessible to all. This goal is
+reinforced by its commitment to customer happiness and retention through exceptional
+service and competitive transaction fees. The GoCash mobile app's widespread
+availability on i OS and Android devices shows the company's commitment to its
+
+                                                                                       10
+accessibility, boosting its user base. GoCash's complete marketing strategy also uses
+digital media, local business collaborations, and organic word-of-mouth to increase
+brand awareness and user acquisition. The platform's substantial interaction and support
+infrastructure shows its attention on user demands and preferences, fostering
+confidence and dependability.
+
+          shows how the approach eﬀiciently solves a frequent yet important customer
+concern. Consider needing cash at a neighbourhood store. Due to time constraints, the
+nearest ATM is too far. GoCash is treated as a seamless solution in this scenario. GoCash
+lets users withdraw money at the register with a QR code, eliminating the inconvenience
+of traditional cash withdrawals. Free cashouts, enticing incentives, and promo codes
+simplify the software. Login, then choose a bank.          's user journey diagram shows
+how GoCash seamlessly integrates into users' daily transactions, proving its innovation
+and user-centric design.
+
+
+
+
+        Customer Journey
+
+
+
+
+                                                                                      11
+Table of Professionals required
+
+
+                                  12
+        oCash's innovative digital financial services strategy drives its success in Jordan's
+        changing industry. GoCash leads Jordan's fintech ecosystem, ready to capitalize
+on economic shifts and customer behaviour shifts towards digital solutions.
+
+Strategic measures like the Central Bank of Jordan's National Financial Inclusion Strategy
+foster innovation in Jordan's fintech sector. Only 33% of adults have formal financial
+accounts, which is high by regional norms but presents a considerable market
+opportunity for digital financial services [25,26].
+
+The COVID-19 outbreak accelerated Jordan's digital payment system adoption. Over the
+past two years, Jordan Payments and Clearing Company (JoPACC) [27,28], the country's
+principal electronic payment systems operator, grew electronic payment acceptance by
+over 200% [29]. Jordanians are increasingly adopting digital financial instruments, with
+86% planning to use digital wallets post-pandemic [29].
+
+Through programs like the Innovative Startup and SMEs Fund (ISSF), the Jordanian
+government and corporate sector are supporting fintech through significant funding [27
+– 29]. The collaboration between financial institutions and fintech companies shows the
+commitment to a strong digital financial marketplace.
+
+As a new fintech solution in Jordan, GoCash can capitalise on these market trends.
+GoCash meets a need for more accessible and eﬀicient financial transactions by
+delivering an innovative and simple alternative to traditional banking and ATM services.
+As GoCash joins the market, high entry hurdles like Central Bank of Jordan licensing
+charges (1 million Jordanian Dinars) limits competition, giving it a strategic advantage
+[30].
+
+Jordan is appropriate for GoCash due to regulatory backing, digital service demand, and
+strategic objectives. With its innovative business strategy and Jordanians' growing
+adoption of digital financial services, GoCash is positioned to revolutionize the financial
+landscape and grow in this dynamic sector                  .
+
+The GoCash Market Opportunity Attractiveness Map in                       analyses Jordan's
+fintech market variables. GoCash must weigh the market's growth rate and scale, which
+oﬀers promise, against its challenges, such as product development time and external
+competition. This study helps GoCash decide 'where to play' by identifying its best
+market opportunities. The findings are strategically placed on an attractive map.
+
+           GoCash's beachhead segment, or initial target market, is in the 'High Potential,
+Medium Challenge' quadrant (A). This suggests that while GoCash may face challenges
+in product rollout and market penetration, the growing need for digital transaction
+solutions in Jordan suggests that these challenges can be overcome with strategic
+planning and execution.
+
+                                                                                          13
+GoCash moves to the 'Mid Potential, High Challenge' quadrant (B) when evaluating
+Jordan's cashless society. This reflects a more conservative view of potential due to
+market competition and regulatory complexity. This shows that GoCash's goals are
+achievable with continuous eﬀorts and strong finance, albeit with a more cautious
+approach to market entry and scalability.
+
+Thus, GoCash's initial segment has a balanced risk-reward, but the market research
+suggests that the company may need to plan for a more ambitious play that targets larger
+market issues. This larger view suggests that GoCash could leverage its first-mover
+advantage in an expanding financial services market hungry for innovation to expand
+beyond its first target market.
+
+
+
+
+         Challenge VS Potential.
+
+
+
+
+The Value Net Model for GoCash maps Jordan's fintech ecosystem players' strategic
+interactions. Beyond competitive forces, the Value Net approach analyses synergies, and
+alliances, unlike Porter's Five Forces approach. Besides competitive analysis, this larger
+perspective lets GoCash explore cooperative dynamics that can boost growth.
+
+          shows how GoCash's relationships with consumers, suppliers, competitors,
+and complementors aﬀect its financial services sector trajectory. The model emphasizes
+
+                                                                                       14
+the relevance of these relationships in GoCash's capacity to negotiate market complexity
+and capitalize on economic possibilities for ongoing growth.
+
+
+
+
+        Value Net Model.
+
+
+- Customers: Mobile wallet and digital payment adoption in Jordan is growing the
+  fintech consumer base. Consumer behaviour has changed post-pandemic, with a 4 0%
+  spike in mobile wallet registrations in five months in 2020 as they prefer digital
+  alternatives over traditional banking [23].
+
+
+- Suppliers: GoCash's suppliers are likely local businesses that partner to enable
+  transactions and technology firms that maintain the platform's infrastructure.
+  JoPACC's role in promoting electronic payments and infrastructure development
+  demonstrates the increasingly strong supplier network in the fintech sector [22–26].
+  GoCash competes with other digital payment platforms, traditional banks, and fintech
+  firms. With the Jordanian fintech sector expected to grow due to digital payment
+  transactions, GoCash must strategically position itself among competitors.
+
+
+- Complementors: When combined with GoCash, complementors can boost its value.
+  As digital payments become more popular, GoCash may integrate with e-commerce
+
+
+                                                                                     15
+   platforms, mobile network operators, and government social aid distribution to
+   enhance the financial experience.
+
+
+Jordanians are 99% satisfied with digital payment systems, thus GoCash can capitalise
+on this. These insights show GoCash's ability to enter, expand, and strengthen Jordan's
+fintech sector [29]. GoCash's growing presence in Jordan's financial ecosystem is fuelled
+by strategic alignment with local digital transformation goals and rising digital literacy
+and financial inclusion among Jordanians and refugees.
+
+
+
+
+      oCash's strategy growth from its founding to its iterative solution testing is shown
+      in            . In the "Initial Idea," a financial services app and BMC are conceived.
+"Observe & Document," where intense market research refines GoCash's BMC, follows.
+"Talk to Initial Customers" assesses the service's value and potential users' problem
+points. This customer-centric approach helps "Identify Beachhead," target a niche that
+values cash access via an innovative platform.
+
+
+
+
+            Foundation flowchart of GoCash's marketable product. The numbered blocks elucidate
+the four main stages in the business setup. We are currently undergoing feedback collection (Step
+1 in Stage 3) after releasing the test edition prototype.
+
+
+
+
+                                                                                              16
+In the initial development of GoCash, the market segmentation is thoroughly examined
+with consideration of multiple factors such as available funds, potential segments
+employed and customer preferences. Therefore, we strategically employ the STP
+(Segmentation, Targeting, Positioning) model as shown in                          to eﬀectively
+introduce its unique cash access solution in the initial launch phase [31].
+
+
+
+
+          Philip Kotler’s STP Model shrinking the focus for GoCash. In the diagram, segmentations
+are performed to group the customers. Followed by targeting strategy which selects the most
+
+
+
+                                                                                              17
+18
+After the 1st round interview, the responses shown in                  aided our refinement of
+lean BMC. Customers were showing demand for a convenient, secure and widely-
+available cash services due to the mobility nature of their work and life.
+
+
+
+
+            1st round interview for customers. Some responses mentioned the drawbacks of using
+traditional ATMs while others raised constructive suggestions for the GoCash development.
+
+By delving into customer responses by analyzing the prioritized factors that
+interviewees cased about, we discovered that five factors are most concerned by the
+market as shown in               .
+
+
+
+
+         In-depth analysis of interview data. Five top-concerned factors are listed for the
+development of prototype.
+
+
+                                                                                              19
+From the script for 1st participant in           , “I feel somewhat secure but I am
+always cautious, especially about shielding my PIN from onlookers.”, security measures
+such as app-switching blindness and screen pins should be developed to protect
+customers’ information when using the app in public. In addition, the 2nd participant,
+as well as 27 more participants mentioned that “The feature I find most valuable is the
+online customer support and location services. I want to talk to someone that can solve
+my issues 24/7.” Therefore, we actively worked on creating a customer help page as
+shown in Appendix B and an in-app chatbot. But due to the limited number of team
+members, 24/7 services are not currently available.
+
+
+
+
+After unveiling our services, we seized the opportunity to solicit feedback from our
+customers. This feedback was integral to our decision-making process and is
+documented in              .
+
+
+
+
+                                                                                          20
+2nd round interview with targeted customers
+
+
+
+
+                                              21
+This iterative cycle of feedback and development exemplifies GoCash’s dedication to
+meeting customer needs and addressing the unique challenges of financial
+accessibility. While the journey towards a full-ledged GoCash website is ambitious and
+resource-intensive, it is a testament to our commitment to delivering a transformative
+
+
+
+
+          In-depth analysis of 2nd round interview with targeted customers.
+
+
+
+
+                                                                                         22
+After a thorough analysis, GoCash stands out as a promising business within the
+expanding digital payment and cash management industry [32]. The SWOT analysis
+emphasises how well-positioned GoCash is in a market that is ready for digital innovation.
+But in order to fully realise its potential, strategic choices need to take into account the
+opportunities and problems that our SWOT analysis in                .
+
+
+
+
+          SWOT Analysis
+
+
+
+
+           demonstrates how GoCash's viability depends on its capacity to negotiate the
+murky waters of the financial industry. We need to take use of our technological and
+marketing prowess to offset the risks that come with being in a competitive market and
+depending so heavily on outside partners. Value-added services, for example, can
+diversify revenue sources, reducing financial risk and promoting long-term growth [33].
+
+
+
+
+                                                                                         23
+By integrating the tenets of Customer Development Theory into GoCash's strategy
+framework, we have scrupulously followed Blank's fourfold technique [34]. This has
+required a thorough investigation into customer requirements and behaviours, during
+which our committed team has interacted with the market directly, shunning the
+limitations of theoretical frameworks in favour of a more tactile and detailed grasp of
+consumer behaviour [35].
+
+
+
+
+          Persist, Pivot, Abandon Framework.
+
+Our market hypothesis evaluation became more rigorous because of our shift to
+customer validation. We have refined our business model through iterative testing and
+feedback assimilation, making sure it speaks to and satisfies the specific needs of our
+target market. For GoCash, this validation process serves as a pivot, avoiding unjustified
+expansion into unexplored market areas without a solid, empirical basis.
+
+Moving forward with customer acquisition, GoCash has recognised the many market
+segments that startups usually face. Our approach has been to find our place in the
+current digital payment ecosystem, following in the footsteps of other prosperous
+businesses like Dropbox, which turned its operations around to focus on the needs of its
+customers after investing heavily in marketing. The third principle of Blank's strategy is
+reflected in our measured approach to marketing expenditure, which is based on the
+development of a strong foundational client base [36].
+
+                                                                                       24
+GoCash is evolving from a fast-paced startup into a well-organized corporate entity as
+it enters the company-building stage [37]. This progression represents a change from
+unstructured, exploratory activities to structured, scalable procedures that can maintain
+our current rate of growth. GoCash ought to keep taking use of its first-mover advantage
+and strategic alliances. But it's advised to choose a flexible approach that enables quick
+iterations and flexibility to changes in the industry. When scaling up, client happiness
+and retention should be prioritised, with a focus on sustainable expansion.
+
+Undoubtedly, GoCash's future will be paved with both anticipated and unanticipated
+obstacles. The general trend is still favourable, though, as both businesses and
+consumers are embracing digital financial services. GoCash's greatest advantage in
+attaining long-term success will be its adaptability, which is based on thorough market
+analysis and consumer feedback [38].
+
+In summary up, GoCash's development from ideation to market launch offers a case
+study in the blending of technology innovation and strategic vision. The knowledge and
+understanding gained from this project go well beyond the financial industry and
+provide important context for understanding entrepreneurship in general. As we move
+forward, GoCash is in a position not just to adjust but also to spearhead the effort to
+redefine the way that financial services are accessed.
+
+
+
+
+                                                                                       25
+26
+Homepage/Landing page:
+
+
+
+
+                         27
+GoCash verified shop finder for customer easy access:
+
+
+
+
+Contact and Help page for iterative feedback:
+
+
+
+
+Partner page for shops:
+
+
+
+
+                                                        28
+Partner page with introduction:
+
+
+
+
+                                  29
+Shop monthly earnings estimator:
+
+
+
+
+GoCash for banks and collaborators:
+
+
+
+
+                                      30
+CliQ Participants:
+
+
+
+
+Book a meeting with the team:
+
+
+
+
+                                31
+32
+33
+File #1: Main File
+
+
+
+
+                     34
+File #2: Geography
+
+
+
+
+                     35
+36
+37
+38
+39
+In our group's timetable charter for our two-member team, we've streamlined the
+process to eﬀiciently manage our time and tasks without the need for a roll call, given
+our small size. Meetings are scheduled weekly, and we directly delve into assessing the
+distribution and completion of tasks, which are allocated based on each member's
+strengths and workload to ensure a fair balance. Each session includes a review of
+progress against these tasks, with both members providing updates on their assigned
+responsibilities. This systematic evaluation helps us identify any challenges or delays
+promptly. For any issues that arise, we outline mitigation strategies such as reallocating
+tasks or, if necessary, seeking guidance from our module leader. This tailored approach
+ensures that our project remains on track while promoting eﬀective collaboration within
+our team.
+
+
+
+
+                                                                                       40
+Meeting
+            Date                           Meeting Information
+Number
+                       -First-In person meeting
+   1      02/02/2024   -Team Charter
+                       -Potential ideas and brainstorming, FinTech!!!
+                       -Deciding on pursuing an idea related to ﬁnancial services.
+                       -Discussing form of business and problems we face.
+   2      09/02/2024   -Deciding to do something related to one of our home
+                       countries.
+                       -Task for next week: Come up with at least 2 ideas each.
+                       -Agreeing and deciding to pursue GoCash which is a
+                       challenging idea in this evolving cashless society.
+   3      16/02/2024   -Studying the market and researching the country where
+                       GoCash is set to launch.
+                       -Task for next week: Decide on the customer segments.
+                       -Decided on the customers by imaging ourselves as the
+                       customers Baha being the individual, Kun wang being a shop
+                       owner and how this is a win-win situation.
+   4      23/02/2024   -Studying the business ﬂow from a customer journey
+                       perspective.
+                       -Task for next week: Thinking about the generation of revenue
+                       and hence proﬁts.
+                       -Disagreed on the process of generation of revenues.
+                       -Came up with a solution on how we can implement both of
+                       our solutions to such a problem.
+   5      30/02/2024   -EYectively mutually came up with a revenue generation
+                       model.
+                       -Task for next week: Think of a name and a logo.
+                       -Both of us agreed on the name GoCash happily!!
+                       -Started the process of designing the logo using multiple
+                       resources and coming up with iterative designs.
+   6      07/03/2024   -Task for next week: Deciding on our target customers, and
+                       beachhead customers who would initially target our service
+                       towards and think of questions to ask in our interviews.
+                       -We deﬁned our target customers, and beachhead customers,
+                       and prepared questions to ask in our interviews.
+                       -Began drafting the ﬁrst draft of the business feasibility case
+   7      14/03/2024   for GoCash.
+                       -Task for next week: Have the landing page fully designed and
+                       done.
+                       -We both fully completed the design for the landing page.
+   8      21/03/2024   -Undertook our ﬁrst round of interviews, redesigned the
+                       landing page based on the interviews and what the users want.
+
+
+                                                                                 41
+                  -Task for next week: Prepare the questions for the second
+                  round of interviews and take them online.
+                  -Consolidated our ﬁndings in accordance with the feedback
+                  received from the interviews.
+                  -Started thinking of aesthetic designs for the business
+                  feasibility case.
+9    28/03/2024
+                  -Agreed on adding a heat map show casing how GoCash is an
+                  eYective solution in the Jordanian market.
+                  -Task for next week: Finish the cover page, executive
+                  summary, scope, and the heat map.
+                  -Finalizing the ﬁrst three sections of the business feasibility
+                  case.
+10   04/04/2024   -Created a lean BMC.
+                  -Task for next week: Understand the market even further so
+                  we can start writing our market analysis.
+                  -Writing the market analysis, performing calculations, ﬁnding
+                  research papers that support our case.
+                  -Starting “our customers” section.
+11   06/04/2024
+                  -Task for next week: Reﬂecting on how important talking to
+                  customers is to decision making regarding prototyping and
+                  developing the prototype.
+                  -Finalizing the “our customers” section in the business
+                  feasibility case.
+                  -Deciding on the professionals required to bring GoCash to
+12   09/04/2024   life.
+                  -Task for next week: Reﬂecting and evaluating the overall
+                  feasibility of GoCash as well as performing a SWOT analysis.
+
+                  -Performing the SWOT analysis on GoCash, and writing the
+13   11/04/2024   conclusion for the business feasibility case of our start-up!!!!
+                  -Task for next week: Finalizing the ﬁnal draft.
+                  -Designing and ﬁnalizing the ﬁnal draft.
+14   12/04/2024   -Task for next week: Proof reading and making edits.
+                  -Making edits and proof reading pointing out errors.
+15   14/04/2024   -Generating our bibliography list and the references used.
+                  -Task for next week: Proof reading, ﬁnal edits, and submitting.
+16   16/04/2024   -Finalizing the case.
+42
+[1] AFI (2023). Digitalization of Government services Payments in Jordan Report. [online]
+Digitalization of Government services Payments in Jordan Report. Available at:
+https://www.afi-global.org/publications/digitalization-of-government-services-
+payments-in-jordan-report/ [Accessed 15 Apr. 2024].
+
+[2] AJIB (2024). ATM Services. [online] Arab Jordan Investment Bank. Available at:
+https://www.ajib.com/atm-services-0 [Accessed 15 Apr. 2024].
+
+[3] Arab Bank (2024). Branches and ATMs list. [online] www.arabbank.jo. Available at:
+https://www.arabbank.jo/mainmenu/home/ways-to-bank/branches/branches-and-
+atms-list [Accessed 15 Apr. 2024].
+
+[4] Association of Banks in Jordan (2024). Home. [online] Association of Banks in
+Jordan. Available at: https://abj.org.jo/ [Accessed 15 Apr. 2024].
+
+[5] Bank of Jordan (2024). Bank of Jordan - Branch & ATM. [online] bankofjordan.com.
+Available at: https://bankofjordan.com/en/branches [Accessed 15 Apr. 2024].
+
+[6] BetterThanCash (2023). Central Bank of Jordan Launches Second National Financial
+Inclusion Strategy. [online] Better Than Cash Alliance. Available at:
+https://www.betterthancash.org/news/central-bank-of-jordan-launches-second-
+national-financial-inclusion-strategy [Accessed 15 Apr. 2024].
+
+[7] Bloom Bank (2024). BLOM Jordan Branches & ATMS. [online] www.blom.com.jo.
+Available at: https://www.blom.com.jo/retail-jordan/delivery-channels/blom-bank-
+branches-and-atms [Accessed 15 Apr. 2024].
+
+[8] Capital Bank (2024). Our Branches - Capital Bank of Jordan. [online]
+www.capitalbank.jo. Available at: https://www.capitalbank.jo/en/personal/branches
+[Accessed 15 Apr. 2024].
+
+[9] Cash Matters (2023). 46% of consumers in Jordan prefer cash for ecommerce
+transactions. [online] Cash Matters. Available at:
+https://www.cashmatters.org/blog/46-of-consumers-in-jordan-prefer-cash-for-
+ecommerce-transactions [Accessed 15 Apr. 2024].
+
+[10] CBJ (2020). Request Rejected. [online] www.cbj.gov.jo. Available at:
+https://www.cbj.gov.jo/EchoBusv3.0/SystemAssets/PDFs/Financial%20Inclusion%20Re
+port%202018%20-2020.pdf.
+
+
+
+
+                                                                                        43
+[11] CB J (2023). FinTech Regulatory Sandbox. [online] Available at:
+https://www.cbj.gov.jo/EchoBusV3.0/SystemAssets/9328fddf-3f3d-40d8-9ed3-
+d98bbc89db20.pdf.
+
+[12] CBJ (2024). CB J and GIZ Study Informs about Financial Inclusion in Jordan - Central
+Bank Of jordan. [online] www.cbj.gov.jo. Available at:
+https://www.cbj.gov.jo/DetailsPage/CBJEN/NewsDetails.aspx?ID=207 [Accessed 15
+Apr. 2024].
+
+[13] EconMena (2024). Economena Analytics - Home. [online] Economena Analytics.
+Available at: https://www.economena.com/ [Accessed 15 Apr. 2024].
+
+[14] HelgiLibrary (2024). Number of ATMs in Jordan. [online] www.helgilibrary.com.
+Available at: https://www.helgilibrary.com/indicators/number-of-atms/jordan/
+[Accessed 15 Apr. 2024].
+
+[15] https://www.briantracy.com/blog/author/brian-tracy (2024). How to Sell and
+Become a Master Salesperson | Brian Tracy. [online] Brian Tracy. Available at:
+https://www.briantracy.com/blog/sales-success/how-to-sell/ [Accessed 15 Apr. 2024].
+
+[16] IP SOS (2023). Views on Digital Banking in Jordan. [online] IPSOS. Available at:
+https://www.ipsos.com/sites/default/files/ct/news/documents/2023-
+07/Views%20On%20Digital%20Banking%20In%20Jordan%202023.pdf [Accessed
+2024].
+
+[17] Islamic Bank (2024). ATM Branches. [online] Jordanislamicbank.com. Available at:
+https://www.jordanislamicbank.com/branches [Accessed 15 Apr. 2024].
+
+[18] J OP A C C (2021). A Market Study on the Adoption of Digital Financial Services.
+[online] Available at: https://www.jopacc.com/sites/default/files/2023-
+11/adoption_of_digital_financial_services_final_report_en_published_1.pdf.
+
+[19] J O P A CC (2023). J O P A C C | We Connect and Innovate Digital Payments. [online]
+www.jopacc.com. Available at: https://www.jopacc.com/ [Accessed 15 Apr. 2024].
+
+[20] Jordan, B. al E. - (2024). Branch or ATM finder. [online] Bank al Etihad - Jordan.
+Available at: https://www.bankaletihad.com/en/branch-finder/ [Accessed 15 Apr.
+2024].
+
+[21] Jordan, J. (2021). Building Resilience Through Digital Financial Services Middle East
+COVID-19 Digital Finance Market Impact Series. [online] Available at:
+https://www.ifc.org/content/dam/ifc/doc/mgrt/jordan-building-resilience-through-
+dfs.pdf [Accessed 15 Apr. 2024].
+
+
+
+                                                                                           44
+[22] Markets, R. and (2021a). Global Mobile Payment Market (2021 to 2026) - Industry
+Trends, Share, Size, Growth, Opportunity and Forecasts. [online] GlobeNewswire News
+Room. Available at: https://www.globenewswire.com/en/news-
+release/2021/07/12/2261214/28124/en/Global-Mobile-Payment-Market-2021-to-2026-
+Industry-Trends-Share-Size-Growth-Opportunity-and-Forecasts.html.
+
+[23] Markets, R. and (2021b). Global Mobile Payments Market Report 2021-2026: Mobile
+Payments Market will leverage any Device and Omnipresent, Decentralized Commerce.
+[online] GlobeNewswire News Room. Available at:
+https://www.globenewswire.com/news-release/2021/02/04/2169612/0/en/Global-
+Mobile-Payments-Market-Report-2021-2026-Mobile-Payments-Market-will-leverage-
+any-Device-and-Omnipresent-Decentralized-Commerce.html [Accessed 15 Apr. 2024].
+
+[24] MISTI (2024). Jordan Money Matters. [online] MISTI. Available at:
+https://misti.mit.edu/mit-jordan-preparation-and-training/mit-jordan-logistics/jordan-
+money-matters#:~:text=Be%20aware%2C%20that%20there%20will [Accessed 15 Apr.
+2024].
+
+[25] Mordorintelligence.com. (2019). Mordor intelligence. [online] Available at:
+https://www.mordorintelligence.com/industry-reports/mobile-payment-market.
+
+[26] PYMNTS (2022). Digital Payments Unlock FinTech Sector Growth in Jordan. [online]
+PYMNTS.com. Available at: https://www.pymnts.com/mena/2022/digital-payments-
+unlock-fintech-sector-growth-in-jordan/ [Accessed 15 Apr. 2024].
+
+[27] The Jordan Times (2016). Central bank announces national strategy for financial
+inclusion. [online] Jordan Times. Available at:
+https://www.jordantimes.com/news/local/central-bank-announces-national-strategy-
+financial-inclusion [Accessed 15 Apr. 2024].
+
+[28] World Bank (2022). COVID-19 Drives Global Surge in use of Digital Payments.
+[online] World Bank. Available at: https://www.worldbank.org/en/news/press-
+release/2022/06/29/covid-19-drives-global-surge-in-use-of-digital-payments.
+
+[29] www.fortunebusinessinsights.com. (2024). Mobile Payment Market Size, Share,
+Trends | Global Analysis, 2027. [online] Available at:
+https://www.fortunebusinessinsights.com/industry-reports/mobile-payment-market-
+100336.
+
+[30] www.imarcgroup.com. (2023). Mobile Payments Market Report, Share, Size, Trends
+& Forecast 2021-2026. [online] Available at: https://www.imarcgroup.com/mobile-
+payment-market.
+
+
+
+                                                                                       45
+[31] Yieldify (2020). The Complete Guide to STP Marketing: Segmentation, Targeting &
+Positioning. [online] Yieldify. Available at: https://www.yieldify.com/blog/stp-
+marketing-model/#:~:text=What%20is%20STP%20in%20marketing.
+
+[32] Grant, M. (2020). Digital Money. [online] Investopedia. Available at:
+https://www.investopedia.com/terms/d/digital-money.asp.
+
+[33] Russo, K. (2023). 15 Ways to Minimize Financial Risks in Business? [online] Oracle
+NetSuite. Available at: https://www.netsuite.com/portal/resource/articles/financial-
+management/minimize-financial-risks.shtml.
+
+[34] Blank, S. (2013). Why the Lean start-up Changes Everything. [online] Harvard Business
+Review. Available at: https://hbr.org/2013/05/why-the-lean-start-up-changes-everything.
+
+[35] Ries, E. (2023). What is customer development? [online] Available at:
+https://www.startuplessonslearned.com/2008/11/what-is-customer-development.html
+[Accessed 22 Apr. 2024].
+
+[36] Decker, A. (2021). The Ultimate Guide to Customer Acquisition for 2019. [online]
+Hubspot.com. Available at: https://blog.hubspot.com/service/customer-acquisition.
+
+[37] Doukas, A. (2023). Solwey Consulting - The Need for Speed: The Key to Startup
+Success in a Fast-Paced Environment. [online] www.solwey.com. Available at:
+https://www.solwey.com/posts/the-need-for-speed-the-key-to-startup-success-in-a-
+fast-paced-environment [Accessed 22 Apr. 2024].
+
+[38] Faster Capital (2024). The Power of Customer Feedback: Insights from Market
+Research Findings. [online] FasterCapital. Available at:
+https://fastercapital.com/content/The-Power-of-Customer-Feedback--Insights-from-
+Market-Research-
+Findings.html#:~:text=By%20collecting%20and%20analyzing%20customer [Accessed
+22 Apr. 2024].
+
+
+
+
+                                                                                          46
+

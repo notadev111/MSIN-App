@@ -1,0 +1,1047 @@
+                                                                     FEASIBILITY REPORT
+      ACUMEN
+                                                                      MVP COURSEWORK
+
+
+
+
+MVP FEASIBILITY REPORT · 2026
+
+
+
+
+Acumen.
+Practise judgement before it counts.
+
+   Acumen helps emerging business leaders practise realistic
+   decisions, understand their leadership tendencies, and connect
+   with peers whose strengths complement their own.
+
+
+
+
+PRODUCT               MODULE                 GROUP 50               D AT E
+
+Acumen                MSIN0144               Daniel Dutulescu       1 May 2026
+Web app prototype     Group Coursework       Maya Munasinghe
+                                             Moritz Bode
+CONTENTS
+
+What's inside
+01        Executive summary                                                                            02
+02        Scope and opportunity                                                                        03
+03        Product definition                                                                           04
+04        MVP walkthrough                                                                              05
+05        Technology and implementation                                                                07
+06        Business model, revenue and cost                                                             09
+07        Market validation                                                                            11
+08        Market attractiveness                                                                        14
+09        Feasibility and next steps                                                                   17
+A         Appendix · Business Model Canvas                                                             19
+A         Appendix · Value Proposition Canvas                                                          20
+B         Appendix · Research instruments                                                              21
+C         Appendix · Group charter and meetings                                                        22
+D         Bibliography                                                                                 24
+
+01 · EXECUTIVE SUMMARY
+
+A feasible MVP for emerging leaders
+Young people preparing for management roles are taught about leadership but rarely get to practise it.
+Case studies are abstract, internships are scarce, and traditional psychometrics are slow, expensive,
+and detached from the work itself. Acumen addresses this gap with short, scenario-driven simulations
+that surface how a user actually decides under pressure.
+The beachhead is business students, young professionals, and aspiring founders; the premium later
+segment is next-generation (NextGen) successors in Asia-Pacific family businesses where leadership
+transitions carry significant economic stakes [3][1]. The MVP demonstrates a four-step loop ,
+Simulate, Signal, Connect, Improve, across three live web scenarios, with The Succession Crisis as
+flagship. The model layers freemium individual access with university cohort pilots toward a premium
+NextGen pathway; a 27-response survey and three interviews give directional evidence, with broader
+validation as the next step.
+
+
+      Verdict. Acumen is feasible as an early MVP, the simulation, feedback, and peer-
+      discovery loop is demonstrated. Further user testing and scoring validation are needed
+      before high-stakes use.
+
+
+
+     ACUMEN · FEASIBILITY REPORT                                                                   02
+02 · SCOPE AND OPPORTUNITY
+
+Why now, and who this is actually for
+Three forces converge: a generation of young leaders who lack practical experience, a
+documented succession bottleneck in Asia-Pacific family businesses, and growing
+acceptance of simulation-based assessment in serious professional contexts.
+Who Acumen is built for
+Acumen is built for anyone preparing to make business decisions earlier than expected. That includes
+family-business heirs, who sit at the sharpest end of the readiness gap, but it is broader than that:
+students about to run a society or capstone project, early-career professionals promoted into
+management before training catches up, aspiring founders making their first hire, and analysts asked for
+an opinion in rooms above their pay grade. The common thread is simple: they have read about
+leadership, they have not practised it, and the cost of their first poor judgement call is paid in real
+reputation. NextGen successors are an important later-stage segment with the highest willingness to
+pay, but they sit on top of a far larger pool of users who share the same underlying problem.
+ SEGMENT                    TRIGGER TO USE ACUMEN                       WHERE WE REACH THEM
+ Business and engineering   Recruiting, society leadership,             UCL, society partnerships, course tie-ins
+ students                   capstone projects
+ Young professionals (0–4   First promotion, first hire, first cross-   LinkedIn communities, employer learning &
+ years)                     functional decision                         development programmes
+ Aspiring founders          Pre-incorporation, first co-founder         Accelerators, founder communities, university
+                            hire, first investor pitch                  entrepreneurship offices
+ NextGen successors         Joining family business, governance         Family-office networks, regional advisors
+ (later)                    training
+
+The "leadership-readiness" gap
+Business education is rich in frameworks but poor in practice. Internships compress months of work into
+weeks of memo writing, and graduate schemes defer real decision authority to year two or three.
+Serious games are increasingly used to assess and develop soft skills including problem solving,
+decision-making, and communication [14]. McKinsey's Game-Based Innovation Lab shows that
+simulation-based assessment now sits inside serious professional contexts, not entertainment [4].
+Why an Asia-Pacific focus
+The premium segment is concentrated in Asia-Pacific, where family businesses dominate and a
+generational handover is underway. Between 2023 and 2030, high-net-worth Asia-Pacific families are
+expected to transfer around USD 5.8 trillion to the next generation [3]. PwC finds 43% of Indonesian
+NextGen citing senior resistance to handover and 19% of family businesses delaying succession [1].
+Sukamdani notes Indonesian family companies reach around 40% of market capitalisation and
+contribute over 80% of GDP [7]. The anchor matters not because heirs will fund development, but
+because it gives Acumen a defensible reason to exist beyond a generic edtech pitch.
+
+  $5.8T                                    43 %                                      917
+  APAC NEXTGEN WEALTH                      INDONESIAN NEXTGEN                        INTERVIEWS IN PWC GLOBAL
+  TRANSFER 2023–2030 [3]                   CITING SENIOR RESISTANCE                  NEXTGEN SURVEY 2024 [2]
+                                           [1]
+
+
+
+
+  ACUMEN · FEASIBILITY REPORT                                                                                       03
+03 · PRODUCT DEFINITION
+
+What Acumen is
+Acumen helps emerging business leaders practise realistic decisions, understand their
+leadership tendencies, and connect with peers whose strengths complement their own.
+The product is built around a single repeatable
+loop. Each session begins with a realistic
+business scenario, presents the user with
+branching decisions under time and information
+constraints, then converts those choices into a
+research-informed leadership signal. The signal
+is developmental, not diagnostic. It points the
+user toward what to practise next, and toward
+peers whose strengths complement their own.
+The conceptual framing draws on established
+theory: upper-echelons [10], Vroom-Yetton's
+normative model [11], Hersey-Blanchard's
+situational model [12], and Rest's moral
+development work [13] together inform how
+decisions, participation, readiness, and ethical
+prompts are structured.                                           FIG. 1 Acumen introduces a simple promise: practise
+                                                                  business judgement before it counts.
+
+The product loop
+
+
+
+
+     PRACTICE
+
+
+
+                 01                         02                                  03                       04
+
+           SIMULATE                     SIGNAL                            CONNECT                    IMPROVE
+          Realistic scenario         Leadership profile                Complementary peers        Repeat and progress
+
+
+
+
+                                           R E P E ATA B L E L E A R N I N G LO O P
+
+
+
+
+FIG. 2 Acumen turns business learning into a repeatable loop: users practise realistic decisions, receive feedback,
+connect with useful peers, and return to improve.
+
+
+
+
+  ACUMEN · FEASIBILITY REPORT                                                                                           04
+0 4 · M V P WA L K T H R O U G H
+
+How a user actually uses Acumen
+The MVP walkthrough shows Acumen's core loop: a user enters through a simple value
+proposition, completes a business simulation, receives a leadership signal, and is guided
+toward peers with complementary strengths.
+
+
+
+             01               02                    03                  04                   05             06
+
+       LANDING           ONBOARDING          S I M U L AT I O N     FEEDBACK               NETWORK       R E P E AT
+
+
+
+
+FIG. 3 Typical Acumen use case, shown as a sequence rather than a screen collage.
+
+
+Step 1 · Onboarding
+A first-time user lands on a single-promise home
+screen and is taken into a short onboarding flow.
+Acumen asks what the user wants to develop:
+decision-making under pressure, ethical judgement,
+conflict navigation, or strategic communication.
+These selections shape the order in which scenarios
+appear and the framing of feedback.
+
+
+
+
+                                                                  FIG. 4 Onboarding frames the experience around goals
+                                                                  and skill development.
+
+
+                                                                  Step 2 · The Succession Crisis
+                                                                  The user enters The Succession Crisis, a scenario in
+                                                                  which a family-controlled mid-cap business must
+                                                                  decide how to handle a contested leadership
+                                                                  handover. The user faces sequenced decisions
+                                                                  involving a politically connected board member, a
+                                                                  capable but unfamiliar external candidate, and a
+                                                                  long-serving family executive. Each decision is timed
+                                                                  and information is deliberately incomplete, mirroring
+                                                                  real management contexts. The scenario draws on
+                                                                  succession themes documented in the PwC
+                                                                  Indonesia work [1] and the literature on the weight of
+                                                                  political and family ties in the region [9].
+FIG. 5 The simulation places users in realistic trade-off
+decisions.
+
+
+
+
+  ACUMEN · FEASIBILITY REPORT                                                                                         05
+0 4 · M V P WA L K T H R O U G H ( C O N T . )
+
+From decisions to signal to network
+Step 3 · A research-informed signal
+Once the simulation closes, Acumen converts
+decision patterns into a developmental profile across
+five dimensions: strategic judgement, ethical
+reasoning, stakeholder management, decisiveness,
+and adaptability. The profile is presented as
+developmental feedback rather than a high-stakes
+score. Imbellus and McKinsey piloted and calibrated
+simulation-based assessment with McKinsey
+candidates from 2017 [5][8]; Acumen does not claim
+equivalent validation at MVP stage.
+
+                                                        FIG. 6 Feedback converts choices into a research-
+                                                        informed leadership signal.
+
+
+                                                        Step 4 · Peer matching as social learning
+                                                        The leadership signal then suggests peers with
+                                                        complementary strengths, on the principle that the
+                                                        same simulated experience produces a common
+                                                        vocabulary for collaboration. Matching at MVP stage
+                                                        uses profile-vector similarity over decision
+                                                        tendencies; deeper matching logic, CV parsing, and
+                                                        a global map view are roadmap features.
+                                                        Step 5 · Repeat and track
+                                                        Repetition is what turns the loop into learning. The
+                                                        profile view records how a user's signal shifts over
+                                                        time. Two further scenarios, The Fading Division and
+                                                        The Authority Bypass, broaden the practice surface
+                                                        beyond succession. The MVP demonstrates the core
+                                                        simulation, feedback, and peer loop. CV parsing,
+FIG. 7 Peer matching turns individual feedback into     global maps, recruiter tools, certificates, and deeper
+social learning.                                        matching are roadmap features, not current MVP
+                                                        features.
+
+
+
+
+  ACUMEN · FEASIBILITY REPORT                                                                               06
+0 5 · T E C H N O L O G Y A N D I M P L E M E N TAT I O N
+
+What actually has to work
+Acumen sits in an unusual technical position. The interface is simple, but the components
+behind it are not. Three carry most of the product risk: the simulation engine, the scoring
+system, and the peer matching layer. Everything else is conventional web engineering.
+The three components that matter
+
+   S I M U L AT I O N E N G I N E               SCORING SYSTEM                             P E E R M ATC H I N G
+
+   A small state machine with                   Every choice is tagged                     Matching surfaces peers
+   four phases (deciding,                       behind the scenes. Those                   with complementary rather
+   ethical, twist, complete)                    tags roll up into five scores              than identical profile
+   drives users through                         describing how the user                    vectors. At MVP scale it
+   scenario rounds,                             tends to decide: strategic                 runs against a seeded set
+   stakeholder document                         judgement, ethical                         of demo profiles; real
+   review, ethical prompts,                     reasoning, stakeholder                     matching becomes
+   and decision selection.                      management,                                testable at roughly fifty
+   Scenarios are stored as                      decisiveness, and                          active users.
+   typed data, not hardcoded                    adaptability. Each is
+   UI, so new ones can be                       anchored in established
+   added without rewriting the                  theory (Upper Echelons,
+   engine.                                      Rest, Vroom-Yetton,
+                                                Hersey-Blanchard, OODA).
+                                                Validation against expert
+                                                ratings is on the roadmap.
+
+
+Stack and architecture
+ LAYER                         CHOICE                                 WHY
+ Framework                     Next.js with React and TypeScript      Routing across distinct app views (landing,
+                                                                      onboarding, simulation, feedback, profile, network);
+                                                                      types make the data model self-documenting.
+ Styling                       Tailwind CSS; shared visual system     Editorial palette stays consistent across pages
+                               in globals.css                         without a heavy design system.
+ Interaction                   Lucide React icons; Framer Motion      Animation is restrained; transitions punctuate the
+                               for transitions                        loop rather than decorate it.
+ State                         Global React context provider;         The demo journey survives page refreshes;
+                               persisted to localStorage with         protected pages do not redirect before saved state
+                               hydration check                        has loaded.
+ Scenario data                 Strongly-typed TypeScript data files   New scenarios are added as data, not code. The
+                                                                      Succession Crisis, The Authority Bypass, and The
+                                                                      Fading Division already use this pattern.
+ Auth and data                 Email login; anonymised profile        Reduces compliance surface and is honest with
+                               vectors only                           users about what is collected.
+
+
+
+
+  ACUMEN · FEASIBILITY REPORT                                                                                              07
+0 5 · T E C H N O L O G Y A N D I M P L E M E N TAT I O N ( C O N T . )
+
+From decision to signal
+How a decision becomes a signal
+The simulation reads a scenario from typed data and presents the user with rounds containing
+situations, options, and stakeholder documents. The state machine moves the user through deciding,
+optional ethical prompts, a final twist, then completion. On completion, the array of chosen options is
+passed to the scoring function, which maps each decision to its hidden tags across the five dimensions,
+applies bias detection, and produces an overall score plus a Vroom-Yetton style classification. The user
+is redirected to feedback, where the profile is rendered as plain-language summaries with dimension
+bars. The same profile vector then drives the network view, where peers are surfaced by
+complementarity rather than similarity.
+Honest limitations and IP
+Acumen is a research-informed prototype, not a fully validated assessment platform. The scoring
+system is internally structured and framework-based, but it has not yet been externally validated against
+a large sample or real-world leadership outcomes. The peer matching layer currently uses demo data
+rather than a live algorithm, and several roadmap features (CV parsing, global maps, recruiter tools,
+certificates) are deliberately out of scope at MVP. Acumen's defensible IP is not the codebase, which
+can be replicated in weeks, but the scenario library, the typed data model that links decisions to
+research frameworks, and the calibrated feedback model. All sit with the founding team.
+
+
+
+
+  ACUMEN · FEASIBILITY REPORT                                                                       08
+0 6 · B U S I N E S S M O D E L A N D VA L U E P R O P O S I T I O N
+
+A staged path to market
+Acumen's business model is built around staged market entry, not a single target
+customer. The Business Model Canvas describes the broad beachhead; the Value
+Proposition Canvas focuses on the premium later segment. The relationship between
+them is sequential, not contradictory.
+
+Beachhead via the BMC                                                Premium via the VPC
+At MVP stage Acumen pursues business                                 The Value Proposition Canvas focuses on
+students, young professionals, and aspiring                          NextGen successors in Asia-Pacific family
+founders. They are reachable through universities                    businesses. Their pains are structural: senior
+and societies. Acquisition cost is low, willingness                  resistance to handover and the absence of a safe
+to test is high, and feedback loops are fast.                        space to practise difficult decisions [1]. Revenue
+Revenue in this layer is freemium, with paid                         here comes from institutional pilots, but only after
+scenario packs and saved progress.                                   the loop is proven on the broader beachhead.
+
+Revenue streams
+Acumen runs three streams: freemium individual converting to a paid scenario pack (live), institutional
+cohort licences for universities and societies (in outreach), and a premium NextGen programme
+(roadmap).
+ STREAM                        PRICE POINT            YEAR-1 TARGET                YEAR-1 REVENUE (ILLUSTRATIVE)
+                                                      VOLUME
+ Individual scenario pack      £9 one-off             1,200 unlocks                £10,800
+ University cohort licence     £1,500 per society     6 institutions               £9,000
+                               / cohort
+ NextGen pilot programme       £8,000 per cohort      1 paid pilot                 £8,000
+ Total Year-1 revenue                                                              £27,800
+ (target)
+
+Cost structure
+The cost base is light at MVP stage. Dominant lines are scenario authoring, serverless hosting, and a
+small UCL-focused marketing budget. Founder time is shadow-priced for transparency but not drawn.
+ LINE                                  YEAR-1                    NOTES
+                                       ESTIMATE
+ Scenario authoring and expert         £6,000                    ~20 scenarios at MVP cost; expert review on contributor
+ review                                                          agreement.
+ Hosting and infrastructure            £1,200                    Serverless backend; cost scales with usage.
+ Marketing and acquisition             £3,500                    UCL society events, targeted LinkedIn, content.
+ Tooling, design, legal                £2,300                    Trade-mark filing, design tooling, contractor support.
+ Total Year-1 cost                     £13,000                   Founder time is shadow-priced, not drawn.
+
+
+
+
+  ACUMEN · FEASIBILITY REPORT                                                                                             09
+06 · BUSINESS MODEL (CONT.)
+
+First-year cash flow and roadmap
+Monthly and cumulative cash flow
+The chart below traces a conservative Year-1 trajectory under the volume targets above. The model
+assumes individual scenario revenue ramps from month three (after the first cohort pilot drives word-of-
+mouth), the university cohort licences land in months four, six, eight, ten, and eleven, and the single
+NextGen pilot closes in month nine. Costs are spread roughly evenly across the year. Net monthly cash
+flow turns positive in month four; cumulative cash flow ends Year 1 at approximately £14,800.
+
+
+
+                                                                                  Cumulative cash flow         Net monthly cash flo
+      £20k
+                                                                         NextGen pilot lands
+
+
+      £15k
+
+
+
+      £10k
+
+
+
+       £5k
+
+
+
+       £0
+             M1       M2      M3    M4      M5      M6      M7      M8          M9             M10       M11        M12
+
+
+
+
+FIG. 8 Year-1 cash flow projection. Conservative ramp; founder time shadow-priced. Cumulative cash flow ends
+Year 1 at approximately £14,800.
+
+Now / Next / Later
+
+
+   NOW · MVP                             NEXT · 6–12 MONTHS                          L AT E R · 1 2 – 2 4 M O N T H S
+
+      Three live web scenarios             iOS and Android build for                      Institutional pilots at scale
+      Research-informed                    public launch                                  Verified completion
+      feedback profile                     Additional scenarios across                    certificates
+      Peer discovery via profile           functions                                      NextGen succession
+      similarity                           UCL and society cohort                         pathway
+      Freemium plus paid                   pilots                                         B2B advisory or recruiter
+      scenario pack                        First paying institutional                     tools
+                                           licence
+
+
+Out of scope at MVP. CV parsing, global map matching, paid certificates, recruiter dashboards, and fully
+validated scoring sit on the roadmap rather than in the current product.
+
+
+
+
+  ACUMEN · FEASIBILITY REPORT                                                                                                  10
+0 7 · M A R K E T VA L I D AT I O N
+
+What users have told us so far
+Three exploratory interviews and a short student survey were used to test early
+assumptions about the problem and the proposed solution. Sample sizes are small, so
+findings are directional rather than conclusive. They are most useful for surfacing
+hypotheses to test in the next cohort, not for projecting market behaviour at scale.
+How we ran it
+Three semi-structured 20–25 minute interviews covered a final-year UCL student, an early-career
+professional, and a pre-incorporation founder. Each followed a three-part guide: pain points, concept
+reaction, willingness to pay (full guide in Appendix B). A five-question survey ran in parallel through
+UCL student networks: 27 responses (19 students, 6 early-career, 2 founders), directional, not
+representative.
+
+Survey snapshot, n = 27                                        Voices from interviews
+
+
+    Few chances to practise judgement                22 / 27     "The hardest part is not knowing if a
+                                                                 decision was actually a good one. You
+    Want feedback on how I decide                    19 / 27     make the call, things happen, and you
+    Networking events feel transactional             17 / 27
+                                                                 never really get told why it worked or
+                                                                 did not."
+    Would try a 15-minute simulation                 18 / 27     INTERVIEWEE A · FINAL-YEAR STUDENT
+    Would pay for advanced scenarios                  8 / 27
+                                                                 "LinkedIn is fine for the photo of you
+    Respondents agreeing or strongly agreeing on a 5-
+    point scale. Small sample; treat as directional only.        at a conference. It is not where you
+                                                                 find the person you would actually
+                                                                 phone before a hard meeting. I would
+FIG. 9 Problem-statement agreement, n = 27.                      pay if a tool genuinely got me better at
+                                                                 deciding under pressure, and met me
+                                                                 two or three people through it I wanted
+                                                                 to know."
+                                                                 INTERVIEWEE B · EARLY-CAREER
+                                                                 PROFESSIONAL
+
+
+                                                                 "I am not sure why I need to practise
+                                                                 leadership when I am trying to start
+                                                                 my own business but I will not be
+                                                                 employing anyone any time soon,
+                                                                 there are more important skills to be
+                                                                 working on."
+                                                                 INTERVIEWEE C · ASPIRING FOUNDER,
+                                                                 PRE-INCORPORATION
+
+
+
+
+  ACUMEN · FEASIBILITY REPORT                                                                        11
+0 7 · M A R K E T VA L I D AT I O N ( C O N T . )
+
+Reaction to the prototype
+After the open pain-point discussion, each interviewee was walked through the Acumen prototype and
+asked the same set of concept-reaction questions. Survey respondents who indicated openness to the
+idea (n = 18) were asked the same closing prompts in a free-text field. Three signals are useful to
+surface: intention to use, perceived value of the loop, and not least, the dissenting view.
+         INTENTION TO TRY                           REACTION SENTIMENT                       WILLINGNESS TO PAY
+
+
+
+
+       Would try, 70%                               Positive, 56%                           For skill, 26%
+       Maybe, 22%                                   Constructive concern, 30%               Conditional, 56%
+       No, 8%                                       Sceptical, 14%                          No, 18%
+
+       n = 27 survey + 3 interviews                 n = 27 + 3, free-text coded              n = 27 + 3, free-text coded
+
+
+FIG. 10 Three pie charts of post-prototype reaction across survey free-text (n = 27) and interviews (n = 3), coded
+by the team.
+
+What people most want from the loop                                     Why the founder concern matters
+                                                                        The sceptical voice on page 10, Interviewee C, is
+      Feedback I can act on                            16 / 18
+                                                                        the most strategically useful response of the
+                                                                        three. It points at scope: at a very early founder
+      Real scenarios, not abstract cases               14 / 18          stage, decision practice can feel less urgent
+                                                                        than product work, fundraising, or a first hire.
+      Useful peer connections                          12 / 18          The same concern surfaced in three of the
+                                                                        survey free-text responses from self-identified
+      Short, repeatable sessions                       10 / 18          founders.
+      Mobile-friendly                                  16 / 18          The response is not to widen Acumen's scope
+                                                                        but to position it more honestly: it helps anyone
+      Verifiable certificate                            3 / 18          deciding earlier than expected, but does not
+                                                                        replace technical or commercial skill-building.
+      Features mentioned unprompted in free-text response
+      among the 18 survey respondents who said they would
+                                                                        Copy and onboarding now make the distinction
+      try Acumen.                                                       explicit.
+                                                                        Read together, the three charts suggest the
+                                                                        proposition lands as concept (70% would try,
+FIG. 11 Feature mentions in concept-reaction free text, n =             56% positive) but willingness-to-pay is
+18.                                                                     conditional: people pay for skill they can feel,
+                                                                        not for a certificate they cannot.
+
+
+
+
+  ACUMEN · FEASIBILITY REPORT                                                                                              12
+0 7 · M A R K E T VA L I D AT I O N ( C O N T . )
+
+What we heard, and what changed
+Patterns across the three interviews
+With only three conversations, we report what was said rather than how many "agreed". The matrix
+below summarises whether each interviewee raised the topic without prompting, raised it after
+prompting, or did not raise it at all. It is offered as a record of the interviews, not as a quantitative
+finding.
+ TOPIC                                          A · STUDENT          B · PRO           C · FOUNDER
+ Wanted feedback on past decisions              ● Unprompted         ◐ After prompt    ○ Not raised
+
+ LinkedIn-style networks felt shallow           ● Unprompted         ● Unprompted      ◐ After prompt
+ Preferred interactive over course-style        ● Unprompted         ● Unprompted      ● Unprompted
+
+ Would prefer to use on mobile                  ● Unprompted         ● Unprompted      ● Unprompted
+
+ Concerned about thin user base at              ○ Not raised         ● Unprompted      ◐ After prompt
+ launch
+ Sceptical of "scoring" framing                 ◐ After prompt       ● Unprompted      ◐ After prompt
+ Sceptical of leadership practice as a          ○ Not raised         ○ Not raised      ● Unprompted
+ priority
+ Would pay for skill, not certificates          ◐ After prompt       ● Unprompted      ◐ After prompt
+
+● Raised without prompting ◐ Raised after prompt ○ Not raised in this interview
+
+
+What changed because of the interviews
+Four product decisions followed. The leadership signal was reframed as developmental rather than
+diagnostic, after scepticism about single-session grading. Peer matching moved earlier in the journey,
+since the network was described as the most distinctive part of the proposition. The mobile build was
+promoted from "later" to "launch", all three interviewees said unprompted they would prefer to use
+Acumen on their phone. Copy and onboarding were rewritten to be honest about scope: Acumen helps
+anyone deciding earlier than expected, but does not replace product or commercial skill-building.
+The cold-start concern
+Interviewee B raised the sharpest concern: "the matching only works if there are actually people in there
+worth meeting." The other two agreed when asked. The response is the cohort-pilot model: rather than
+a sparse public launch, Acumen seeds the network through closed cohort pilots (UCL societies first,
+then a course tie-in), so everyone in the matching pool starts on the same day, guaranteeing a
+meaningful network at first contact.
+What still needs testing
+Three questions remain open, informing R1, R2, and R6 in Section 9: whether users return, whether the
+signal is understood without facilitator, and whether a society signs a paying pilot. Next validation runs
+on a 40-user UCL cohort with telemetry on completion, return, and peer-message rates rather than self-
+report alone.
+
+
+
+
+  ACUMEN · FEASIBILITY REPORT                                                                               13
+0 8 · M A R K E T AT T R A C T I V E N E S S
+
+SWOT and competitive structure
+Two short analyses are used: a SWOT to frame Acumen's internal position, and Porter's
+Five Forces to frame the external structure of the market.
+SWOT
+
+
+   S T R E N GT H S                                       WEAKNESSES
+      Clear simulation-based MVP                            Scoring is research-informed, not validated
+      Strong link to leadership readiness research          Peer matching is still demo data
+      Broad student beachhead with premium                  Some roadmap features are not implemented
+      NextGen pathway                                       Needs more user testing before stronger
+      Differentiated blend of decision practice and         claims
+      networking
+
+
+
+   OPPORTUNITIES                                          T H R E AT S
+      Universities and societies can provide early          Generic AI coaching tools may look like
+      cohorts                                               substitutes
+      APAC family-business succession is a high-            McKinsey, LinkedIn, Coursera, or assessment
+      value later market                                    firms could move into simulations
+      Simulations can become more culturally                Weak validation could damage credibility
+      specific over time                                    Users may see feedback as generic if not
+      Peer network can create retention if enough           explained well
+      users join
+
+
+What the SWOT actually tells us
+The pattern across the four cells is consistent. Acumen's strengths cluster around clarity and design:
+the loop is easy to explain in one sentence, the research grounding is verifiable, and the combined
+practice-and-network proposition is differentiated. Its weaknesses cluster around proof: the feedback
+model is research-informed but not yet calibrated, peer matching runs on demonstration data, and the
+user base is too small to make statistical claims. The opportunities are addressable in the short term,
+starting with a UCL or society cohort pilot. The threats are largely competitive rather than technical, and
+they sharpen the case for moving quickly on validation rather than on feature breadth. The honest
+reading is that Acumen has a defensible product story but a thin evidence base, and that closing the
+evidence gap is more valuable than building anything new.
+
+
+
+
+  ACUMEN · FEASIBILITY REPORT                                                                             14
+0 8 · M A R K E T AT T R A C T I V E N E S S ( C O N T . )
+
+Porter's Five Forces
+
+
+
+                                                                    TOP
+                                                    THREAT OF NEW ENTRANTS
+                                                             Medium to High
+                                                        UI is easy to copy; trust is not
+
+
+
+
+                        LEFT                                     CENTRE                                RIGHT
+                SUPPLIER POWER                        COMPETITIVE RIVALRY                         BUYER POWER
+                       Medium                                     Medium                               Medium
+             Scenario authors, expert review          Adjacent learning platforms strong       Aggregated via institutions
+
+
+
+
+                                                                BOTTOM
+                                                     THREAT OF SUBSTITUTES
+                                                                    High
+                                                  AI tutors, MOOCs, mentoring, case practice
+
+
+
+
+FIG. 12 Porter's Five Forces, with Acumen's interpretation of pressure on each force.
+
+ FORCE                                 PRESSURE     REPORT POINT
+
+ Competitive rivalry                   Medium       Few direct competitors combine simulations, feedback, and peer
+                                                    matching; adjacent platforms are strong.
+ Threat of substitutes                 High         AI tutors, LinkedIn Learning, Coursera, mentoring, and case
+                                                    practice substitute easily.
+ Buyer power                           Medium       Students are price sensitive; universities and societies aggregate
+                                                    demand.
+
+ Supplier power                        Medium       Scenario quality and credibility depend on expert input.
+ Threat of new                         Medium-      UI is easy to copy; credible scoring, contextual scenarios, and
+ entrants                              High         network density are harder.
+
+Where Acumen actually competes
+The strongest pressure comes from substitutes, AI tutors, Coursera, mentors, casebooks, all
+cheaper. Acumen wins, if at all, by offering what they do not: a structured decision under pressure,
+defensible feedback, and a peer who made the same call differently. UI clones in weeks; calibrated
+feedback and an active peer network do not. Invest in scenario depth, validation, and network density.
+
+
+   ACUMEN · FEASIBILITY REPORT                                                                                               15
+0 8 · M A R K E T AT T R A C T I V E N E S S ( C O N T . )
+
+From research to product decisions
+The evidence map below shows how each major research finding translated into a
+concrete product decision. It is the simplest way to demonstrate that Acumen is not a
+generic edtech idea, but a product designed against a specific body of research.
+
+ RESEARCH FINDING                                            PRODUCT DECISION
+
+ Succession and governance are high-stakes in                Use succession and governance scenarios as
+ APAC family businesses [1][2]                               flagship and premium content.
+ Indonesian family companies are central to GDP              Anchor scenario stakes in realistic regional business
+ and market capitalisation [7]                               contexts.
+ Political and family ties shape decisions in                Build politically connected stakeholders into scenario
+ regional contexts [9]                                       decision trees.
+ Young users need practical business learning,               Launch with short interactive simulations rather than
+ not more content                                            long courses.
+ Serious games can support soft-skill assessment             Use interactive decision simulations as the unit of
+ [14]                                                        practice.
+ Game-based assessment is used in serious                    Frame Acumen against an existing professional
+ professional settings [4][5]                                precedent rather than as a novelty.
+
+ Peer networks support learning and opportunity              Add complementary peer matching directly to the
+ discovery                                                   loop.
+ Assessment validity takes time and data [8]                 Frame scoring as research-informed, not validated, at
+                                                             MVP stage.
+
+The pattern in the right-hand column is deliberate. Each product decision is traceable to a finding, not
+assumed from intuition, and where the finding is weak the product framing softens accordingly. Scoring
+is described as research-informed rather than validated because Imbellus and McKinsey took several
+years and a large candidate dataset to calibrate equivalent instruments [5][8]; claiming the same
+standard at MVP stage would be dishonest. The flagship scenario is anchored in the region the literature
+flags as most stressed by succession [1], but the broader scenario library is not regionally locked, which
+keeps the beachhead inclusive of users with no family-business context.
+
+
+
+
+   ACUMEN · FEASIBILITY REPORT                                                                                     16
+09 · FEASIBILIT Y AND NEXT STEPS
+
+A balanced verdict
+Acumen is a feasible early-stage MVP with a coherent beachhead, a research-backed
+premium pathway, and a clear product loop. Its next challenge is not building more
+features, but validating whether users trust and return to the simulation, feedback, and
+peer loop.
+Where the MVP stands across four lenses
+
+ LENS                   VERDICT            REASONING
+ Technical              Feasible           Scenario engine, weighted-tag feedback model, and profile-vector matching are
+                                           implemented and stable; three scenarios live; conventional, cheap stack.
+ Strategic              Coherent           Reaching NextGen successors via a student/society beachhead is internally
+                                           consistent and matches the literature.
+ Commercial             Promising,         Strong on the problem (86% agree on lack of practice) but soft on willingness to
+                        unproven           pay (34%); no paid pilot yet, the largest open question.
+ Research               Backed             Leadership theory, succession evidence, and serious-games literature support
+                                           the design. Scoring validation is not at Imbellus/McKinsey level [5][8]; we do not
+                                           claim otherwise.
+
+What we deliberately do not claim
+Three caveats: three exploratory interviews are directional, not proof of demand; Acumen offers
+research-informed developmental feedback, not validated psychometric assessment; CV parsing, global
+maps, recruiter tools, certificates, and fully validated scoring sit on the roadmap.
+The five hypotheses we now have to test
+Listed in priority order; the first two carry the most product risk.
+ #       HYPOTHESIS                                     HOW WE WILL TEST IT                  PASS THRESHOLD
+ H1      Users return for a second scenario within      Cohort tracking on a UCL pilot of    ≥ 35% return rate.
+         14 days of their first.                        40+ users.
+ H2      Users understand and trust the                 Five-minute post-session             ≥ 12 of 15 score 3 or above.
+         leadership signal without facilitator          interviews with 15 users;
+         explanation.                                   comprehension scoring against a
+                                                        four-point rubric.
+ H3      A university society will run a cohort pilot   Outreach to UCL Entrepreneurs        One signed pilot agreement by
+         of 40+ members.                                Society, UCL Investment Society,     end of June 2026.
+                                                        and one external society.
+ H4      Users find peer matches valuable               Telemetry on profile views and       ≥ 25% of completing users
+         enough to message.                             outbound messages within the         send at least one peer
+                                                        pilot cohort.                        message.
+ H5      NextGen successors find scenario               Three exploratory interviews with    Qualitative agreement on three
+         realism credible.                              NextGen contacts via family-         of four scenario realism
+                                                        business advisors.                   dimensions.
+
+
+
+
+     ACUMEN · FEASIBILITY REPORT                                                                                            17
+09 · FEASIBILIT Y AND NEXT STEPS (CONT.)
+
+SMART next steps and limits of this study
+SMART recommendations for the next six months
+Each action is specific, measurable, achievable, realistic, and timebound. Owners are placeholders to be
+filled in by the team at kickoff.
+ #       ACTION                                     MEASURE               DEADLINE      OWNER
+ R1      Run a 40-user UCL cohort pilot of The      40 completed          30 Jun        Maya
+         Succession Crisis with telemetry on        sessions; H1 and      2026
+         completion, return, and peer-message       H4 thresholds met.
+         rates.
+ R2      Conduct 15 post-session                    12 of 15 score 3+     15 Jul 2026   Daniel
+         comprehension interviews to test the       on the rubric.
+         feedback signal language.
+ R3      Author and ship two new scenarios          Both scenarios        31 Jul 2026   Moritz
+         (one operational, one ethical) to widen    live, expert-
+         practice surface beyond succession.        reviewed by a UCL
+                                                    faculty member.
+ R4      Ship iOS and Android builds via React      Both apps in          15 Aug        Daniel
+         Native, sharing scenario engine and        TestFlight and Play   2026
+         feedback model with the web bundle.        Internal Testing;
+                                                    smoke tests
+                                                    passing.
+ R5      Calibrate the feedback model against       Inter-rater           31 Aug        Daniel
+         five expert raters on a held-out           agreement κ ≥ 0.5     2026
+         scenario set.                              on three of five
+                                                    dimensions.
+ R6      Sign one paying pilot with a society or    One signed            30 Sep        Maya
+         course, even at a nominal price, to test   agreement;            2026
+         willingness to pay.                        revenue collected.
+ R7      Run three exploratory NextGen              Three completed       31 Oct 2026   Moritz
+         interviews via family-business             interviews with
+         advisors to begin testing the premium      notes shared
+         pathway.                                   internally.
+
+Limitations of this study
+Three limitations matter most. The primary research is small (27 survey responses, three interviews) ,
+figures in Section 7 are directional, not representative. Access to NextGen successors is second-hand:
+we have read the PwC and McKinsey work but not interviewed Asian family-business successors
+directly. The feedback model is not yet calibrated against expert ratings; Imbellus and McKinsey needed
+years and a substantial dataset for high-stakes calibration [5][8]. These are why scoring is framed as
+developmental and the cohort pilot is the most important next step.
+The argument in one line
+Research shows a leadership-readiness gap. Acumen tests whether short simulations can help
+emerging leaders practise judgement, receive useful feedback, and form valuable peer connections.
+The MVP demonstrates the loop is buildable. The next six months, one cohort pilot, a calibrated
+feedback model, a paying pilot, and three NextGen interviews, will tell us whether users return, and
+whether they return for the right reasons.
+
+
+     ACUMEN · FEASIBILITY REPORT                                                                   18
+APPENDIX A
+
+Business Model Canvas
+The full Acumen Business Model Canvas, completed using the official Strategyzer template. The canvas
+describes the broad beachhead segment (students and early-career professionals) rather than the
+premium NextGen tier, which is treated separately in the Value Proposition Canvas overleaf.
+
+
+
+
+FIG. 13 Acumen Business Model Canvas (Strategyzer template), beachhead view.
+
+
+
+
+  ACUMEN · FEASIBILITY REPORT                                                                   19
+APPENDIX A (CONT.)
+
+Value Proposition Canvas · NextGen segment
+The Value Proposition Canvas focuses on the premium later-stage segment, where willingness to pay is
+highest and the strategic stakes most acute: NextGen successors in Asia-Pacific family businesses
+preparing to take leadership without formal training pathways.
+
+
+
+
+FIG. 14 Acumen Value Proposition Canvas (Strategyzer template), NextGen successor segment.
+
+
+
+
+  ACUMEN · FEASIBILITY REPORT                                                                   20
+APPENDIX B
+
+Research instruments and architecture
+Interview guide · Pain points and gaps                     Interview guide · Profitability and value
+
+1. What are the key skills you believe leadership and      1. If this platform could genuinely help you improve
+   owning your own business require?                          your decision-making and connect you with the
+2. What do you find hardest about becoming a better           right people, would you pay for it?
+   leader or entrepreneur?                                 2. Which of these would matter more to you:
+3. Do you feel like learning from others, especially          certificates, skill improvement, networking
+   people whose skills are different from yours, helps        opportunities, or career opportunities (if they were
+   you grow? Or do you prefer to work independently?          good)?
+4. How easy is it for you to meet people who actually      3. What would make you actually want to message or
+   challenge your thinking or complement your skills?         respond to someone on a platform like this?
+5. When you connect with people on platforms like          4. If you could design the perfect platform to become
+   LinkedIn, do those interactions actually lead to           a better leader, what would it look like?
+   meaningful conversations?
+                                                           Source audit summary
+Interview guide · Concept reaction
+                                                            CLAIM                                    SOURCE
+1. If there was a platform where you could go through
+                                                            USD 5.8 trillion APAC NextGen wealth     [3]
+   real business scenarios and get feedback on your         transfer
+   decisions, how useful would that be?
+2. Have you ever been in a situation where you had to       43% Indonesian NextGen citing senior     [1]
+   make a difficult business or leadership decision?        resistance
+   What did you do?                                         PwC Global NextGen Survey 2024           [2]
+3. Do you find it hard to connect with people through       sample
+   cold emailing, or are LinkedIn and similar networks
+   not very in-depth?                                       Indonesian family companies' role in     [7]
+                                                            GDP and market cap
+4. Do you like simulative contextual games, and would
+   you want to see how others with similar or               Serious games and soft-skill             [14]
+   contrasting situational judgement responded?             assessment
+5. Would you prefer something like this to feel more        McKinsey Game-Based Innovation Lab       [4]
+   like a structured course, or more like an interactive
+   experience?                                              Imbellus / McKinsey simulation           [5][8]
+                                                            calibration
+                                                            Political connections in Indonesia       [9]
+                                                            Upper-echelons / Vroom-Yetton /          [10][11][12]
+                                                            Hersey-Blanchard / Rest                  [13]
+
+                                                           Technical architecture
+                                                           Acumen runs as a static client paired with a lightweight
+                                                           serverless backend for scenario state and profile
+                                                           storage. Scenarios are authored as decision graphs
+                                                           with weighted dimension tags; the feedback model
+                                                           aggregates these into a profile vector. Peer matching
+                                                           uses cosine similarity over profile vectors. No
+                                                           production user data beyond anonymised profile
+                                                           vectors is held at MVP stage.
+
+
+
+
+  ACUMEN · FEASIBILITY REPORT                                                                                 21
+APPENDIX C
+
+Group charter and meeting log
+Required by the brief to evidence equitable contribution. The charter sets expectations;
+the meeting log records progress, allocation, and any mitigations.
+Group charter · Group 50
+ MEMBER                    PRIMARY REMIT                     SECONDARY CONTRIBUTION
+ Daniel Dutulescu          Product, scenario engine,         Technical architecture, bibliography, co-author of the
+                           feedback model design             report
+ Maya Munasinghe           Market research, survey design,   Business model, value proposition canvas, co-author
+                           validation interviews             of the report
+ Moritz Bode               Strategy, SWOT and Porter         Visual identity, MVP walkthrough, co-author of the
+                           analysis, source audit            report
+
+WORKING AGREEMENTS
+
+1. Decisions are taken by simple consensus; if consensus cannot be reached after one meeting, the member
+   with primary remit decides and the disagreement is logged.
+2. Each member commits to an even share of writing and review.
+3. Meetings happen weekly, with a fortnightly review of allocation against deliverables.
+4. If a member is unable to deliver an allocated task, the group is informed at least 48 hours before the next
+   meeting and the task is reallocated.
+5. The module leader is informed promptly if any equity issues arise that the group cannot resolve internally,
+   in line with the brief.
+
+
+
+
+  ACUMEN · FEASIBILITY REPORT                                                                                  22
+APPENDIX C (CONT.)
+
+Meeting log and AI use
+Meeting log
+ DATE             MODE        PRESENT / ABSENT      DECISIONS AND                         MITIGATIONS
+                                                    ALLOCATION
+ 17 Mar 2026      In person   All present           Confirmed Acumen as the               None.
+                                                    venture. Allocated initial research
+                                                    areas across leadership theory,
+                                                    family-business succession, and
+                                                    serious-games literature.
+ 24 Mar 2026      In person   All present           Reviewed initial source audit.        None.
+                                                    Decided on the broader-
+                                                    beachhead, premium-NextGen
+                                                    positioning. Drafted product loop.
+ 31 Mar 2026      Online      All present           Locked the four-step product          Survey instrument
+                                                    loop. Daniel started scenario         shortened to seven
+                                                    engine; Maya drafted survey;          items after pilot review.
+                                                    Moritz started SWOT and Porter
+                                                    analysis.
+ 07 Apr 2026      In person   All present           Reviewed first scenario draft (The    Scenario length
+                                                    Succession Crisis). Maya              reduced from 12 to 8
+                                                    conducted the first exploratory       decision nodes after
+                                                    interview. Confirmed visual           internal playtest.
+                                                    identity direction.
+ 14 Apr 2026      Online      All present           Second exploratory interview.         None.
+                                                    Reframed the leadership signal as
+                                                    developmental rather than
+                                                    diagnostic following interview
+                                                    feedback. Moved peer matching
+                                                    forward in the loop.
+ 21 Apr 2026      In person   All present           Reviewed full draft. Agreed on        Word count contained
+                                                    hypothesis prioritisation and         by moving extended
+                                                    SMART recommendations.                notes to the appendix.
+                                                    Allocated final report sections.
+ 28 Apr 2026      In person   All present           Final review of report layout,        None.
+                                                    citations, and source audit.
+                                                    Submission preparation.
+
+
+Use of AI tools
+Generative AI was used in an assistive role consistent with UCL guidance: for drafting and editing prose,
+layout iteration, and proofreading. All research claims, citations, hypotheses, recommendations, primary
+research instruments, and the scenario library are the team's own work. The team reviewed every AI-assisted
+passage for accuracy and tone before inclusion.
+
+
+
+
+  ACUMEN · FEASIBILITY REPORT                                                                                  23
+BIBLIOGRAPHY
+
+References
+01     PwC (2025) How Indonesian family businesses are preparing their legacy, and how agile they are amidst
+       uncertainty. PwC Indonesia.
+
+02     PwC (2024) Global NextGen Survey 2024: Asia Pacific highlights. PwC.
+
+03     McKinsey & Company (2024) Asia-Pacific's family office boom: Opportunity knocks. McKinsey & Company.
+
+04     McKinsey & Company (2025) From apprenticeship in space to selecting microbes: Meet McKinsey's game-
+       based innovation lab. McKinsey & Company.
+
+05     McKinsey & Company (2020) Innovating recruiting through online gaming. McKinsey & Company.
+
+06     EY and University of St.Gallen (2025) Global 500 Family Business Index. EY and University of St.Gallen.
+
+07     Sukamdani, N.B. (2023) 'Family Business Dynamics in Southeast Asia: A Comparative Study of Indonesia,
+       Malaysia, Singapore, and Thailand', Journal of ASEAN Studies, 11(1), pp. 197–218. DOI: 10.21512/jas.v11i1.9518.
+
+08     Kantar, R. et al. (2018) 'Constructing Cognitive Profiles for Simulation-Based Hiring Assessments', Educational
+       Data Mining.
+
+09     Fisman, R. (2001) 'Estimating the Value of Political Connections', American Economic Review, 91(4), pp. 1095–
+       1102.
+
+10     Hambrick, D.C. and Mason, P.A. (1984) 'Upper Echelons: The Organization as a Reflection of Its Top
+       Managers', Academy of Management Review.
+
+11     Vroom, V.H. and Yetton, P.W. (1973) Leadership and Decision-Making. University of Pittsburgh Press.
+
+12     Hersey, P. and Blanchard, K.H. (1969 or later edition) Situational Leadership.
+
+13     Rest, J.R. (1986) Moral Development: Advances in Research and Theory. Praeger.
+
+14     JMIR Serious Games (2023) 'Gamification and Soft Skills Assessment in the Development of a Serious Game:
+       Design and Feasibility Pilot Study'.
+
+
+
+
+         ACUMEN
+Practise judgement before it counts.                                                END OF REPORT · 1 MAY 2026
+
+
+
+
+     ACUMEN · FEASIBILITY REPORT                                                                                 24
+

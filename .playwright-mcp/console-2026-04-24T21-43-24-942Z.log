@@ -1,0 +1,68 @@
+[      97ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[    1502ms] [LOG] [Fast Refresh] done in 1405ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[    2541ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/css/app/layout.css?v=1777067007446:0
+[    2579ms] Event
+[    2769ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[    3169ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:28004
+[    3433ms] Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\danie\Documents\MSIN App\web\.next\server\webpack-runtime.js
+- C:\Users\danie\Documents\MSIN App\web\.next\server\app\simulation\page.js
+- C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\require.js
+- C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\load-components.js
+- C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\build\utils.js
+- C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\build\swc\options.js
+- C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\build\swc\index.js
+- C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\config.js
+- C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\next.js
+- C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at <unknown> (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\require-hook.js:57:36)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (file://C:\Users\danie\Documents\MSIN App\web\.next\server\webpack-runtime.js:190:28)
+    at <unknown> (file://C:\Users\danie\Documents\MSIN App\web\.next\server\webpack-runtime.js:103:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (file://C:\Users\danie\Documents\MSIN App\web\.next\server\webpack-runtime.js:102:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (file://C:\Users\danie\Documents\MSIN App\web\.next\server\webpack-runtime.js:154:22)
+    at <unknown> (file://C:\Users\danie\Documents\MSIN App\web\.next\server\app\page.js:2:13721)
+    at Object.<anonymous> (file://C:\Users\danie\Documents\MSIN App\web\.next\server\app\page.js:2:13783)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\require.js:99:80)
+    at loadComponentsImpl (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\load-components.js:132:57)
+    at async DevServer.findPageComponentsImpl (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\next-server.js:899:36)
+    at async DevServer.findPageComponents (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\dev\next-dev-server.js:706:16)
+    at async DevServer.renderPageComponent (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\base-server.js:1460:24)
+    at async DevServer.renderToResponseImpl (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\base-server.js:1514:32)
+    at async DevServer.pipeImpl (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\base-server.js:1025:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\next-server.js:393:17)
+    at async DevServer.handleRequestImpl (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\base-server.js:916:17)
+    at async (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\dev\next-dev-server.js:400:20)
+    at async Span.traceAsyncFn (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\dev\next-dev-server.js:396:24)
+    at async invokeRender (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (file://C:\Users\danie\Documents\MSIN App\web\node_modules\next\dist\server\lib\start-server.js:226:13)
+[    3426ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[   85779ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[   89139ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[   92488ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[   95821ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[   99171ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88

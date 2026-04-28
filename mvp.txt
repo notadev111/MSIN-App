@@ -1,0 +1,74 @@
+Functions and Features of an MVP
+
+Interface that's engaging and visually appealing + easy to use (website or app)
+3 core features in a menu: 
+matchmaking (find new connections or find already existing connection + rate the strength in stars)
+Visualization: interactive 2d world map showcasing your network and colored lines to indicate the strength of connection
+Profile: opens a new tab/window where user can input information + add cv to be parsed for keywords 
+
+
+Requirements
+
+Which APIs? 
+Which software for what?
+
+Each situational judpement simulation gives you a score on what a skill ranks (ranking how you would deal with a situation): e.g. critical thinking, stress management, creativity, etc (hidden metrics fro calculations)
+Limitation address: foundations for these tests will be a lot more complex with greater development 
+
+Macroeconomics situation: supply chain diruption
+
+
+
+Requirements 
+APIs:
+CV Parsing: ApyHub Sharp API, RChilli, Affinda, Skima AI.
+World Map: Google Maps API, Mapbox, Leaflet, OpenLayers.
+Auth: Firebase Auth/Google OAuth.
+Software:
+Frontend: React.js/Next.js (UI).
+Backend: Node.js/FastAPI (logic/API handling).
+Database: MongoDB/PostgreSQL (user data/networks).
+Real-time: Socket.io (updates).
+Cloud: Firebase/AWS (hosting/storage).
+More Requirement Questions
+Data privacy: GDPR compliance for CV data?
+Authentication: Social logins needed?
+Scalability: Handle 10K users?
+Monetization: Premium tiers structure?
+Testing: Beta user metrics?
+
+
+
+
+
+1. Define the Simulutaion grading Framework
+Identify the specific traits you want to measure: skills for specific leadership-related competencies. 
+Create Scenarios: Develop interactive scenarios that require action (e.g., managing a crisis, dealing with a difficult teammate) to reveal these traits.
+Mask the Variables: Design tasks simply enough that competence does not influence the result, but complex enough to hide the trait being measured (e.g., measuring "creativty" by offering a choice to cooperate or compete in a business simulation). 
+2. Develop Scoring Model
+Map specific user actions to personality traits using a structured scoring system, such as a Likert scale or weighted points. 
+Assign Points: Assign numerical values to choices, where, for example, "iniative" choices increase a "Confrontation" score, while "moderate" choices increase an "Agreeableness" score.
+Use Variable Tracking: Implement variables in your simulation code to track scores for each trait throughout the experience. 
+3. Calibrate the Scoring System
+Calibration ensures that the scores are accurate and reflect real differences in personality, not just noise. 
+Set Score Ranges: Define ranges for each personality trait based on potential minimum and maximum scores.
+Use Normalization: Convert raw scores into percentages of the total possible points to ensure consistency across different simulation lengths.
+Account for Faking: Include a "Social Desirability" scale to deal with the tendency of users to pick the "best" answer rather than their honest one. 
+4. Implement Simulation-Based Calibration (SBC)  (testing)
+To ensure the simulation accurately measures what it intends to, use SBC, a technique that validates the model against a known "true" value. 
+Generate Data: Create simulated "agents" with known, randomized personality profiles.
+Compare Results: Run the simulation with these agents and compare their generated scores (the posterior) with their known profiles (the prior).
+Uniformity Check: the rank statistics of the simulated data should be uniformly distributed, indicating the simulation accurately predicts the underlying personality traits. 
+Example of Simulation Calibration
+If measuring Conscientiousness:
+Scenario: A project deadline is approaching, and a piece of data is missing.
+Action A (High Conscientiousness): Spend extra time finding the data. (Score: +5)
+Action B (Low Conscientiousness): Estimate the data and submit. (Score: +1)
+Calibration: After 20 such scenarios, the user's total score is divided by the maximum possible score (100) to get a percentage, which is then mapped to a "High" or "Low" category. 
+
+
+
+Maya:
+Look at MAKI (gamified judgement tests for CVs)
+Economic wide repercussions for succession rates research 
+Draft up key skills and tests for simulation hypotheticals 

@@ -1,0 +1,273 @@
+Gamification and Soft Skills Assessment in the Development of a Serious Game: Design and Feasibility Pilot Study 
+“Several international studies have shown that soft skills are critical to our future success, and their importance is recognized by education providers, academics, human resource departments, and businesses [65-68].”
+
+“This research aims to understand how companies and economic organizations that recruit, hire, and develop professionals at a medium to high-level view and value soft skills in their human resource development process”
+
+Methodology of testing:
+
+To assess communication [71], the communicative style (aggressive, passive, or assertive) [72-74] was adopted, and for problem solving, models, such as DMAIC (Define, Measure, Analyze, Improve, and Control) [75] and Problem Solving Inventory (PSI) [76], were used. Team working and related skills developed in group environments are highly sought after by recruiters when hiring [77]. The research was inspired by the Comprehensive Assessment of Team Member Effectiveness (CATME) [78], and for decision-making, the cognitive style (a person’s preferred way of thinking and tendency to adopt certain strategies more frequently) [79] was evaluated using the General Decision-Making Styles (GDMS) scale [80]. Time management, as theorized by Lakein [81] and others, was assessed using the time management behavior scale [82]. Soft skills are increasingly recognized as critical to future success and are valued by those in education, academia, and human resource departments
+
+This study proposes an immersive serious game model, called AOC, which aims to evaluate 5 important soft skills sought after in the job market, namely, problem solving, team working, time management, decision-making, and communication:
+
+In this study, communication was defined as the ability to transmit information effectively, while problem solving was defined as the ability to use ICT to understand and process problems and actively use knowledge to find solutions.
+
+Soft skills can make a significant difference in the business environment, and serious games are particularly effective at evaluating them because they can be assessed in various contexts and methods [12,13], including through self-assessment.
+
+Pilot study metrics inside article
+Constructing Cognitive Profiles for Simulation-Based Hiring Assessments 
+McKinsey has a Game-Based Innovation Lab (GBIL), a team of 25 colleagues focused on creating digital games for recruitment. These immersive, simulation-based assessments are designed to evaluate cognitive processes beyond traditional tests that rely heavily on speed and memory recall.
+The simulations place candidates in abstract, natural-world environments, for example, solving scientific problems such as differentiating microbes, allowing them to think and operate within a dynamic scenario. This approach reflects an interesting shift toward assessing how individuals reason and make decisions in complex, diverse contexts. Rather than focusing purely on correct or incorrect answers, the emphasis is on the strategies candidates use to solve problems (Kantar et al., n.d.).
+Imbellus built the framework for problem-solving methods used by McKinsey consultants, mapping these cognitive approaches into simulated game environments. Throughout the simulation, behavioural data is continuously tracked, generating evidence-based statements that calibrate a score. These “Imbellus scores” were validated through rigorous pilot studies conducted on McKinsey employees from 2017 onwards, and further tested against real hiring outcomes to assess predictive accuracy (Kantar et al., n.d.).
+
+
+
+https://open.ncl.ac.uk/theories/13/upper-echelons-theory/ 
+At the heart of UET lies the proposition that senior-level executives' cognitive base and values, reflected in observable characteristics such as age and education, affect how they interpret and respond to strategic situations through their choices, thereby influencing organisational performance (Hambrick & Mason, 1984).
+
+Managers that have accrued their experience mainly from throughput functions, such as production and accounting, place emphasis on efficiency-related issues, whereas managers with more experience in output functions, such as marketing and R&D, favour innovative strategies that can enable business growth (Barker & Mueller, 2002).
+
+Managers that have accrued their experience mainly from throughput functions, such as production and accounting, place emphasis on efficiency-related issues, whereas managers with more experience in output functions, such as marketing and R&D, favour innovative strategies that can enable business growth (Barker & Mueller, 2002).
+
+
+Bias- monitoring aspect: 
+
+If managers have great discretion, their characteristics will be highly reflected in organisational outcomes. However, managerial characteristics cannot predict organisational outcomes if discretion is lacking.
+
+Empirical research has consistently supported the importance of managerial discretion as a boundary condition of UET. The effect of CEO characteristics on organisational performance was found to be significantly stronger in high-discretion (e.g., US) than in low-discretion (e.g., Japan) national contexts (Crossland & Hambrick, 2011).
+
+TMT characteristics have a greater influence on strategic change decisions in high-discretion industries (e.g., computer industry) than in low-discretion ones (e.g., natural gas industry) (Finkelstein & Hambrick, 1990). The relationship between upper-echelon characteristics (i.e., TMT size and CEO dominance) and firm performance has been found to be significant in high-discretion environments but non-significant under conditions of low managerial discretion (Haleblian & Finkelstein, 1993).
+
+Top management team:
+ Heterogeneous TMTs encapsulate divergent perspectives, expertise, and knowledge bases, enhancing decision-making quality, especially when encountering ill-defined and novel situations (Nielsen, 2009). Diverse teams are willing to challenge each other’s viewpoints and be more comprehensive when making strategic decisions
+
+Scholars have established the applicability of UET across different national contexts, including both Western and Eastern countries (Geletkanycz & Black, 2001; Wiersema & Bantel, 1992; Wiersema & Bird, 1993), different industries, including both the services and manufacturing sectors (Lee & Park, 2006; Lin & Rababah, 2014; van Doorn, Heyden & Volberda, 2017), and different types of firms, including large, mature organisations as well as SMEs and newly founded companies (Carpenter, 2002; Escriba-Esteve, Sanchez-Peinado & Sanchez-Peinado, 2009; Reuber & Fischer, 1997). For instance, Geletkanycz and Black (2001) utilised data from 20 countries to confirm UET predictions that managerial characteristics (i.e., functional experience) exert significant influence on decision-making (i.e., the tendency to change organisational strategies).
+
+
+
+
+
+
+
+Frameworks & draft of scenarios: 
+
+Leadership skills:
+Strategic thinking
+Ethical judgment
+Stakeholder management
+Risk assessment
+Communication choices
+Cultural awareness
+
+Scenarios: 
+You are CEO of a family conglomerate with:
+shipping
+palm oil
+real estate
+fintech
+A crisis unfolds:
+Indonesian export restrictions
+Cousin accused of corruption
+Bank tightening credit
+
+
+Players must navigate 20+ branching decisions.
+Scores:
+financial performance
+family stability
+reputation
+employee trust
+
+Leadership tests: 
+Situational Judgment Tests (SJTs)
+Situational Leadership Theory (Hersey–Blanchard)
+Directing – high guidance, low support
+Coaching – high guidance, high support
+Supporting – low guidance, high support
+Delegating – low guidance, low support
+
+Frameworks for branching games: Players must decide from simulation (testing family relationships, firm performance, governance credibility): 
+→ your family member is misconducting work but you must navigate remedying this. 
+→ delegate task specialisation (like in microbes sorting in mikinsey test)
+→ how would you deal with psychological, Diversity issues, and value evoking situations
+Give detailed instructions
+Let them lead with mentorship
+Assign a professional external manager
+Delegate entirely
+Possible scenario: Founder is retiring.
+Candidates:
+eldest son (charismatic but reckless)
+professional CEO
+younger daughter (competent but undervalued)
+Player must balance:
+family unity
+investor confidence
+long-term growth
+
+Strategic Leadership Framework (Upper Echelons Theory)
+Firm outcomes reflect executive cognition, biases, and experience.
+
+How CEO recognises and works with influences of:
+background
+culture
+risk tolerance
+Ideology
+Scenario: Currency crisis
+A sudden depreciation hits ASEAN currencies.
+Player must decide:
+hedge aggressively
+diversify exports
+delay investment
+borrow in USD
+Game tests cognitive framing of macro signals.
+
+Vroom-Yetton decision model
+Five decision styles:
+
+AI – leader decides alone
+AII – leader gathers information then decides
+CI – consult individuals
+CII – consult group
+GII – group consensus
+
+Scenario: A family manufacturing firm must automate production.
+Constraints:
+union pressure
+cousin runs the factory
+capital is limited
+The player chooses a decision style.
+Game evaluates:
+employee morale
+speed of decision
+financial performance
+family trust
+
+OODA Loop (Military Strategic Thinking)
+Observe: Did they recognize informal power dynamics?
+Orient: Did they interpret it as cultural vs structural?
+Decide: Direct vs indirect action
+Act: Aggressive vs adaptive
+Scenario: Supply chain shock
+Port closures disrupt exports.
+Players must quickly:
+gather information
+interpret market signals
+decide on new suppliers
+communicate to stakeholders
+Game measures:
+speed
+Adaptability
+Situational awareness
+
+
+Moral Leadership / Ethical Decision Framework (Rest Model)
+
+Leaders must pass through four ethical stages:
+
+Moral awareness
+Moral judgment
+Moral intention
+Moral action
+
+Scenario: Political corruption
+Local officials demand informal payments to approve a project.
+Choices:
+pay bribe
+refuse and delay project
+partner with another firm
+escalate to regulators
+Outcomes affect:
+reputation
+profits
+regulatory scrutiny
+This is especially relevant in emerging market contexts.
+Behavioral Economics Leadership Framework
+Uses biases such as:
+loss aversion
+sunk cost fallacy
+groupthink
+Overconfidence
+Scenario: failing expansion
+The firm has invested $200M in an Indonesian project.
+Players must decide:
+double down
+exit early
+restructure
+Game tests bias recognition.
++++++++
+Miyake paper: factor analysis 
+
+Matrix tests and fluid intelligence : segment complex problems and think about specific lines and such 
+
+When yo compare difficult and easy task: the high cognitive and low cognitive load: interesting comparisons 
+MULTIPUL DEMAND SYSTEM: more activated the more you break up and analysis 
+What makes it general and flexible
+Possible situations: 
+
+
+Scenario
+SJT Focus
+OODA Focus
+Vroom-Yetton
+Biases Tested
+Crisis Layer
+Founder Shadow
+authority decisions
+power interpretation
+consult vs act
+ego, authority
+political instability
+Political Access
+ethics choices
+moral framing
+legal consultation
+moral licensing
+regulatory crisis
+Legacy Division
+capital allocation
+emotional detachment
+family involvement
+sunk cost
+liquidity stress
+Talent vs Loyalty
+people decisions
+conflict reading
+consult HR
+favoritism bias
+team breakdown
+Crisis PR
+communication
+speed vs clarity
+centralized vs team
+defensiveness
+reputational crisis
+Overexpansion
+financial strategy
+macro interpretation
+CFO involvement
+overconfidence
+financial crisis
+Boardroom
+negotiation
+power mapping
+stakeholder inclusion
+loss aversion
+leadership removal
+Cultural Integration
+adaptation
+cultural framing
+local consultation
+ethnocentrism
+integration failure
+AI Automation
+future planning
+tech interpretation
+workforce inclusion
+status quo bias
+social backlash
+Succession
+legacy thinking
+identity framing
+board/family
+nepotism bias
+governance crisis
+

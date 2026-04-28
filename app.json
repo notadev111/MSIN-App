@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "MSIN",
+    "slug": "msin-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FAF7F2",
+    "splash": {
+      "backgroundColor": "#FAF7F2"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.msin.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FAF7F2"
+      },
+      "package": "com.msin.app"
+    },
+    "scheme": "msin",
+    "plugins": [
+      "expo-router",
+      "expo-asset"
+    ]
+  }
+}

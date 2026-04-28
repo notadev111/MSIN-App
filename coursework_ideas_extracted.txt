@@ -1,0 +1,958 @@
+﻿Initiatives
+Value Proposition Statement
+Short
+A mobile platform where users learn business decision making through interactive leadership simulations, receive AI driven feedback, and connect with like minded professionals.â€
+Long
+A mobile demo product that prepares future business leaders (family business heirs, at risk corporate employees, students) with gamified, case based simulations plus a networking layer that matches people by values, skills and complementary backgrounds. Outcomes: measurable skill scores, tiered certificates (validated by Coursera, etc..), and meaningful professional connections.
+Note: the full vision is too broad for an MVP. The MVP must validate one core loop (simulation. skill measurement, basic matching).
+Models & Frameworks to useBusiness planning: 
+Business Model Canvas
+Value Proposition Canvas
+SWOT / Porterâ€™s Five Forces
+Product development: 
+User stories
+MoSCoW prioritisation
+Scrum (sprints)
+Clear vision statement
+Core product concept
+Learning: Short, case based leadership simulations that measure specific skills per scenario (critical thinking, strategy, leadership, timing, decision quality). Each scenario returns a structured score profile (hidden scoring schema that feeds the user profile).
+Gamification: Professional XP, levels, badges and certificates (not childish). Quizzes and short free-text prompts for realistic responses.
+AI: Adaptive feedback, dynamic difficulty for quizzes, personalised resource recommendations, and AI assisted scoring/insights. AI will drive personalised learning paths over time.
+Networking: Curated matching (value alignment + background diversity). Two discovery modes: swipe style curated matches and an optional proximity/map view. Matching uses CV keywords and skill embeddings to encourage challenging but valuable connections.
+Certification & employability: tiered certificates tied to simulation scores and optional subscription benefits (higher-tier exercises, access to curated network of experienced owners).
+Skills targeted:Primary: leadership, strategic thinking, critical reasoning, stakeholder management, crisis response.Secondary: communication, negotiation, financial literacy.Mix soft and technical; each module must declare the skills it assesses.
+Team roles:Product Owner â€” MayaBusiness Strategy â€” MoritzDevelopment â€” Daniel
+MVP Scope
+Core simulation engine: 3 short scenarios (family succession, market disruption, internal leadership conflict).
+Adaptive quiz and feedback for each scenario.
+Basic profile and skill-summary dashboard.
+Swipe-style networking with mutual match messaging.
+Badges, XP, and a single-tier certificate for completing all demo scenarios.
+Admin dashboard to add scenarios and view aggregated analytics.
+Technical recommendations (MVP)
+Web prototype first to validate flows, content and matching; follow with mobile MVP.
+Web stack: use existing Next.js + Supabase prototype as the canonical demo and admin surface.
+Mobile: Expo (React Native) for fastest cross-platform delivery and code reuse. 
+Student/free resources: GitHub Student Pack for CI/CD, hosting, and addons.
+AI: external LLMs via server-side edge functions. Store embeddings (pgvector) for matching and recommendations. Probably GPT-4o 
+Realtime: Supabase realtime or lightweight websockets for chat and live matchmaking.
+Business Model / Market plan
+Freemium: free core scenarios and basic networking. Paid tiers unlock advanced simulations, deeper analytics, curated introductions to business owners, and certification verification.
+Revenue channels: subscriptions, recruiter partnerships, sponsored masterclasses, premium introductions to family firm networks.
+Early adopters: students (career/leadership clubs), young successors of family businesses, corporate leadership programs.
+Partnerships: university entrepreneurship centres and family business associations. Explore API/data collaboration with UCL or similar institutions.
+Governance and Ethics
+Transparent scoring and opt-in sharing of performance.
+Data privacy for CV parsing and location features.
+Bias mitigation in AI matching and scoring; manual audit of scenario scoring.
+roadmap & task checklist (order to progress the project)
+Market validation (surveys, interviews, 10â€“20 target users per early-adopter group).
+Business Model Canvas.
+Value Proposition Canvas.
+Competitive review and positioning.
+Define core scenarios and scoring rubric.
+Wireframes for web flows (user, admin, scenario authoring).
+Build web demo (Next.js + Supabase).
+Internal testing and instructor/peer feedback.
+Iterate UX and scenario scoring; complete SWOT and Porterâ€™s Five Forces.
+Mobile MVP with Expo.
+AI integration (adaptive feedback and embedding-based matching).
+Pilot with partner cohort.
+Launch freemium + first paid tier.
+Monitor metrics and expand scenario library.
+deliverables for coursework
+Market validation summary.
+Business Model Canvas and Value Proposition Canvas.
+Wireframes and clickable demo.
+Technical architecture diagram.
+Pilot and testing report.
+SWOT and Porterâ€™s Five Forces.
+Roadmap and role allocation.
+next immediate actions (this week)
+[ ] Complete market validation questionnaire and schedule 12 interviews [ ] Draft Business Model Canvas [ ] Agree 3 demo scenarios and owners [ ] Produce wireframes for core flow [ ] Configure Supabase project and seed demo data [ ] Build Next.js demo branch [ ] Prepare 5-minute demo script
+notes on scoring & assessment design
+Score each scenario against a fixed rubric tied to named skills (e.g. critical thinking 0â€“10). Keep rubric internal but expose skill summaries and improvement guidance.
+Mix objective checks (quiz answers, decision timing) with subjective free-text inputs evaluated by AI. Log raw inputs for audit.
+Certification should be tiered based on scenario completion, score thresholds, and peer/mentor endorsements.
+final point on tone & UX Keep the interface professional and career-focused. Present gamification as career milestones and evidence of competence, not playful rewards. Badges should resemble verified micro-credentials.
+problem to solve: so many people lack leadership skills and the repercussions are immense
+match with someone who is high in the skill you lack
+leadership: helping others (similar ambitions- schools- and such which are scanned from cv)
+identify what skills are makings of leaders 
+test your skills to improve and be connected with people to learn from (high scoring in certain fields you donâ€™t, and similar interests)
+Background Research
+Tasks:
+Economic impact of family businesses and the succession crisis in APAC. Projected scenarios and possible futures resulting from collapse of family businesses, opportunities and threats
+Creation of new Theory of The Family Business / Firm (a diagram or dashboard framework  a new next gen heir would use to navigate the family through the environment)
+â€” - highlight: indonesian culture 
+â€” - highlight: potential succession pointers 
+â€” - highlight: harmful towards business progress 
+â€” - highlight: economic points
+How Family Dynasties Control Asian Economies
+Singapore: tamaset 
+Mitsubishi own half of all real estate 
+In indonesia conglomerates control trade policy, license between private and public 
+Conglomerates: â€œa large corporation made up of several different, often unrelated, businesses operating in diverse industries under a single parent company, aiming to spread risk and achieve financial synergy through diversificationâ€
+State depends on families too: create jobs, build ports, keep capital local in exchange is protection and limited regulation
+Succession in korea: hyundai and samsung groups (dynastic hands building own systems)
+file:///Users/mayamunasinghe/Downloads/09_Final_Nugroho.pdf
+In south east asia, more than 75% of businesses are family businesses 
+Only in China and Singapore, less than half of businesses are family businesses.
+In Malaysia, family businesses control almost 75% of the countryâ€™s economic assets, while in Indonesia, family businesses are growing more than the global average.
+Family companies in Indonesia reach 40% of market capitalization and contribute more than 80% of the gross domestic product. 
+MERITS OF FAMILY-OWNED:
+â€œFounder involvement portrays the moral and spiritual values permeating the organization. The second lens is organizational values (Barbera et al., 2018). These values are mostly related to the principles in which the family believes, guiding the way organizations solve various business challenges. That is, corporate governance is influenced by how corporate values reflect foundersâ€™ values. Organizational values help the owner choose their successor, who is a family or non-family member who can absorb the founderâ€™s values.â€
+Business sustainability is closely related to an organizationâ€™s self-concept and beliefs (Fletcher, Melin, & Gimeno, 2012)
+Two succession models:  choosing Successors from a family OR nonfamily member with good involvement.
+Politics: 
+ In Asia, a family business has a strong connection with political leaders as the government
+Chinese immigrants must work hard to reach and maintain their prosperity. Although they are disconnected from their homeland, they retain their cultural life and social connections (Hertzman, 2020). Those cultural ties are why the literature emphasizes how succession in Chinese family businesses is related to Confucianism. 
+Indonesia:  the concept of "bapakism," a cultural phenomenon prevalent in Southeast Asian countries such as Indonesia, emphasizes paternalistic leadership and hierarchical relationships within organizations ("bapak," or father figure)
+Kussudyarsana et al. (2020) studied Indonesian family business from a transaction cost theory view.
+ The authors suggested that businesses adopt formal governance when there is ambiguity 
+uncertainty influences the application of formal governance in Indonesian family businesses. 
+_______________________________________________________________________
+â€œIndonesia," "Malaysia," "Singapore," and "Thailand." We identified 198 papers published between 2000 and 2020:
+Lack of risk intergenerationally: 
+That is, family firms are more risk-averse after the succession. Meanwhile, Augendra and Bernard (2019) find that entrepreneurs prefer investing in lands and houses to improve their quality of life instead of investing in the business. This scenario creates the condition where there is a fund shortage for the business, which ends up with the SMEs taking loans from microfinance institutions.
+Fendiani and Tandiono (2018) find that family businesses in Indonesia face an agency problem: misalignment between majority and minority shareholders.
+that firms with a corporate center that applies a strategic planning approach will positively influence the entrepreneurial orientation and strategic initiatives in business units
+dissatisfaction with family fulfillment remained despite increased family resilience and elevated prospects for a brighter future.
+Tanjung (2020) discovered that governance compliance can affect firm performance:
+Joni et al. (2020) found a positive association between a politically connected board and market performance, specifically, the relationship between the supervisory board.
+Ambarriani and Purwanugraha (2012) state that for businesses to survive and grow, they must be more concerned about how their management processes support their financing activities, not merely focused on improving performance
+Istiatin and Luhgiato (2017) announced three keys to achieving third-generation success in leading a family business: transformation, and family harmony
+Chinese: Confucian culture (Anggadwita et al., 2020). 
+males are prioritized as the successor of the business under specific criteria, including a strong will, intention, determination, and sufficient ability to control the business
+Hartono (2015). Jiing et al. state that paternalism is a key element of Chinese capitalism, which includes authoritarianism, benevolence, and moral leadership. 
+supported by Ghee et al. (2015), first-generation family businesses tend to have more centralized decision-making processes than second- or third-generation family businesses, which can lead to conflict when the next successor assumes leadership
+Management strategies have a substantial impact on family business performance. 
+Most successors reported having complete control over decision-making and task delegation procedures.
+psychological ownership= feel more responsible for the organization
+Chinese business is based on a three-generation model: 
+The first generation works extremely hard, leads a fruitful life, invests the majority of its income, and establishes a successful company.
+The second generation significantly grows the company, raising risk and profitability. 
+The third generation loses interest in running the company and disperses the family since they take the wealthâ€™s tendency for granted
+ generation gap, communication gap, and credibility gap
+Knowledge mobilization improves a companyâ€™s dynamic capability (Koentjoro and Gunawan, 2020). Meanwhile, Rademakers (1998) states that when creating business strategies for external stakeholders such as suppliers, distributors, retailers, and customers, Chinese family businesses embrace paternalistic values
+Corporate social responsibility (CSR) view, Sharma et al. (2012) found that the Sampoerna tobacco company used partnerships to strengthen small- and medium-sized enterprises (SMEs) in the Sampoerna case
+CSR suggests a good return and considerably increases shareholder pride, energizing them and enhancing the corporate brand. 
+Electrical device manufacturers: The reverse logistics theoretical lens has also been qualitatively examined. Maheswari et al. (2020) find that many electrical device manufacturers have used reverse logistics (RL) as a strategic path toward improving performance and brand recognition in recent years, demonstrating how significant the process has become. To ensure that their RL actions do not jeopardize other interests such as the planet, people, and company reputation, the performance measurement must reference the quadruple bottom line (QBL) concept. As a result, measurement in this research combines the balanced scorecard and QBL principles and is based on the perspectives of the government.
+Sustainability reporting: Companies with higher-quality (more comprehensive) sustainability reporting will have a greater market value than those with less comprehensive sustainability reporting (lower quality of sustainability reporting).
+The authors also found that corporate governance and the ownership structure may help the company in formulating CEO succession
+The family ownership structure is proven to be cost-minimizing and positively affects performance (Al-Haj and Zainuddin, 2016). This demonstrates that one of the factors boosting the performance of family businesses is ownership. 
+businesses run by families perform better than those run by professionals: when experts run the firms, the agency expenses are much greater
+Family bonds are deeply ingrained in family businessesâ€¦ making them special
+Indonesia: the first generation is more of a risk taker while the second generation is more risk averse. The first generation of the family business usually takes the debt as the first generation is considered more business-oriented to achieve and maintain high profitability. In contrast, the next generation is more family-oriented. This has led to different business performances between the old and new generations.
+ In the case of Malaysia, the main issue is the paternalistic culture in Malaysian Chinese family businesses that results in a highly centralized organization with top-down communication. This leads to dependency on their current leaders and makes the next successor unable to enjoy their authority and legitimacy because of the attachment created with previous leaders. In the case of Singapore, the Chinese family business conflict in succession usually occurs due to the informal organizational structure of Chinese firms and the significance of guanxi ties in business dealings. 
+In the case of Thailand, the discussion revolves around how Buddhist ideals inspire the implementation of CSR activities
+Solving succession: 
+Planning and generational tensions
+cultural and institutional factors: decision making, innovation of global markets
+balancing family and business orientations: The differing attitudes towards risk and business objectives, core values and close-knit relationships
+corporate social responsibility (CSR) and ethical practices
+Political advantage in indonesian family firms . 
+political connections have several benefits (lower tax, government procurement, licenses, access to finance, lower cost of debt, higher chance to be bailed out, less restriction on entry into regulated industry etc.)
+One example of a family firm in Indonesia is the Ciputra Group:
+ This firm has been listed on the Indonesia Stock Exchange (IDX) since 1994. Up until now, this firm has diversified into 11 industries, including township, office buildings, shopping centers, hotels, apartments, recreational centers, sport facilities, telecommunications, healthcare, brokerage, media and commerce.
+These findings shows that political connections in Indonesia play an important role on business decision making. However, it remains unknown how political connections affect family firms decision making in Indonesia.
+we found that family firms with political connections demonstrate significantly better financial performance than other firms (family firms without political connections; non-family firms with political connections; and non-family firms without political connections). These findings indicate that political connections potentially provide support to family firms, which increases their performance.
+Success:
+more directorships held by the current chief executive officer (CEO) will lead to lower performance of the firms.Ramdani and Witteloostuijn (2010) also find a positive associations between CEO duality and firm performance.
+They find that board size is a negative moderating of the positive associations between CEO duality and firm performance.
+Jara Bertin and Iturriaga (2014) found that higher control from the dominant shareholders (i.e.: family members) resulted in lower earnings
+Wang et al. (2016) also shows that family firms are more likely to conduct business transformation and to enter strongly correlative industries and non-regulated industries than non-family firms.
+Indonesia: 
+Fisman (2001) investigate the relationship of politically connected firms in Indonesia and stock price market reactions. He uses a health condition of former president of Indonesia, Suharto, as an event to test this relationship. He found that the stock price of politically connected firms in Indonesia dropped significantly when there was a bad news on the health of Suharto. In contrast, when there was good news on Suhartoâ€™s health condition, the stock price increased significantly. Harymawan and Nowland (2016) showed that the earnings quality of politically connected firms in Indonesia is dependent on the level of political stability and government effectiveness.
+Boubakri et al. (2012) showed that politically connected firms enjoy a lower cost of equity than non-politically connected firms
+Houston et al., also found that firms which hire a director with political ties have a significant lower cost of bank loans
+Harymawan (2018) also showed that militarily connected firms (one type of political connections) enjoy a lower loan interest rate in Indonesia.
+RESULTS from firms performance: Tobinâ€™s Q represents the view of long-term investors because one of its formulae uses the market value of equity. The market value of equity is the accumulation that starts from the firmâ€™s long efforts.
+Figure 3 shows the distribution of the political connection positions in family firms. Most of the politicians serve as commissionaire in the firm. The independent commissioner position is the highest position, which is more likely to be held by someone with a political connections.
+The coefficient of TOBINS_Q is âˆ’3.397 and significant at the 1 percent level. This suggests that firms with political connections significantly perform better than non-family firms. The results also shows that family firms in Indonesia are less likely to be politically connected, have smaller size of board commissionaire, smaller firms size, have a lower capital intensity, and lower leverage
+Family firms are more conservative
+Family firms tend to:
+Avoid excessive risk
+Avoid high leverage
+Avoid aggressive expansion
+Markets often reward growth and risk-taking with higher valuationsConservatism â†’ lower market valuation â†’ lower Tobinâ€™s Q
+we find that the coefficient of FFxPCON is 0.255 and significant in the 10 percent level (t = 1.79). This finding shows that a firm with family ownership which affiliated to political connections has better performance relative to others.
+family firms without political connections has lower performance than other firms
+Overall, the results indicate that in Indonesia, establishing political connections for family firm could improve the performance of family firms which support our hypothesis. For companies, the findings of this study suggest that family firms in Indonesia might consider political connections as one of potential resources to improve the performance of the firms.
+using the politically exposed person (PEP) definition based on Indonesian banking regulation. This may underestimate the value political connections in Indonesia
+_______________________________________________________________________________
+Adhikari et al. (2006) found that firms with political connections in Malaysia pay a significant lower rate of tax.
+In China, Wu et al. (2012) showed that private firms with politically connected directors pay also pay a lower tax rate.
+ â€‹â€‹South-east Asia's family conglomerates at a turning point
+â€œThe energy and commodities sectors are highly regulated in Asean countries. Hence, the ability and volume to export and, correspondingly, the returns are dependent on government policies,â€ said Andre Toh, EY-Parthenonâ€™s Asean valuation, modelling and economics leader.
+From 2005 to 2014, these conglomerates produced annual total shareholder returns of 31 per cent on average. This far outperformed the 18 per cent returns of 220 listed conglomerates from other parts of the world.
+â€œlicence-based, capital-intensiveâ€ sectors such as property, energy and infrastructure, said Sam Garg, a management professor at Essec Business School
+At the same time, conglomerates in the region have limited exposure to growing or emerging sectors, such as technology and healthcare, due to a lack of risk appetite.
+Asian family conglomerates will need to view disruption as an â€œopportunity for wealth regeneration, rather than just preservationâ€, said Balagopal Vissa, professor of entrepreneurship and family enterprise at business school Insead.
+Growth sectors:
+ requires a mindset change on talent and leadership. Growth sectors such as technology and healthcare rely more on human capital.
+â€œfaster leadership transitions, stronger governance, openness to professional and female leadership, and deliberate experimentation in new sectorsâ€.
+How Indonesian family businesses are preparing their legacy, and how agile they are amidst uncertainty: PwC 2025 Global Family Business Survey
+Leadership transition remains a challenge, with 43% of Indonesian NextGen citing senior resistance and 19% of businesses delaying succession due to uncertainty.
+Economic volatility is the most pressing issue for both Indonesian (63%) and global (58%) family businesses. Indonesian firms are more concerned about tax challenges (49%) and global peers cite labour shortages (47%) as their top issue.
+60% of Indonesian family businesses view it as a risk, equating it with economic threats like inflation and recession.
+51% cite strong loyalty among family members and long-standing relationships built over generations.
+DIVIDENDS STRENGTHS: Indonesian family businesses prioritise distributing dividends (70% vs 68% globally) and offering employment to family members (31% vs 27% globally).
+While many Indonesian family businesses have codified values and conduct, fewer have clearly defined family values compared to the global average.
+One in four Indonesian family businesses (27%) already have a family office in place, a figure slightly below the global average of (33%).
+Pressures: 
+Economic volatility (63% for Indonesia and 58% globally) emerged as the most pressing issue
+Indonesian family businesses, tax challenges (49%) are a major
+top issue is labour shortages and workforce challenges (47%)
+Next gen: 
+Indonesian successors face a unique challenge: 43% cite resistance from senior leaders as a major barrier to leadership transition, compared to just 29% globally.
+39% of our respondents perceive leadership transition as risk, greater than 27% who see it as opportunity and 34% who have a neutral view.
+19% of Indonesian family businesses tend to delay succession due to prevailing uncertainties, higher than global (10%).
+Boards in Indonesia tend to be slightly more open to younger perspectives, with 55% having a leader below the age of 40, significantly higher than the global figure of 41%.
+Gender diversity in Indonesian family business leadership is also showing positive signs, with 70% of Indonesian family businesses having women on their boards, compared to the global figure of 68%.
+strong leadership and effective governance structures are the primary contributors to a family business's ability to implement change, with 54% of family businesses from both global and Indonesia highlighting these factors.
+In our 12th edition of the Global Family Business Survey, we surveyed 1,325 family businesses globally, including 67 from Indonesia:
+Growth expectation: 
+43% told us the older generation is the main bottleneck to succession. 
+55% of organisations have a leader under 40, bringing fresh perspectives, and 70% include women on their boards. 
+Yet only 25% of family businesses consider themselves agile (compared to 45% globally), and 60% still see AI more as a risk than an opportunity.
+ This condition brings a challenge for the NextGen leaders to be bold, agile, and able to navigate uncertainty. Such readiness wonâ€™t happen on its own; it demands deliberate preparation, structured succession planning, and coaching.
+48% of family businesses consider themselves â€œmoderately agile,â€ slightly higher than the global average of 44%.
+this agility is most evident in product or service innovation (82%), followed by strategic partnerships (71%) and technology adoption (53%)
+a clearly defined company purpose can serve as a source of competitive advantage: 
+Indonesian family businesses show stronger confidence in having defined codes of conduct (72% vs. global 64%) and codified values (69% vs. global 64%). 
+they lag behind the global average in having a clear set of family values (78% vs. 83%)
+strategic articulation of family identity remains less robust.
+Conflict facing:
+48% of family businesses, higher than the global average of 35%, report taking an incremental approach to change, while maintaining familiar management styles and decision-making processes.
+In terms of management styles, nearly half (48%) also experience conflict from time to time, with 19% admitting such tensions are often ignored, significantly more than the global average of 7%.
+family-owned businesses in Indonesia report unique strengths: 51% cite strong loyalty among family members and long-standing relationships built over generations, both slightly above the global average of 48%.
+growth opportunities: technological advancements and digital transformation as top priorities
+61% of global businesses have already identified AI as a key growth driver, recognising its potential to enhance customer engagement and drive improvements
+60% view AI as a risk, on par with other major concerns such as economic conditions, including inflation and recession
+clear policy on data privacy, ethical AI practices
+Many family businesses prioritizing steady-growth strategies that reinforce their long-term objectives: 
+safeguarding the business as a family asset (75% in Indonesia versus 78% globally) and preserving the family legacy (73% in Indonesia versus 77% globally)
+Safeguarding family asset (75% in Indonesia versus 78% globally) and preserving the family legacy (73% in Indonesia versus 77% globally). 
+focus on continuity is also reflected in wealth management practices: one in four Indonesian family businesses (27%) already has a family office in place, a figure slightly below the global average of 33%.
+Among these, the vast majority of Indonesian family businesses (72%) operate a single-family office model, compared to 67% globally, underscoringâ€¦ maintaining control and confidentiality.
+Scaling your purpose. Clear and codified purpose is behind a range of growth-driving capabilities.
+Having values clearly defined 
+See growth potential in startups or businesses for M&A
+Embracing your structural agility. High-performing family businesses are actively leaning into their centralised decision-making.
+Simulated decision making for successors 
+Reframe bottleneck narrative and visualise trend in macroeconomy 
+Putting your â€œlong-term capitalâ€ to work. In an era of macroeconomic uncertainty and geopolitical volatility, patient capital is proving to be a growth engine.
+Investments in periods of economic uncertainty, have assets passively earning beside inflation/deflation (gold, silver, ETF of growth sectors or international)
+Value investing 
+Diversification 
+Protecting and activating your reputation. For family businesses, reputation is both a legacy to protect and a lever to activate growth.
+Build reputation on your opinions: have forums for discussion and give speeches
+Dynasties still dominate south-east Asian politics â€“ in democracies and more authoritarian systems. 
+Philippines: The Philippines offers perhaps the starkest example of dynastic democracy in south-east Asia. Philippine politics remains structured less by parties or programmes than by family blocs
+Marcos and Duterte clans foremost among them
+Indonesiaâ€™s newer democracy tells another â€“ albeit relatively similar â€“ story. Since democratisation in 1998, decentralisation and local elections have opened routes from local to national office. Families have used party nominations, money, media and entrenched networks to turn those routes into political power
+In the Philippines and Indonesia, two electoral democracies, politics is shaped by bargains among dominant families. This raises doubts about the depth of democratic competition
+In Thailand and Cambodia, politics is more tightly controlled. Dynasties there expose the fragility of succession and the limits imposed by entrenched power centres
+Estimating the Value of Political Connections
+Suharto Dependency Index (1995) (referred to by the variable POL below) developed by the Castle Group, a leading economic consulting firm in Jakarta. Over the past few years, the group has assisted over 150 multinationals with entry and market strategies for Indonesia
+Indonesia ranks 45th out of the 54 countries surveyed. It was perceived as being less corrupt than, among others, India, Russia, Pakistan, China, Nigeria, and Bangladesh. To the extent that perceived corruption is a reasonable proxy for the prevalence of political rents, the results of this paper suggest that political connections may play an important role in many of the world's largest and most important economies.
+Well- connected firm's value may be derived from political connection
+â€œIn Indonesia, group affiliations are not publicly reported; they must be inferred by looking at a firm's major shareholder the composition of its board and managementâ€
+Suharto Dependency Index (1995):the Castle Group (economic consulting firm in Jakarta) assisted over 150 multinationals with entry and market strategies for Indonesia, very politically affiliated 
+Family, feudalism and selfishness: Looking at Indonesian leadership through a wisdom lens
+The Determinants of a Successful Family Business Succession in Indonesia: A Multiple Case Study
+1. AB tvOne Media 3rd  Generation
+2. MY Optik Nusantara  Optical  2nd Generation 
+3. RB Global Mediacom Media  2nd Generation 
+4. MD Dynamic Autosound Car audio 2nd Generation
+between 65 and 80 percent, are owned by family businesses (Maciel, de la Garza Ramos, Aguilar, & Reyna, 2015), contribute between 70 percent and 90 percent of global GDP, provide jobs globally between 50 percent and 80 percent, and responsible to 85 percent establishment of start-up companies.
+â€œlicence-based, capital-intensiveâ€ sectors such as property, energy and infrastructure, said Sam Garg, a management professor at Essec Business School
+There is Chinese proverb that says, â€œWealth does not pass three generationsâ€
+The first generation makes the wealth, the second generation lives off of it, and the third generation squanders it. This is validated by world-wide statistics, which indicate that a mere 30% of family businesses survive into the second generation, with a worsening rate of 15% into the third and less than 3% into the fourth
+Notabe families: Meneerâ€™s  family  (PT Nyonya  Meneer),  the  Sadinoâ€™s  Family
+five key dimensions - successor-related factors, incumbent-related factors, family-context related factors, business-context  decisions,  structured-agreement  system.
+A  family  business is  considered successful  when they  can separate  the family matters  and business matters
+his willingness to be the successor is based from the philosophy of the family which is Trimatra Bakrie (Indonesianness, Utilization, and Togetherness)
+Global Mediacom:
+Our media reach is 240 (two hundred and forty) million, it is more than half population in Indonesia. If we really focus and pour our hearts to the business, I believe it can change peopleâ€™s mind. That is why I created Bima Satria Garuda for children education programâ€
+Dynamic Autosound: car audio 
+â€œThere is always pros and cons in every form of business. One thing we should have in business is maturity. Maturity leads us to be wise, and wise make people successful.â€
+The  toughest  obstacle that  MD  had  been  through  is the  difficulty  to  manage financial  management
+a written structured agreement does not exist in this company
+successor-related factors  are  successor  motivation, nurturing  and development, outside work experience, formal education and training programs.
+3 (three) case studies that all the successors:
+ being obedient 
+a responsible person
+and contributing improvement to the company
+Confidence: The incumbentâ€™s  perceived satisfaction  of the process  is directly related  to the successorâ€™s willingness  to  take over  the business (Sharma, Chrisman,  & Chua, 2003). The successor of the 4 (four) cases revealed that throughout the transition process they  successfully achieved  goals given  by the  predecessor resulting  in confidence to take over the company
+professional management team in his company really helped him during the succession process
+Preparation and willingness of the successor are found to be the main reason for the successful  succession  process  and  it  also  shows  high  profitability
+all families held business meetings professionally and have separate non-business matters on Sunday lunches.
+families who are capable to distinguish between business and family issues have a better  chance  of  having  a  successful  succession  process
+Bruce  and  Picardâ€™s  theory,  the  number  of businesses must be proportional to the number of family members; this will not cause conflict in the succession process.
+Hence, every family business has a different case, therefore, understanding the characteristics of the business is important in order to conduct a successful succession process.
+Legal: 
+family follows Muslim rules which are dividing the inheritance based on gender. The male inherits 2 (two) parts of the total inheritance while the female inherits 1 (one) part; and RB has built his own business. Thus, it makes him the major shareholder for that business
+CONS: 
+the size  of family  might  influence the  number of  dispute, rivalry  and competition among family members.
+The results from the findings suggest that professionalization may  bring  disadvantage  to  some  businesses  because  they  prefer  to  be structurally free in order to have flexibility on decision making
+in the four case studies, there is no family council employed in the firm as they usually make business key decisions through informal family meetings. This is supported by  Melin  &  Nordqvist  (2007)  view  that  corporate  practices  should  not  be implemented in family firm, as this is the characteristics that make them effective.
+PwCâ€™s Global NextGen Survey 2024 â€“ Asia Pacific highlights. 
+PwCâ€™s Global NextGen Survey 2024 is an international market survey among next-generation members of family businessesâ€¦The survey was conducted online with 917 interviews in 63 territories globally, and 310 interviews across 13 territories in Asia Pacific. The Global analysis was based on survey findings between 13 November 2023 and 23 January 2024:
+55% of Asia Pacific NextGen believe there are clearly defined roles and responsibilities in their family enterprise, lower than the global average of 63%. In addition, just 40% acknowledge the presence of a robust governance structure, whereas around half of family businesses globally already have such a framework in place.
+More than 50% of family businesses in the region have yet to explore the use of GenAI. Notably, only less than a tenth (8%) have adopted GenAI.
+Consensus:
+Modernise practices. Leverage AI-driven solutions to streamline operations and embrace new ways of working.
+Enhance governance structure and succession planning. Establish policies for GenAI use and use AI-enriched insights for decision-making.
+Invest in digital skills through workforce transformation. Upskill employees so that they can thrive in a new era of disruption.
+Build and foster trust. Prioritise transparency and communication to earn stakeholder trust.
+https://www.mckinsey.com/industries/financial-services/our-insights/asia-pacifics-family-office-boom-opportunity-knocks
+Look at asymmetric info 
+Board rules for dismissing mangers 
+firm hierarchy
+Antitrust laws 
+(Taxes plummets highly elastic goods sales) 
+Barriers to entry:
+start up costs 
+Research 
+Patents 
+Staff
+Room to grow in growth sectors??? ( not so good in family businesses) 
+Firms profit:
+cost for acquiring input messages for production process 
+Output 
+Sale rev from selling g and s 
+Porterâ€™s 5 forces: 
+Economy wide:
+US$8.8 trillion, a 10% increase compared to the 2023 index. Collectively, they employ 25.1 million people across 44 jurisdictions. Link
+Their aggregate revenues would rank as the third-largest economy globally, only behind the US and China. 
+enterprises generated a combined revenue of over US$146 billion and employed nearly 875,000 people â€” up from US$119 billion and 850,000 employees in 2023.
+Nearly half (47%) of the companies featured in the index (500 companies?)completed at least one M&A transaction in the past two years. Of the deals disclosed, 34% exceeded US$250 million.
+1) Threat of New Entrants (Barriers to entry)
+Economic points
+Regulatory tough areas (licenses, procurement, permits) are a core entry barrier in highly regulated ASEAN sectors like energy/commodities, returns depend heavily on government policy.  (South-east Asiaâ€™s family conglomerates at a turning point: New growth, fresh talent key to keeping their edge)
+Family conglomerates â€œcompound advantages over decadesâ€
+â€œGrowth sectors such as technology and healthcare rely more on human capitalâ€
+conglomerates to be open outside daily leadership, competition, fast adaptation, and diversification 
+â€œlicence-based, capital-intensiveâ€ sectors such as property, energy and infrastructure have high barriers to entry
+Political connections have measurable value: market pricing  and return on shares (JCI) in Indonesia historically reacted to Suharto health news more for connected firms. 
+Politically well-connected lost firms more value during these episodes than did less-dependent firm
+Indonesian highlights:
+Bapakism (paternalistic hierarchy) reinforces top-down authority and loyalty norms, making it harder for outsiders/new challengers to break networks and norms. 
+Business Licenses: 
+OSS Risk-Based Licensing System (OSS-RBA) ensures Business licenses serve as proof that a company:
+Operates within a legal business sector
+Meets risk-based standards and compliance obligations
+Is authorised to conduct commercial and operational activities
+Higher-risk activities require additional operational permits
+Digital and tech businesses license: 
+e-commerce license or Surat Izin Usaha Perdagangan Melalui Sistem Elektronik (SIUPMSE): Under the ministry of trade, â€œtrade business license for companies conducting the buying or selling of goods and services through electronic systems.â€
+PSE (Penyelenggara Sistem Elektronik): issued by KOMDIGI (the Ministry of Communication and Digital Affairs in Indonesia),required for any business that â€œmanages, collects, processes, or stores electronic data.â€
+Data Centre & Cloud Licensing: under Kominfo regulations, â€œcloud servers or data centres may require additional telecom and digital infrastructure permitsâ€
+post-NIB licensing: tech Commercial/Operational Licenses depending on their risk level and service categories
+Import Licensing: â€œE-commerce platforms relying on cross-border transactionsâ€
+Harmful toward business progress
+When entry depends on connections, there is reduced competitive pressure, weaker incentives to innovate, and a bias toward rent-seeking (capturing protection) over productivity.
+Succession pointer
+Entrant threats often increase when NextGen modernises (tech, transparency). But senior resistance can freeze change: 43% of Indonesian NextGen cite senior resistance as a key barrier; 19% delay succession due to uncertainty. 
+2) Rivalry Among Existing Competitors
+Economic points
+Many dynastic groups are diversified conglomerates: rivalry is often portfolio rivalry (access, land, distribution, capital) rather than single-industry price wars.
+A big turning-point theme: some ASEAN conglomerates have limited exposure to growth sectors (tech/healthcare) due to lower risk appetite. 
+family enterprises continue to rely on mergers and acquisitions (M&A)
+Dominance and growth:
+â€œ17 family enterprises in Southeast Asia made it to the top 500 list, including Indonesia (2), Malaysia (3), the Philippines (5), Singapore (3) and Thailand (4).â€ EY article
+Generating US$146b revenue, and employment levels of 875,000 people, compared to US$119b and close to 850,000 people in 2023 
+47% of ASEA big family firms have engaged in 1 or more transactions in the last 1 years, and of the public deals 34% of transactions exceeded US$250 million 
+â€œFamilies in Asean generally tend to reinvest a significant portion of their profits back to the family enterprise. This brings long-term and sustainable growth for these enterprisesâ€
+â€œJapanâ€™s Takenaka Corporation wears the crown of oldest family enterprise in the Index, having been in business for 414 years.â€ Article 2
+a significant majority of Asia Pacific NextGen (84%) have expressed a personal interest in GenAI. Howeverâ€¦ only less than half (42%) consider themselves knowledgeable about GenAI.Link
+the Asiaâ€“Pacific region will be growth driven not just by public but also private capital markets Mckinsey article
+Switching costs: WealthTechs use technology and AI to transform investment management to oversee family public and private assets, they offer attractive rates due to scalable technology solutions and commission fee structures.
+Harmful toward business progress
+Risk aversion and â€œwealth preservationâ€ bias can suppress rivalry on innovation, and competition becomes about who has better patronage + assets, not better products.
+Succession pointer
+Rivalry intensifies when leadership changes are messy: professionalisation, governance, and faster transitions are repeatedly flagged as necessary to keep edge. 
+3) Supplier Power
+â€œSuppliersâ€ broadly: capital, land, permits, and key inputs.
+Economic points
+In regulated sectors, the state can function like a mega-supplier (permits, export quotas, spectrum, land use), raising supplier power when rules are discretionary.
+Between 2023 and 2030, ultra-high-net-worth (UHNW) and high-net-worth (HNW) families in the Asiaâ€“Pacific region are going to have intergenerational wealth transfer estimated at $5.8 trillion. UHNW families are expected to account for about 60 percent of the total wealth transfer. Mckinsey article
+Insurers: improving risk models using data and analytics to minimize losses from large sums assured, an avenue for exclusive collaboration with reinsurers
+Banks offer financial stability through robust capital management and strong cybersecurity programs to keep personal information safe
+MFOs offer customized investment strategies, custodial services and tax and legal advisory (MFOsâ€™ fee structures are primarily performance-based: about 50-60% of their fees derived from performance fees)
+Wealthtechs: better rates, niche investment strategies align closely with single-family office needs, public and private market integration.
+Indonesia family business scale is macro-significant: papers summarise that family firms reach ~40% of market cap and contribute 80%+ of GDP (so the supplier ecosystem adapts around them). 
+â€œ65 and 80 percent are owned by family businessesâ€¦ contribute between 70 percent and 90 percent of global GDPâ€
+Hong Kong and Singapore are hubs for family business because of tax benefits and clear regulationsâ€¦
+â€œaccess to traditional and nontraditional investment avenueâ€¦ In 2023, Hong Kong and Singapore each managed roughly $1.3 trillion in offshore assetsâ€ where Wealth is  coming from within the Asiaâ€“Pacific (led by mainland China, India, and Indonesia, etc)
+Indonesian culture highlight
+Paternalistic systems can create supplier dependence: suppliers may prefer stability + protection via the â€œfather figureâ€ leadership model. 
+Harmful toward business progress
+When supplier relationships are relational/political, you risk opaque pricing, related-party transactions, and lower productivity from weaker market discipline.
+Succession pointer
+Supplier leverage rises during transitions: uncertainty lets banks/suppliers demand tougher terms, especially if succession is delayed or contested. 
+4) Buyer Power
+Buyers include consumers, corporate customers, and (in many sectors) the government as a buyer (procurement).
+Economic points
+Buyer power is lower when conglomerates control distribution channels/land/market access; higher when buyers can switch to imports/digital alternatives.
+â€œBanks and MFOs have been at the forefront of serving Asiaâ€“Pacificâ€™s wealthy families. However, other types of providers are expanding into the family office space to target the needs of wealthy families in line with consumer demand. Insurers, in particular, are setting up teams to directly engage with family offices to provide highly customized solutions with a focus on estate planning; asset managers often receive direct mandates from family offices for traditional and alternative investments; and WealthTechs are gaining traction in the family offices ecosystem. This results not only in innovation for customers but also in the opportunity for providers such as banks and insurers to collaborate and expand their offerings to meet this segmentâ€™s needs.â€ Mckinsey article 
+â€œReputationâ€ and â€œpurposeâ€ are increasingly framed as competitive levers in family businesses (buyers care about trust, ESG, quality).
+Greater information advantage:
+Banks have family fund structures in-house, providing single-family offices with comprehensive services at competitive costs, and single-family offices integrated financial services, including access to research and various credit and investment products.
+â€œFor example: DBS Private Bank has launched the DBS Multi Family Office Foundry VCC (DBS MFO), which is, in DBSâ€™s words, â€œthe worldâ€™s first bank-backed multi family office that leverages Singaporeâ€™s Variable Capital Company (VCC) structure. It offers an alternative option for affluent families to manage their wealth in Singapore, without having to establish their own Single Family Office. Through DBS MFO, clients will be able to access a full suite of investment servicesâ€”from investment management, trade execution, to custody solutionsâ€”via a single integrated platformâ€
+Indonesian culture highlight
+Loyalty norms (family + long-standing relationships) show up as a reported strength in Indonesian family firms, this can reduce buyer churn. 
+Harmful toward business progress
+Buyer power can be artificially weakened by patronage networks (buyers â€œlockedâ€ by relationships), which can reduce pressure to improve quality/price.
+Succession pointer
+NextGen often has the best shot at rebuilding buyer trust through modern governance, transparency, and digital service, but only if theyâ€™re actually empowered (senior resistance is the blocker). 
+5) Threat of Substitutes
+Substitutes = new business models that bypass old networks: tech platforms, cross-border competitors, decentralised finance, direct-to-consumer, etc.
+Economic points
+ASEAN conglomeratesâ€™ low exposure to tech/healthcare is exactly where substitutes emerge fastest, making disruption a real strategic threat. 
+PwCâ€™s family business survey framing: disruption rewards firms with purpose + agility + governance; performance is diverging, and only ~1 in 4 hit double-digit growth globally. 
+In 2024, â€œonly 9% of Asia Pacific family businesses having established protocols on the responsible use of emerging technologies like AIâ€ link. 
+Indonesian culture highlight
+Bapakismâ€™s authoritarian/paternal character is explicitly described as unlikely to support certain modern leadership needs (i.e., adaptability/psychological safety), which can worsen substitute risk. 
+Harmful toward business progress
+Substitutes win when incumbents are too conservative, overly centralised, or treat disruption as â€œriskâ€ rather than opportunity.
+The NextGen in Asia Pacific have more pronounced trust issues: â€œMore than three-quarters (76%) of them believe there is a low level of trust between NextGen family members and the current generationâ€ link
+â€œ80% of these future stewards also feel that there is a lack of trust between family and non-family membersâ€
+Rising operational costs: â€œpersonnel costs are typically the largest expense category for a family office, accounting for about 45 to 65 percent of operating expenses for a single-family office with $15 million to $500 million in AUMâ€
+â€œThere is increased attrition in talent, especially in less professionalized family offices. Greater efforts are needed to improve retention because when professionals are removed from structured environments like banks, they lose access to critical information, knowledge bases, and networks, which may prompt them to seek new employment opportunities.â€said Aik-Ping Ng, head of family office advisory, Asia Pacific, HSBC, and Edith Ang, head of family advisory, Asia Pacific, HSBC Global Private Banking link
+Family offices in the Asiaâ€“Pacific regionâ€¦ they have limited access to tailored alternative investment solutions such as access to early-stage start-ups, pre-IPOs, and institutional-grade infrastructure solutions, despite strong interest Mckinsey Article 
+Asiaâ€“Pacificâ€™s family offices currently have limited engagement with insurers
+â€œeducate families on the potential of insurance to enable families in their wealth transfer and preservation process, such as insurance policies covering multiple generations of beneficiaries across the globe, or policies providing liquidity during estate transfersâ€
+Succession pointer
+Practical â€œanti-substituteâ€ succession cues: structured succession planning, governance that allows faster leadership transition, and openness to professional/female leadership are repeatedly emphasised. 
+Cultivate relationships: â€œcollaborate with other professionals, such as tax advisers and legal advisersâ€ Mckinsey Article
+Insurers can build an ecosystem for value-added services: tax advisory, immigration support while serving families in multiple jurisdictions, legal support, etc
+ Access to the private market and alternative investments is a massive opportunityâ€¦ education is essential to enable family offices to invest in this area effectively
+Depending on the family businessâ€™s AUM, technology costs are about 3-7% of total expenditures, so more calls for efficient data management and operational execution: service providers to streamline onboarding experience, and enabling data-driven insights for greater customer engagement.
+collaboration between providers where WealthTechs can play a critical role in enabling the family office technology
+MVP
+Functions and Features of an MVP
+Interface that's engaging and visually appealing + easy to use (website or app)
+3 core features in a menu: 
+matchmaking (find new connections or find already existing connection + rate the strength in stars)
+Visualization: interactive 2d world map showcasing your network and colored lines to indicate the strength of connection
+Profile: opens a new tab/window where user can input information + add cv to be parsed for keywords 
+Requirements
+Which APIs? 
+Which software for what?
+Each situational judpement simulation gives you a score on what a skill ranks (ranking how you would deal with a situation): e.g. critical thinking, stress management, creativity, etc (hidden metrics fro calculations)
+Limitation address: foundations for these tests will be a lot more complex with greater development 
+Macroeconomics situation: supply chain diruption
+Requirements 
+APIs:
+CV Parsing: ApyHub Sharp API, RChilli, Affinda, Skima AI.
+World Map: Google Maps API, Mapbox, Leaflet, OpenLayers.
+Auth: Firebase Auth/Google OAuth.
+Software:
+Frontend: React.js/Next.js (UI).
+Backend: Node.js/FastAPI (logic/API handling).
+Database: MongoDB/PostgreSQL (user data/networks).
+Real-time: Socket.io (updates).
+Cloud: Firebase/AWS (hosting/storage).
+More Requirement Questions
+Data privacy: GDPR compliance for CV data?
+Authentication: Social logins needed?
+Scalability: Handle 10K users?
+Monetization: Premium tiers structure?
+Testing: Beta user metrics?
+1. Define the Simulutaion grading Framework
+Identify the specific traits you want to measure: skills for specific leadership-related competencies. 
+Create Scenarios: Develop interactive scenarios that require action (e.g., managing a crisis, dealing with a difficult teammate) to reveal these traits.
+Mask the Variables: Design tasks simply enough that competence does not influence the result, but complex enough to hide the trait being measured (e.g., measuring "creativty" by offering a choice to cooperate or compete in a business simulation). 
+2. Develop Scoring Model
+Map specific user actions to personality traits using a structured scoring system, such as a Likert scale or weighted points. 
+Assign Points: Assign numerical values to choices, where, for example, "iniative" choices increase a "Confrontation" score, while "moderate" choices increase an "Agreeableness" score.
+Use Variable Tracking: Implement variables in your simulation code to track scores for each trait throughout the experience. 
+3. Calibrate the Scoring System
+Calibration ensures that the scores are accurate and reflect real differences in personality, not just noise. 
+Set Score Ranges: Define ranges for each personality trait based on potential minimum and maximum scores.
+Use Normalization: Convert raw scores into percentages of the total possible points to ensure consistency across different simulation lengths.
+Account for Faking: Include a "Social Desirability" scale to deal with the tendency of users to pick the "best" answer rather than their honest one. 
+4. Implement Simulation-Based Calibration (SBC)  (testing)
+To ensure the simulation accurately measures what it intends to, use SBC, a technique that validates the model against a known "true" value. 
+Generate Data: Create simulated "agents" with known, randomized personality profiles.
+Compare Results: Run the simulation with these agents and compare their generated scores (the posterior) with their known profiles (the prior).
+Uniformity Check: the rank statistics of the simulated data should be uniformly distributed, indicating the simulation accurately predicts the underlying personality traits. 
+Example of Simulation Calibration
+If measuring Conscientiousness:
+Scenario: A project deadline is approaching, and a piece of data is missing.
+Action A (High Conscientiousness): Spend extra time finding the data. (Score: +5)
+Action B (Low Conscientiousness): Estimate the data and submit. (Score: +1)
+Calibration: After 20 such scenarios, the user's total score is divided by the maximum possible score (100) to get a percentage, which is then mapped to a "High" or "Low" category. 
+Maya:
+Look at MAKI (gamified judgement tests for CVs)
+Economic wide repercussions for succession rates research 
+Draft up key skills and tests for simulation hypotheticals 
+Simulation research
+Gamification and Soft Skills Assessment in the Development of a Serious Game: Design and Feasibility Pilot Study
+â€œSeveral international studies have shown that soft skills are critical to our future success, and their importance is recognized by education providers, academics, human resource departments, and businesses [65-68].â€
+â€œThis research aims to understand how companies and economic organizations that recruit, hire, and develop professionals at a medium to high-level view and value soft skills in their human resource development processâ€
+Methodology of testing:
+To assess communication [71], the communicative style (aggressive, passive, or assertive) [72-74] was adopted, and for problem solving, models, such as DMAIC (Define, Measure, Analyze, Improve, and Control) [75] and Problem Solving Inventory (PSI) [76], were used. Team working and related skills developed in group environments are highly sought after by recruiters when hiring [77]. The research was inspired by the Comprehensive Assessment of Team Member Effectiveness (CATME) [78], and for decision-making, the cognitive style (a personâ€™s preferred way of thinking and tendency to adopt certain strategies more frequently) [79] was evaluated using the General Decision-Making Styles (GDMS) scale [80]. Time management, as theorized by Lakein [81] and others, was assessed using the time management behavior scale [82]. Soft skills are increasingly recognized as critical to future success and are valued by those in education, academia, and human resource departments
+This study proposes an immersive serious game model, called AOC, which aims to evaluate 5 important soft skills sought after in the job market, namely, problem solving, team working, time management, decision-making, and communication:
+In this study, communication was defined as the ability to transmit information effectively, while problem solving was defined as the ability to use ICT to understand and process problems and actively use knowledge to find solutions.
+Soft skills can make a significant difference in the business environment, and serious games are particularly effective at evaluating them because they can be assessed in various contexts and methods [12,13], including through self-assessment.
+Pilot study metrics inside article
+Constructing Cognitive Profiles for Simulation-Based Hiring Assessments
+McKinsey has a Game-Based Innovation Lab (GBIL), a team of 25 colleagues focused on creating digital games for recruitment. These immersive, simulation-based assessments are designed to evaluate cognitive processes beyond traditional tests that rely heavily on speed and memory recall.
+The simulations place candidates in abstract, natural-world environments, for example, solving scientific problems such as differentiating microbes, allowing them to think and operate within a dynamic scenario. This approach reflects an interesting shift toward assessing how individuals reason and make decisions in complex, diverse contexts. Rather than focusing purely on correct or incorrect answers, the emphasis is on the strategies candidates use to solve problems (Kantar et al., n.d.).
+Imbellus built the framework for problem-solving methods used by McKinsey consultants, mapping these cognitive approaches into simulated game environments. Throughout the simulation, behavioural data is continuously tracked, generating evidence-based statements that calibrate a score. These â€œImbellus scoresâ€ were validated through rigorous pilot studies conducted on McKinsey employees from 2017 onwards, and further tested against real hiring outcomes to assess predictive accuracy (Kantar et al., n.d.).
+upper-echelons-theory
+At the heart of UET lies the proposition that senior-level executives' cognitive base and values, reflected in observable characteristics such as age and education, affect how they interpret and respond to strategic situations through their choices, thereby influencing organisational performance (Hambrick & Mason, 1984).
+Managers that have accrued their experience mainly from throughput functions, such as production and accounting, place emphasis on efficiency-related issues, whereas managers with more experience in output functions, such as marketing and R&D, favour innovative strategies that can enable business growth (Barker & Mueller, 2002).
+Managers that have accrued their experience mainly from throughput functions, such as production and accounting, place emphasis on efficiency-related issues, whereas managers with more experience in output functions, such as marketing and R&D, favour innovative strategies that can enable business growth (Barker & Mueller, 2002).
+Bias- monitoring aspect: 
+If managers have great discretion, their characteristics will be highly reflected in organisational outcomes. However, managerial characteristics cannot predict organisational outcomes if discretion is lacking.
+Empirical research has consistently supported the importance of managerial discretion as a boundary condition of UET. The effect of CEO characteristics on organisational performance was found to be significantly stronger in high-discretion (e.g., US) than in low-discretion (e.g., Japan) national contexts (Crossland & Hambrick, 2011).
+TMT characteristics have a greater influence on strategic change decisions in high-discretion industries (e.g., computer industry) than in low-discretion ones (e.g., natural gas industry) (Finkelstein & Hambrick, 1990). The relationship between upper-echelon characteristics (i.e., TMT size and CEO dominance) and firm performance has been found to be significant in high-discretion environments but non-significant under conditions of low managerial discretion (Haleblian & Finkelstein, 1993).
+Top management team:
+ Heterogeneous TMTs encapsulate divergent perspectives, expertise, and knowledge bases, enhancing decision-making quality, especially when encountering ill-defined and novel situations (Nielsen, 2009). Diverse teams are willing to challenge each otherâ€™s viewpoints and be more comprehensive when making strategic decisions
+Scholars have established the applicability of UET across different national contexts, including both Western and Eastern countries (Geletkanycz & Black, 2001; Wiersema & Bantel, 1992; Wiersema & Bird, 1993), different industries, including both the services and manufacturing sectors (Lee & Park, 2006; Lin & Rababah, 2014; van Doorn, Heyden & Volberda, 2017), and different types of firms, including large, mature organisations as well as SMEs and newly founded companies (Carpenter, 2002; Escriba-Esteve, Sanchez-Peinado & Sanchez-Peinado, 2009; Reuber & Fischer, 1997). For instance, Geletkanycz and Black (2001) utilised data from 20 countries to confirm UET predictions that managerial characteristics (i.e., functional experience) exert significant influence on decision-making (i.e., the tendency to change organisational strategies).
+Frameworks & draft of scenarios: 
+Leadership skills:
+Strategic thinking
+Ethical judgment
+Stakeholder management
+Risk assessment
+Communication choices
+Cultural awareness
+Scenarios: 
+You are CEO of a family conglomerate with:
+shipping
+palm oil
+real estate
+fintech
+A crisis unfolds:
+Indonesian export restrictions
+Cousin accused of corruption
+Bank tightening credit
+Players must navigate 20+ branching decisions.
+Scores:
+financial performance
+family stability
+reputation
+employee trust
+Leadership tests: 
+Situational Judgment Tests (SJTs)
+Situational Leadership Theory (Herseyâ€“Blanchard)
+Directing â€“ high guidance, low support
+Coaching â€“ high guidance, high support
+Supporting â€“ low guidance, high support
+Delegating â€“ low guidance, low support
+Frameworks for branching games: Players must decide from simulation (testing family relationships, firm performance, governance credibility): 
+â†’ your family member is misconducting work but you must navigate remedying this. 
+â†’ delegate task specialisation (like in microbes sorting in mikinsey test)
+â†’ how would you deal with psychological, Diversity issues, and value evoking situations
+Give detailed instructions
+Let them lead with mentorship
+Assign a professional external manager
+Delegate entirely
+Possible scenario: Founder is retiring.
+Candidates:
+eldest son (charismatic but reckless)
+professional CEO
+younger daughter (competent but undervalued)
+Player must balance:
+family unity
+investor confidence
+long-term growth
+Strategic Leadership Framework (Upper Echelons Theory)
+Firm outcomes reflect executive cognition, biases, and experience.
+How CEO recognises and works with influences of:
+background
+culture
+risk tolerance
+Ideology
+Scenario: Currency crisis
+A sudden depreciation hits ASEAN currencies.
+Player must decide:
+hedge aggressively
+diversify exports
+delay investment
+borrow in USD
+Game tests cognitive framing of macro signals.
+Vroom-Yetton decision model
+Five decision styles:
+AI â€“ leader decides alone
+AII â€“ leader gathers information then decides
+CI â€“ consult individuals
+CII â€“ consult group
+GII â€“ group consensus
+Scenario: A family manufacturing firm must automate production.
+Constraints:
+union pressure
+cousin runs the factory
+capital is limited
+The player chooses a decision style.
+Game evaluates:
+employee morale
+speed of decision
+financial performance
+family trust
+OODA Loop (Military Strategic Thinking)
+Observe: Did they recognize informal power dynamics?
+Orient: Did they interpret it as cultural vs structural?
+Decide: Direct vs indirect action
+Act: Aggressive vs adaptive
+Scenario: Supply chain shock
+Port closures disrupt exports.
+Players must quickly:
+gather information
+interpret market signals
+decide on new suppliers
+communicate to stakeholders
+Game measures:
+speed
+Adaptability
+Situational awareness
+Moral Leadership / Ethical Decision Framework (Rest Model)
+Leaders must pass through four ethical stages:
+Moral awareness
+Moral judgment
+Moral intention
+Moral action
+Scenario: Political corruption
+Local officials demand informal payments to approve a project.
+Choices:
+pay bribe
+refuse and delay project
+partner with another firm
+escalate to regulators
+Outcomes affect:
+reputation
+profits
+regulatory scrutiny
+This is especially relevant in emerging market contexts.
+Behavioral Economics Leadership Framework
+Uses biases such as:
+loss aversion
+sunk cost fallacy
+groupthink
+Overconfidence
+Scenario: failing expansion
+The firm has invested $200M in an Indonesian project.
+Players must decide:
+double down
+exit early
+restructure
+Game tests bias recognition.
++++++++
+Miyake paper: factor analysis 
+Matrix tests and fluid intelligence : segment complex problems and think about specific lines and such 
+When yo compare difficult and easy task: the high cognitive and low cognitive load: interesting comparisons 
+MULTIPUL DEMAND SYSTEM: more activated the more you break up and analysis 
+What makes it general and flexible
+Possible situations: 
+Scenario
+SJT Focus
+OODA Focus
+Vroom-Yetton
+Biases Tested
+Crisis Layer
+Founder Shadow
+authority decisions
+power interpretation
+consult vs act
+ego, authority
+political instability
+Political Access
+ethics choices
+moral framing
+legal consultation
+moral licensing
+regulatory crisis
+Legacy Division
+capital allocation
+emotional detachment
+family involvement
+sunk cost
+liquidity stress
+Talent vs Loyalty
+people decisions
+conflict reading
+consult HR
+favoritism bias
+team breakdown
+Crisis PR
+communication
+speed vs clarity
+centralized vs team
+defensiveness
+reputational crisis
+Overexpansion
+financial strategy
+macro interpretation
+CFO involvement
+overconfidence
+financial crisis
+Boardroom
+negotiation
+power mapping
+stakeholder inclusion
+loss aversion
+leadership removal
+Cultural Integration
+adaptation
+cultural framing
+local consultation
+ethnocentrism
+integration failure
+AI Automation
+future planning
+tech interpretation
+workforce inclusion
+status quo bias
+social backlash
+Succession
+legacy thinking
+identity framing
+board/family
+nepotism bias
+governance crisis
+Example of possible game play:
+Conextual Situations
+1st Situation: A team member bypasses your authority as project leader and directly contacts the client, which leads to mismanagement of timelines for the project, resulting in confusion and potential loss of trust.
+Give detailed instructions: 4
+Let them lead with mentorship : 3
+Assign a professional external manager: 2
+Delegate entirely: 1
+OODA:  
+Context: to solve this issue, youâ€¦ 
+quickly call the client to try to remedy the situation with your expertise (0)
+Ask the group member why they bypassed the decision, and understand how to remedy the situation from their feedback. (3)
+gather information on potential harm caused by a mishap, have a group member inform you what led them to make their call, then decide on action. (4)
+Decide to let the group members, eager to redeem themselves, discuss the problem with them. (2)
+What importance is most relevant to you before deciding your next steps: 
+Client is frustrated but still open to continuing (4)
+Team member claims they prioritise urgency but lack clarity (4)
+Internal deadlines communication was not clear (2)
+Senior leadership is now aware of your management situation (1)
+Vroom-Yetton decision model
+What to do from here:
+1 = fully autocratic 
+2 = info-seeking but solo decision
+4 = consult selected individuals
+3 = consult group 
+decides entirely alone = too narrow
+asks everyone for consensus = too slow
+targeted consultation + firm decision = best
+AI â€“ leader decides alone
+AII â€“ leader gathers information then decides
+CI â€“ consult individuals
+CII â€“ consult group
+GII â€“ group consensus
+(collaboration score)
+new situation (Economic situation + Bias detection):  â€œWhat do you do with the failing division?â€
+Options:
+A. Continue investing to recover lossesâ†’ Sunk cost fallacy (high vulnerability)
+B. Maintain division but reduce exposureâ†’ Status quo bias (moderate vulnerability)
+C. Shut down and reallocate resourcesâ†’ Bias resistance (rational)
+D. Ask leadership to decideâ†’ Avoidance / low ownership (neutralâ€“weak)
+Which information matters most right now? (pick 2â€“3)
+Their past contributions to the company
+Current performance metrics
+Feedback from teammates
+Their explanation for underperformance
+Impact on project deadlines
+A â†’ Loyalty-Driven Leader
+High endowment effect
+B â†’ Strategic Thinker
+Balanced, low bias
+C â†’ Overconfident Executor
+Action > understanding
+D â†’ Emotionally Reactive Operator
+Loss aversion + avoidance
+(leadership style identification)
+Overall uses: STJ (Hersey-Blanchard), OODA style, Vroom -yetton, Economic bias testing
+2nd situation: One of your core product lines is declining due to market shifts (new competitors + changing consumer demand). Revenue is falling, but it has historically been your most profitable segment.
+SJT How do you structure your team to handle this situation?
+Give detailed instructions â†’ 4
+Let them lead with mentorship â†’ 3
+Assign an external specialist â†’ 2
+Delegate entirely â†’ 1
+ OODA â€“ Immediate Response (Observe + Orient)
+To address the situation, youâ€¦
+Immediately increase investment to regain market share â†’ 0
+Analyse market trends + ask team for internal insights before acting â†’ 4
+Speak to senior leadership before forming a view â†’ 2
+Wait to see if market conditions improve â†’ 1
+ Information Priority (Orientation Layer)
+What information is MOST relevant before deciding? 
+Competitor performance and Macroeconomic intel â†’ 4
+Historical success of the product line â†’ 1
+Internal team confidence in the product â†’ 2
+Market demand trends â†’ 3
+How do you proceed with the decision?
+Decide alone quickly â†’ AI (1)
+Gather data, then decide alone â†’ AII (2)
+Consult key team members â†’ CI (4)
+Discuss with full team â†’ CII (3)
+Seek full consensus â†’ GII (1 â€“ too slow)
+â€œWhat do you do with the declining product line?â€ (economic biases)
+ Increase investment to recover market share
+â†’ Sunk Cost Fallacy / Overconfidence
+ Maintain product because of previous sucess but reduce exposure gradually
+â†’ Status Quo Bias (Endowment effect)
+ Reallocate capital to higher-growth opportunities
+â†’ Bias Resistance (Rational, forward-looking)
+ Delay decision until clearer signals emerge
+â†’ Loss Aversion / Emotional Avoidance
+Emotionally Reactive Operator
+Delays decision
+Focuses on risk avoidance
+Influenced by uncertainty
+ Loss aversion dominant
+Overconfident Executor
+Invests aggressively
+Ignores market signals
+Acts fast without full orientation
+Overconfidence + low info_score
+Strategic Thinker
+Prioritises:
+market trends
+profitability
+future growth
+Reallocates capital rationally
+low bias
+ Loyalty-Driven Leader
+Focuses on:
+historical success
+brand identity
+emotional attachment
+Endowment effect
+Outputs for both situations: situational judgement basic score & OODA score (responsiveness and constructive analysis of information before acting) + collaborational score + give them an leadership style to understand broadly assign
+Explanation around the contextual situations: 
+The Assessment Framework: How This Simulation Tests Leadership
+This simulation places you in realistic business scenarios designed to reveal how you think, decide, and lead under pressure. Rather than testing knowledge directly, it measures the cognitive and behavioural patterns that research consistently identifies as markers of effective leadership. Four distinct psychological and strategic frameworks operate simultaneously across each scenario, each targeting a different dimension of leadership capability.
+Situational Judgement: Hersey and Blanchard's Situational Leadership Model link
+The first layer of each scenario measures how you handle yourself in situational judgment contexts, Hersey and Blanchard's Situational Leadership Model proposes that there is no single best way to lead effective leaders shift between four distinct modes depending on the competence and motivation of those they are working with: directing (high guidance, low relationship support), coaching (high guidance, high support), supporting (low guidance, high support), and delegating (low guidance, low support).
+What the simulation is testing here is whether you instinctively recognise what a situation requires. A team member who is inexperienced but eager needs structured direction, not full autonomy. A capable but demotivated colleague needs support and trust, not micromanagement. The scoring reflects how well your chosen response matches the developmental needs implied by each scenario, scoring low for over-control, and where autonomy was appropriate, and under-involvement, where guidance was needed. Strong leaders should display delegation and guidance to those they are mentoring.
+Strategic Decision-Making: The OODA Loop link
+The second layer tests the quality of the stereotypical thinking and decision-making process. The OODA Loop, Observe, Orient, Decide, Act, was developed by Colonel John Boyd for the United States Air Force as a framework for strategic thinking under time pressure and uncertainty. Boyd observed that the most effective decision-makers were not those who acted fastest, but those who cycled through the loop most intelligently: gathering the right information, interpreting it correctly within context, then committing to decisive action.
+In this simulation, the OODA layer specifically tests whether you pause to orient before acting. The observation stage asks what information you seek out and whether you recognise the informal, structural, or psychological dynamics at play, not just the surface-level problem. The orientation stage asks how you interpret that information: do you read a conflict as a cultural issue, a structural failure, or a personality problem? Each interpretation leads to a different decision. The decision and action stages then test whether you move decisively once oriented, or whether you defer, hesitate, or react before thinking.
+The framework penalises two failure modes equally: acting immediately without adequate observation (impulsive, reactive leadership) and gathering information indefinitely without committing to a decision (avoidant, indecisive leadership). The highest scores go to responses that demonstrate structured thinking, gathering targeted information, interpreting it in context, and then acting with clarity.
+Collaborative Intelligence: The Vroom-Yetton Decision Model link
+The third layer measures how you involve others in your decisions. The Vroom-Yetton model identifies five decision styles on a spectrum from fully autocratic to full group consensus: deciding alone (AI), gathering information then deciding alone (AII), consulting selected individuals (CI), consulting the full group (CII), and seeking complete group consensus (GII). The model's core insight is that neither always deciding alone nor always seeking consensus is optimal leadership. The right level of consultation depends on three factors: how much information you actually hold, how important buy-in from others is to successful implementation, and how time-sensitive the decision is. A leader who always decides alone misses critical information and alienates their team. A leader who always seeks consensus is too slow and diffuses accountability.
+This simulation scores your collaborative instincts by placing you in situations where one of these failure modes is clearly tempting, and rewarding the response that correctly identifies the appropriate level of consultation for the specific context. Targeted consultation combined with a firm, owned decision consistently scores highest.
+Cognitive Bias Detection: Behavioural Economics Leadership Framework
+The fourth layer operates beneath the surface of each economic or strategic choice, testing whether your decisions reflect rational, forward-looking analysis or are distorted by well-documented cognitive biases. The specific biases the simulation targets are: sunk cost fallacy (continuing to invest in a failing course of action because of what has already been spent, rather than what future returns justify), status quo bias (preferring inaction or the familiar option disproportionately), loss aversion (overweighting potential losses relative to equivalent gains, leading to risk-avoidant or emotionally driven decisions), and overconfidence (acting on incomplete information as though certainty exists).
+This framework connects to Upper Echelons Theory, which proposes that leaders' decisions reflect their cognitive characteristics, their backgrounds, experiences, risk tolerances, and implicit biases as much as the objective facts of a situation. Scholars, including Geletkanycz and Black (2001), drawing on data from twenty countries, confirmed that managerial characteristics measurably influence strategic choices across different national and organisational contexts. By identifying which biases appear most prominently in your responses, this layer generates a leadership archetype that reflects your current cognitive tendencies, not as a fixed label, but as a starting point for self-awareness and targeted development.
+The four archetypes the simulation identifies are: the Strategic Thinker (forward-looking, bias-resistant, reallocates resources rationally), the Loyalty-Driven Leader (strong relational instincts, susceptible to endowment effects and historical attachment), the Overconfident Executor (action-oriented and decisive, but prone to acting before adequate orientation), and the Emotionally Reactive Operator (risk-conscious but vulnerable to loss aversion and avoidance under uncertainty).
+What Your Scores and Output Mean
+Each scenario generates four outputs that together build a profile of your current leadership tendencies: a situational judgement score reflecting how well you adapt your leadership style to context, an OODA score reflecting the quality and structure of your decision-making process, a collaboration score reflecting how intelligently you involve others, and a leadership archetype reflecting the cognitive biases most active in your economic and strategic choices.
+These scores are not intended as a definitive assessment of your leadership ability. They are a baseline and indicator that reveals patterns in how you currently think and decide, giving you and your network a shared language for understanding strengths to build on and tendencies to examine. The value of the archetype in particular lies in its use for connection: finding others in your network who score differently than you in specific areas creates genuine opportunities for learning, challenge, and complementary collaboration.
+Questions/ Interviews
+Potential Questions (Maya): 
+Pain points/ Gaps:
+What are the key skills you believe leadership and owning your own business require?
+What do you find hardest about becoming a better leader or entrepreneur?
+Do you feel like learning from others and people with skills you are weak in, or similar values helps you grow? Or do you prefer to independently work?
+How easy is it for you to meet people who actually challenge your thinking or complement your skills?
+When you connect with people on platforms like LinkedIn, do those interactions actually lead to meaningful conversations?
+Introducing idea: 
+If there was a platform where you could go through real business scenarios and get feedback on your decisions, how useful would that be to you?
+Have you ever been in a situation where you had to make a difficult business or leadership decision? What did you do?
+Do you find it hard to connect with people through cold emailing or is linkedin or other connecting networks not very in-depth
+Do you like simulative contextual games, and do you think you would like to see what other people with similar or contrasting situational judgement would have to say?
+Would you prefer something like this to feel more like a structured course, or more like an interactive experience?
+If you could design the perfect platform to become a better leader, what would it look like?
+Why? 
+What would make you actually want to message or respond to someone on a platform like that?
+Profitability?: 
+If this platform could genuinely help you improve your decision-making and connect you with the right people, would you pay for it?
+Which of these would matter more to you:
+Certificates
+Skill improvement
+Networking opportunities
+Career opportunities
+Daniel
+Survey Questions: 
+Screener (Q1â€“2)
+Are you currently involved in a family owned business, or do you expect to take on a leadership role in one within the next five years?
+What is your current role? (Student / NextGen family business member / Young professional / Other)
+Problem validation (Q3â€“6)
+3. How prepared do you feel for senior leadership or succession responsibilities in a business context? (1 = not at all, 5 = fully prepared)
+4. What is the biggest barrier to your leadership development right now?
+5. Have you ever used a digital tool, course, or platform specifically to develop business decision making skills? If yes, which one?
+6. How relevant is the following to your situation: "I need to demonstrate my leadership capability to seniors or a board, but I have no structured way to do it." (1 = not relevant, 5 = very relevant)
+Solution validation (Q7â€“9)
+7. If a platform existed that let you practise real business crisis scenarios (succession, financial stress, governance conflict) and gave you a certificated profile at the end, how likely would you be to use it? (1â€“5)
+8. How much would you pay per month for access to that platform? (Free only / Â£5â€“10 / Â£10â€“25 / Â£25+ / Would only use if provided by university or employer)
+9. What would make you trust the platform's assessment of your leadership skills? (Open text)
+Network angle (Q10)
+10. How valuable would it be to connect with peers who have complementary skills and face similar business challenges matched based on your assessment results? (1â€“5)
+Canvases
+Diagrams
+SWOT + Porters Five Forces
+SWOT + Porters Five Forces
+SWOT Analysis
+Strengths
+Academically defensible assessment methodology, not just gamification.
+The simulation engine is grounded in frameworks with serious pedigree: McKinsey's Imbellus approach to behavioural scoring, Hambrick and Mason's Upper Echelons Theory, the Vroom-Yetton decision model, Boyd's OODA Loop, and Rest's four-stage ethical framework. This is not a quiz with a leaderboard. It is a structured instrument that tracks decision strategies, not just decision outcomes â€” the same philosophical distinction that made McKinsey's Game-Based Innovation Lab worth building a 25-person team around. This matters because it creates a credibility moat: a competitor can build a similar interface in months, but replicating validated, published assessment science requires years.
+Precisely timed entry into a structurally under-served market.
+The materials document a convergence of pressures: only 30% of family businesses survive to the second generation, only 15% to the third; 43% of Indonesian NextGen leaders cite senior resistance as their primary barrier to transition; and McKinsey projects a $5.8 trillion intergenerational wealth transfer across APAC between 2023 and 2030. The cohort this platform targets â€” NextGen heirs who are entering decision-making age right now â€” is simultaneously the most asset-heavy and the least supported by purpose-built tools. No mainstream EdTech or leadership development product speaks to the specific pressures of governing a politically connected Indonesian conglomerate through a succession crisis. The platform fills a gap that is real, large, and widening.
+Dual-sided value proposition that compounds over time.
+Most EdTech products offer one of two things: learning content or professional community. This platform offers both, with an explicit mechanism connecting them â€” skill-based peer matching means the network discovery is downstream of the assessment, not independent from it. This creates a compounding dynamic: every simulation a user completes improves the accuracy of their peer matches, which increases the social value of the platform. The network becomes more useful the more users engage with the learning product, and the learning product becomes more motivated as connections become more relevant. This is structurally different from passive content platforms and far harder to replicate than either component alone.
+Cultural specificity as a content moat.
+The scenario design goes beyond generic leadership tests. The Kartika Group simulation embeds Indonesian bapakism, KPK fraud investigations, Bank Mandiri credit covenants, the palm oil export levy, Fitch ratings responses, and specific ASEAN governance dynamics. This is not decorative detail â€” it changes the cognitive load and the realism of the scenario for the target user in a way that a Western platform cannot replicate without domain expertise. The research materials demonstrate depth here: Confucian succession norms, the three-generation proverb, political connection dynamics from the Suharto era, the tension between paternalistic governance and institutional investor expectations. This specificity is the product's intellectual property in the most practical sense.
+Hidden scoring design prevents gaming and builds assessor trust.
+The decision to conceal the scoring rubric â€” mirroring Imbellus's approach â€” is strategically important for two reasons. First, it preserves assessment validity: users cannot reverse-engineer "correct" answers, which means the cognitive profiles reflect genuine decision tendencies rather than performed competence. Second, it creates an information asymmetry that is commercially valuable. Recruiters, university admissions teams, and family business succession advisors can trust the output because the input cannot be manipulated. This positions the platform for institutional B2B revenue streams that most EdTech platforms cannot credibly target.
+Weaknesses
+No primary customer validation exists.
+The entire market thesis rests on secondary research â€” PwC surveys, academic papers, and EY industry analyses. None of the twelve planned customer interviews in the immediate action plan have been conducted yet. The research documents a problem (succession unpreparedness) and a symptom (low agility, senior resistance, generational tension) but has not yet confirmed that the target user will pay for a digital simulation platform as the solution. The assumed willingness to pay is an inference, not evidence. This is the single highest-risk assumption in the model.
+Content creation is a recurring capital cost, not a one-time build.
+High-quality scenarios require sustained investment: expert review, cultural accuracy checks, scoring rubric validation, and regular updates as regulatory contexts change. The Kartika succession scenario is excellent, but it is one scenario. The roadmap requires three. A credible library requires dozens. Producing scenarios at the quality implied by the academic grounding is not scalable through a student team working in sprints â€” it requires either a content operation or an institutional partnership that doesn't yet exist.
+Cold start problem on the network is severe.
+Peer matching is worthless below a critical mass of users. If the platform launches with fifty users from UCL and a handful of pilot contacts, the network tab shows five cards and no meaningful connections. The value proposition that differentiates this from a standard leadership assessment tool â€” the peer discovery layer â€” is entirely contingent on supply-side user density. Without a credible answer to how the platform reaches initial density (a university partnership, a family business association, a cohort program), the network feature will appear broken to early adopters, which damages retention before the product has a chance to prove itself.
+The AI scoring layer lacks validation.
+The bias detection and cognitive profile outputs are academically motivated and methodologically coherent, but they have not been tested against real-world outcomes. Imbellus spent years validating its scores against actual McKinsey hiring decisions before those scores were trusted institutionally. The platform currently generates a Vroom-Yetton profile and a list of triggered biases â€” but a user who scores "overconfidence bias detected in Round 3" has no way to verify whether that assessment is accurate or generic. Without a published validation study or at minimum a pilot with a verifiable cohort, the cognitive profiles are sophisticated presentation rather than validated measurement. This limits institutional credibility, which is where the highest-value revenue is.
+Regulatory surface area is underestimated.
+The MVP materials briefly mention GDPR compliance for CV parsing, but the actual regulatory complexity is more significant. Indonesia's Personal Data Protection Act (UU PDP, effective 2024) imposes specific obligations on platforms collecting and processing personal data of Indonesian citizens. CV parsing generates employment-relevant data. Cognitive profiling and leadership scoring could be considered psychological assessment data in some jurisdictions, which attracts heightened regulatory scrutiny. For a platform targeting Indonesian family business heirs and their financial governance decisions, the regulatory environment deserves more than a line item in an API requirements list.
+Opportunities
+A $5.8 trillion transfer event is creating a buyer that didn't exist five years ago.
+McKinsey's projection of $5.8 trillion in APAC intergenerational wealth transfer through 2030 is not background colour â€” it is the demand generator. Families who control 40% of Indonesia's market capitalisation need a new generation of leaders who can govern publicly listed companies, negotiate with international institutional investors, and navigate regulatory complexity. The preparation gap is documented: 25% of Indonesian family businesses consider themselves agile against a global average of 45%. Only 8% of APAC family businesses have adopted GenAI. The NextGen cohort entering leadership positions right now is the least prepared generation of family business successors in documented history, at exactly the moment the stakes are highest.
+University and association channel partnerships offer low-cost, high-density distribution.
+A single MOU with the entrepreneurship or business faculty of a major Indonesian or Singaporean university â€” UI, INSEAD Asia, NUS Business School â€” could unlock hundreds of pre-qualified users in a single pilot cohort. Similarly, the Indonesian Chamber of Commerce (KADIN) and the Indonesian Young Entrepreneurs Association (HIPMI) represent direct access to NextGen business heirs without requiring mass consumer marketing spend. These institutional channels are high-trust environments where a validated assessment tool has inherent credibility. The business case for partnership is symmetrical: universities gain a differentiating program; the platform gains distribution, legitimacy, and a user base to generate validation data.
+B2B recruiter and succession advisor partnerships represent a premium revenue stream.
+The hidden scoring architecture positions the platform for an enterprise product line that the team has not fully explored yet. Family business succession advisory firms, executive search firms operating in APAC, and corporate governance consultancies all face the same problem: assessing leadership readiness in NextGen candidates without reliable instruments. A platform that generates validated cognitive profiles and bias assessments â€” with traceable, auditable decision records â€” solves a problem that currently costs clients hundreds of thousands of dollars in bespoke psychometric assessments. The B2B price point for this service is orders of magnitude higher than consumer subscription revenue.
+Certification creates both a monetisation mechanism and a retention flywheel.
+The roadmap's tiered certificate system â€” linked to simulation scores and peer/mentor endorsements, validated by Coursera or equivalent â€” solves the "credential to LinkedIn" problem that most assessment platforms fail to address. Once a user's certificates are public and attached to their professional identity, the switching cost becomes reputational as well as functional. This is how LinkedIn built defensibility: the accumulated profile becomes too valuable to abandon. A verified "Next-Generation Business Leadership" certificate from a recognisable academic partner, earned through behavioural simulation rather than passive coursework, is a genuinely novel credential in a market that currently values MBAs and McKinsey tenure above all else.
+The AI commoditisation wave is an asset, not a threat, if positioned correctly.
+The materials note that 60% of Indonesian family businesses see AI as a risk. That framing reveals the opportunity: the platform does not compete with generic AI tools â€” it contextualises them. A scenario that requires a user to respond to a Fitch ratings downgrade, navigate a KPK investigation, and make a succession recommendation under institutional investor scrutiny cannot be resolved by asking ChatGPT. The platform's value is the structure â€” the assessment architecture, the cultural specificity, the network â€” not the AI. As general-purpose LLMs proliferate, purpose-built assessment frameworks with contextual depth and validated scoring become more valuable, not less.
+Threats
+McKinsey, LinkedIn, and Coursera are adjacent and well-resourced.
+McKinsey's Imbellus acquisition demonstrated that serious money follows behavioural simulation as an assessment category. If McKinsey productises its game-based assessment for consumer or student markets â€” a natural extension of its existing tool â€” it arrives with validated scores, institutional brand, and distribution the platform cannot match. Similarly, LinkedIn's learning infrastructure and talent assessment features are a product roadmap update away from adding simulation-based leadership scenarios. The platform's window of differentiation is real, but it is not permanent. The time to build institutional relationships, validate scores, and accumulate user network density is now, while these incumbents are focused elsewhere.
+Cultural sensitivity around family governance creates adoption friction.
+The research documents something the business model has not fully addressed: the matters at the core of the product â€” succession disputes, political connections, family governance failures, generational conflict â€” are deeply private in APAC family business culture. Bapakism and Confucian paternalism both reinforce a norm of managing these issues internally. Asking NextGen heirs to engage with simulated versions of their own family dynamics on a public platform â€” and generate a shareable cognitive profile in the process â€” asks them to make private dysfunction legible. The trust barrier here is not technical; it is cultural, and it requires careful design of privacy architecture, anonymisation options, and institutional trust signals before the core target user will engage authentically.
+Without validation data, the cognitive profiles are marketing, not science.
+The most significant long-term threat is not competition â€” it is credibility. The Imbellus framework succeeded because it was validated against real hiring outcomes over multiple years with a known ground truth (McKinsey consultant performance). The platform's bias detection and Vroom-Yetton profiles currently have no such validation. If an institutional buyer â€” a university, a recruiter, a family business advisory firm â€” subjects the scoring methodology to scrutiny and finds it lacks empirical foundation, the reputational damage to the platform's core differentiator is severe. A competitor who invests earlier in validation studies could displace a well-designed but unvalidated product in the institutional channel.
+Willingness to pay among the primary user segment is unproven and potentially low.
+The most emotionally resonant target user â€” the NextGen family business heir preparing for succession â€” is also one of the least likely to pay a consumer subscription fee for self-improvement software. Wealth does not equal willingness to pay for digital tools; in many cases it inversely correlates. The research documents low agility, senior resistance, and delayed succession â€” these are structural conditions, not symptoms of a market actively seeking solutions. Converting a population that is not yet problem-aware into a paying user base requires either institutional channel distribution (which routes around willingness-to-pay entirely) or a significant brand-building investment that a student team cannot currently fund.
+Porter's Five Forces Analysis
+1. Competitive Rivalry â€” Low to Moderate, but Structurally Evolving
+The competitive intensity within the platform's specific category â€” simulation-based leadership assessment with culturally specific APAC content and integrated peer networking â€” is currently low. No direct competitor occupies this space. The closest analogues operate in adjacent but distinct markets: McKinsey's Imbellus tool is enterprise B2B only, not consumer-facing; MAKI produces gamified CV-based tests without cultural specificity or a network layer; Harvard Business Publishing simulations are institutional, expensive, and contextually generic; LinkedIn Learning and Coursera provide passive video content with no behavioural assessment.
+The practical implication is that the platform faces no head-to-head price competition today. However, the absence of direct rivals should not be mistaken for the absence of competitive pressure. The real competitive dynamics are structural: indirect rivals satisfy the same underlying need (leadership development, professional credibility, peer connection) through established channels â€” business schools, mentorship networks, family business councils, corporate training programs â€” that are deeply embedded in the target market's decision-making. Winning in this environment requires making the platform's offer demonstrably superior in outcomes, not merely different in format. Rivalry will intensify as the category matures and as established platforms extend feature sets toward simulation. The two-to-three-year window of low direct rivalry is the platform's most valuable asset.
+2. Threat of New Entrants â€” Moderate and Rising
+The barriers to building a functional simulation platform are not prohibitive. A well-resourced EdTech startup with a competent engineering team could produce a comparable interface in twelve to eighteen months. The capital required is accessible; the technology stack is standard; the general concept of leadership simulation is publicly documented in the academic literature the team has drawn upon.
+What is genuinely difficult to replicate quickly is the combination of three specific assets: first, deep cultural and contextual knowledge of APAC family business succession dynamics â€” the bapakism framework, Indonesian regulatory specifics, the political connection literature, the generational risk-aversion pattern. This is domain expertise that requires lived proximity, not just desk research. Second, a validated scoring methodology with published calibration data. This is the highest-effort barrier because it requires a pilot population and time. Third, a network with meaningful density in the target segment. Network effects are inherently time-dependent â€” the platform that achieves critical mass first forecloses the opportunity for later entrants.
+The threat from institutional entrants is higher than from startups. If a major family business association, an Asian university consortium, or an established EdTech platform decided to build this product, they would arrive with distribution and credibility that the platform cannot match. The platform's best defence is speed to institutional partnership and speed to validation data.
+3. Bargaining Power of Suppliers â€” Low
+The platform's primary input costs are cloud infrastructure, AI APIs, and content expertise. Cloud infrastructure (AWS, Vercel, Supabase) is a commodity market with multiple substitutable providers and no meaningful switching costs. AI APIs (GPT-4o and equivalents) are similarly commoditised and structurally competitive; OpenAI, Anthropic, Google, and Mistral are all viable options, and the platform's core assessment logic does not depend on any single AI provider for its scoring validity â€” the AI layer enhances narrative feedback, not the dimensional scoring itself.
+The one genuine supplier risk is content expertise. Building credible, culturally accurate APAC succession scenarios requires access to practitioners â€” family business advisors, governance specialists, legal experts familiar with Indonesian corporate law. If the platform develops a dependence on a small group of scenario authors or cultural consultants without institutional contracts, those individuals have leverage. Mitigating this requires either building scenario authoring capacity internally or formalising academic partnerships that make content creation an institutional rather than individual output.
+4. Bargaining Power of Buyers â€” Moderate (B2C) / High (Institutional B2B)
+In the consumer segment, individual students and NextGen family business members have moderate bargaining power. The platform has no direct pricing competitors, which reduces the risk of downward price pressure. However, because willingness to pay in this segment is unproven and the free tier must be compelling enough to drive engagement, the practical pricing constraint is the user's willingness to pay at all rather than a competitor's lower price. This argues for a freemium architecture where the free tier builds habitual engagement before monetisation, which the roadmap correctly anticipates.
+In the institutional segment â€”  university programs, family business councils, succession advisory firms, corporate recruiters â€” buyer power is high and concentrated. A single institutional contract represents significant revenue but also significant dependency. Institutional buyers will negotiate pricing, demand customisation, require validation data, and can switch platforms or build in-house alternatives if the value proposition is not demonstrably superior. The platform's institutional strategy must prioritise assessment credibility over design quality: institutional procurement decisions are driven by outcome validity, not interface aesthetics.
+The research materials highlight a precise opportunity here. Only 9% of Asia Pacific family businesses have established protocols for responsible AI use, and just 8% have adopted GenAI. The institutional market has not yet standardised on any platform for leadership assessment in this segment. The first platform to earn institutional endorsement â€” through a published validation study or a recognised academic partnership â€” is likely to become the default, because switching costs for institutional buyers who have embedded a platform into their succession program are high.
+5. Threat of Substitutes â€” High Short-Term, Diminishing With Scale
+The substitute threat is the most complex force to evaluate because it operates at multiple levels simultaneously.
+At the broadest level, the platform competes with every existing method by which a NextGen family business heir currently develops leadership competence: an MBA at INSEAD or Harvard, a two-year stint at McKinsey, a family-funded governance coaching program, a family business council membership, or simply learning by doing in the family firm. These substitutes are expensive, inaccessible at scale, and culturally generic â€” but they carry institutional prestige that the platform cannot match immediately.
+At the specific product level, LLM-based coaching tools represent an emerging substitute risk. A user who can access contextually rich leadership feedback from a general-purpose AI system â€” for free â€” has a plausible alternative to paying for a simulation platform. The platform's defence against this is structural rather than incremental: a general-purpose AI conversation cannot track decision patterns across a multi-round branching scenario, cannot apply a validated scoring rubric with hidden dimensions, and cannot connect the user to a curated peer network based on their assessed cognitive profile. The product's value is in the architecture, not the AI.
+The research materials provide a specific insight that sharpens the substitute analysis: PwC documents that Indonesian family business NextGen face "43% senior resistance" and "19% succession delay due to uncertainty." These are not users who are actively seeking personal development tools â€” they are users who are being held back by structural constraints within their own families. The substitute for the platform is not another app; it is the status quo â€” doing nothing, delaying, and hoping the problem resolves itself. Beating the status quo is a harder sales problem than beating a competitor, but it is also a larger opportunity. A platform that credibly frames itself as the instrument through which NextGen leaders demonstrate readiness â€” not just to themselves but to their seniors and their boards â€” converts the status quo from a substitute into a motivator for adoption.
+As the user's profile accumulates â€” certifications, cognitive scores, professional connections, a traceable record of decisions made â€” the substitute threat diminishes sharply. A user who has built a verifiable leadership portfolio on the platform faces real switching costs, because the alternative is starting that record from zero elsewhere. This is the long-term structural advantage the platform should prioritise building toward: a professional identity layer that makes the platform sticky not by lock-in mechanics but by accumulated, portable, credible evidence of leadership quality.

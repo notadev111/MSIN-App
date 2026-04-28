@@ -1,0 +1,56 @@
+
+> web@0.1.0 dev
+> next dev -p 3001
+
+   ▲ Next.js 15.5.14
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.1.203:3001
+
+ ✓ Starting...
+ ✓ Ready in 2.3s
+ ○ Compiling / ...
+ ✓ Compiled / in 2.6s (1465 modules)
+ GET / 200 in 3287ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 820ms (821 modules)
+ GET /favicon.ico 200 in 1058ms
+ ✓ Compiled in 787ms (1482 modules)
+ GET / 200 in 179ms
+ GET / 200 in 254ms
+ ○ Compiling /onboarding ...
+ ✓ Compiled /onboarding in 897ms (1479 modules)
+ GET /onboarding 200 in 1183ms
+ ✓ Compiled /simulation in 449ms (1534 modules)
+ GET /simulation?id=kartika-succession 200 in 720ms
+ GET / 200 in 40ms
+ GET / 200 in 102ms
+ GET /simulation?id=kartika-succession 200 in 131ms
+ GET / 200 in 45ms
+ GET /simulation?id=kartika-succession 200 in 134ms
+ GET / 200 in 43ms
+ ✓ Compiled in 1348ms (1531 modules)
+ GET / 200 in 272ms
+ GET / 200 in 271ms
+ ✓ Compiled /favicon.ico in 175ms (857 modules)
+ GET /favicon.ico 200 in 316ms
+ ✓ Compiled in 459ms (1548 modules)
+ GET / 200 in 282ms
+ GET / 200 in 254ms
+ GET /favicon.ico 200 in 29ms
+ ✓ Compiled in 604ms (1548 modules)
+ GET / 200 in 133ms
+ ✓ Compiled in 166ms (691 modules)
+ GET / 200 in 112ms
+ ✓ Compiled in 389ms (691 modules)
+ GET / 200 in 188ms
+ ✓ Compiled in 242ms (691 modules)
+ GET / 200 in 81ms
+ ✓ Compiled in 348ms (691 modules)
+ GET / 200 in 80ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1290ms (1834 modules)
+ GET / 200 in 1240ms
+ GET / 500 in 5735ms
+ GET / 200 in 401ms
+ ✓ Compiled /simulation in 372ms (1034 modules)
+ GET /simulation?id=kartika-succession 200 in 2262ms
