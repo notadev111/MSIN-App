@@ -11,11 +11,37 @@
 import puppeteer from 'puppeteer';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { dirname, resolve } from 'node:path';
+import { copyFileSync, existsSync, mkdirSync, readdirSync, statSync, unlinkSync } from 'node:fs';
 import { audit } from './audit.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const HTML = resolve(__dirname, '..', 'acumen-report.html');
 const OUT  = resolve(__dirname, '..', 'acumen-report.pdf');
+const SNAP = resolve(__dirname, 'snapshots');
+const KEEP = 10; // rolling retention
+
+// ── Snapshot the HTML before we touch anything else. ──
+// Small, atomic, can't fail in a way that breaks the build. If the live HTML
+// ever gets clobbered again (codex, accidental save, anything), the last 10
+// pre-build versions sit here as a local safety net independent of git.
+function snapshot() {
+  if (!existsSync(HTML)) return; // nothing to snapshot
+  if (!existsSync(SNAP)) mkdirSync(SNAP, { recursive: true });
+  const ts = new Date().toISOString().replace(/[:.]/g, '-').replace(/Z$/, '');
+  const dest = resolve(SNAP, `acumen-report.${ts}.html`);
+  copyFileSync(HTML, dest);
+  console.log(`  Snapshot → ${dest.replace(__dirname, 'tools')}`);
+
+  // Trim to the most recent KEEP snapshots.
+  const snaps = readdirSync(SNAP)
+    .filter((f) => f.startsWith('acumen-report.') && f.endsWith('.html'))
+    .map((f) => ({ name: f, mtime: statSync(resolve(SNAP, f)).mtimeMs }))
+    .sort((a, b) => b.mtime - a.mtime);
+  for (const old of snaps.slice(KEEP)) {
+    unlinkSync(resolve(SNAP, old.name));
+  }
+}
+snapshot();
 
 // Run audit (prints the table); we don't block on overflow.
 const report = await audit();
