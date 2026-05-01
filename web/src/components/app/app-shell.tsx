@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Network, User } from "lucide-react";
+import { Home, MessageSquare, Network, User } from "lucide-react";
 import type { ReactNode } from "react";
 
 import { cn } from "@/lib/utils";
@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 const navItems = [
   { href: "/dashboard", label: "Home", icon: Home },
   { href: "/network", label: "Network", icon: Network },
+  { href: "/messages", label: "Messages", icon: MessageSquare },
   { href: "/profile", label: "Profile", icon: User },
 ];
 
@@ -27,20 +28,24 @@ export function AppShell({
   return (
     <div className="min-h-screen bg-[var(--bg)]">
       <header className="sticky top-0 z-20 border-b border-[var(--border-subtle)] bg-[rgba(247,243,238,0.9)] backdrop-blur">
-        <div className="page-shell flex items-center justify-between py-4 md:py-5">
-          <div className="space-y-1">
-            <p className="section-label text-[var(--ink)]">Acumen</p>
+        <div className="mx-auto flex w-full max-w-[1160px] items-center justify-between px-5 py-3 md:px-9">
+          <div className="flex items-baseline gap-3">
+            <p className="text-[13px] font-bold uppercase tracking-[0.08em] text-[var(--ink)]">
+              Acumen
+            </p>
             {title ? (
-              <div>
-                <h1 className="h2-text">{title}</h1>
+              <div className="flex items-baseline gap-3">
+                <h1 className="text-[16px] font-semibold text-[var(--text)]">
+                  {title}
+                </h1>
                 {subtitle ? (
-                  <p className="small-text text-[var(--text-secondary)]">
+                  <p className="hidden text-[13px] text-[var(--text-secondary)] lg:block">
                     {subtitle}
                   </p>
                 ) : null}
               </div>
             ) : (
-              <p className="small-text text-[var(--text-secondary)]">
+              <p className="hidden text-[13px] text-[var(--text-secondary)] md:block">
                 Decision practice for next-gen leaders
               </p>
             )}

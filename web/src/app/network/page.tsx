@@ -78,6 +78,7 @@ export default function NetworkPage() {
                 peer={peer}
                 connected={state.connectedPeerIds.includes(peer.id)}
                 onToggle={() => togglePeerConnection(peer.id)}
+                onMessage={() => router.push(`/messages?peer=${peer.id}`)}
               />
             ))}
           </section>

@@ -176,6 +176,7 @@ export default function DashboardPage() {
                   compact
                   connected={state.connectedPeerIds.includes(peer.id)}
                   onToggle={() => togglePeerConnection(peer.id)}
+                  onMessage={() => router.push(`/messages?peer=${peer.id}`)}
                 />
               ))}
             </div>

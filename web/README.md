@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Acumen Web App
 
-## Getting Started
+Acumen is a Next.js prototype for practising business judgement through scenario simulations, feedback, peer matching, and messaging.
 
-First, run the development server:
+## Requirements
+
+- Node.js 20 or newer
+- npm 10 or newer
+
+No external database or API keys are required. The prototype stores demo progress, connections, and messages in browser `localStorage`.
+
+## Run Locally
+
+From the `web` folder:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+If port 3000 is already busy:
 
-## Learn More
+```bash
+npm run dev -- --port 3001
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Useful Commands
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run lint
+npm run build
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `npm run lint` checks code style.
+- `npm run build` verifies the app can be production-built.
+- `npm run start` serves the production build after `npm run build`.
 
-## Deploy on Vercel
+## Demo Flow
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Main routes:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `/` landing page
+- `/onboarding` user setup
+- `/dashboard` scenario selection and progress
+- `/simulation?id=kartika-succession` flagship succession scenario
+- `/feedback` latest simulation feedback
+- `/network` peer matching and connections
+- `/messages` chat with connected peers
+- `/profile` user skill profile
+
+For fastest testing, use the returning-user/demo action on the landing page if available, or complete onboarding once. State persists locally in the browser.
+
+## Project Structure
+
+```text
+web/
+  src/app/                 Next.js App Router pages
+  src/components/app/      App shell and domain UI
+  src/components/ui/       Shared UI primitives
+  src/components/simulation/
+  src/components/feedback/
+  src/lib/scenarios/       Scenario data
+  src/lib/scoring.ts       Feedback/scoring logic
+  src/lib/demo-data.ts     Demo peers and user data
+  src/lib/types.ts         Shared TypeScript types
+```
+
+## Sharing With The Team
+
+### Option 1: GitHub
+
+From the project root:
+
+```bash
+git add web
+git commit -m "Add Acumen web app messaging prototype"
+git remote add origin <your-github-repo-url>
+git push -u origin main
+```
+
+Your teammate can then run:
+
+```bash
+git clone <your-github-repo-url>
+cd <repo-folder>/web
+npm install
+npm run dev
+```
+
+### Option 2: Zip File
+
+Zip the `web` folder, but exclude:
+
+- `node_modules`
+- `.next`
+- `*.log`
+- `*.tsbuildinfo`
+
+Your teammate can unzip it, then run:
+
+```bash
+cd web
+npm install
+npm run dev
+```
+
+### Option 3: Vercel Preview
+
+Push the repo to GitHub, import it into Vercel, and set the project root to:
+
+```text
+web
+```
+
+Vercel should detect Next.js automatically. No environment variables are needed.

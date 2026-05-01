@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, MessageCircle } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Chip } from "@/components/ui/chip";
@@ -17,6 +17,7 @@ interface PeerCardProps {
   connected: boolean;
   compact?: boolean;
   onToggle: () => void;
+  onMessage?: () => void;
 }
 
 export function PeerCard({
@@ -24,6 +25,7 @@ export function PeerCard({
   connected,
   compact = false,
   onToggle,
+  onMessage,
 }: PeerCardProps) {
   return (
     <article
@@ -60,10 +62,10 @@ export function PeerCard({
           ))}
         </div>
       </div>
-      <div className="mt-6 border-t border-[var(--border-subtle)] pt-5">
+      <div className="mt-6 flex gap-2 border-t border-[var(--border-subtle)] pt-5">
         <Button
           variant={connected ? "ghost" : "secondary"}
-          fullWidth
+          fullWidth={!connected || !onMessage}
           onClick={onToggle}
           className={cn(
             connected
@@ -74,6 +76,18 @@ export function PeerCard({
           <span>{connected ? "Connected" : "Connect"}</span>
           {!connected ? <ArrowRight className="h-4 w-4" /> : null}
         </Button>
+        {connected && onMessage ? (
+          <Button
+            type="button"
+            variant="secondary"
+            onClick={onMessage}
+            className="gap-2 px-3"
+            aria-label={`Message ${peer.name}`}
+          >
+            <MessageCircle className="h-4 w-4" />
+            <span className="hidden sm:inline">Message</span>
+          </Button>
+        ) : null}
       </div>
     </article>
   );

@@ -16,6 +16,7 @@ import { buildSimulationResult } from "@/lib/scoring";
 import { STORAGE_KEY } from "@/lib/storage";
 import type {
   AppState,
+  PeerMessage,
   ScenarioDefinition,
   SimulationResult,
   SkillId,
@@ -27,6 +28,7 @@ const initialState: AppState = {
   user: null,
   results: [],
   connectedPeerIds: [],
+  messages: [],
 };
 
 type Action =
@@ -34,12 +36,18 @@ type Action =
   | { type: "completeOnboarding"; payload: UserProfile }
   | { type: "addResult"; payload: SimulationResult }
   | { type: "togglePeer"; payload: string }
+  | { type: "sendPeerMessage"; payload: PeerMessage }
   | { type: "seedReturningUser" };
 
 function reducer(state: AppState, action: Action): AppState {
   switch (action.type) {
     case "hydrate":
-      return { ...action.payload, results: action.payload.results ?? [] };
+      return {
+        ...action.payload,
+        results: action.payload.results ?? [],
+        connectedPeerIds: action.payload.connectedPeerIds ?? [],
+        messages: action.payload.messages ?? [],
+      };
     case "completeOnboarding":
       return { ...state, hasOnboarded: true, user: action.payload };
     case "addResult":
@@ -50,6 +58,14 @@ function reducer(state: AppState, action: Action): AppState {
         connectedPeerIds: state.connectedPeerIds.includes(action.payload)
           ? state.connectedPeerIds.filter((id) => id !== action.payload)
           : [...state.connectedPeerIds, action.payload],
+      };
+    case "sendPeerMessage":
+      return {
+        ...state,
+        connectedPeerIds: state.connectedPeerIds.includes(action.payload.peerId)
+          ? state.connectedPeerIds
+          : [...state.connectedPeerIds, action.payload.peerId],
+        messages: [...state.messages, action.payload],
       };
     case "seedReturningUser":
       return {
@@ -62,6 +78,15 @@ function reducer(state: AppState, action: Action): AppState {
         },
         results: [],
         connectedPeerIds: ["peer-1"],
+        messages: [
+          {
+            id: "seed-message-1",
+            peerId: "peer-1",
+            sender: "peer",
+            body: "Your succession scenario result was interesting. I took a more stakeholder-heavy path. Want to compare notes?",
+            sentAt: new Date(Date.now() - 1000 * 60 * 45).toISOString(),
+          },
+        ],
       };
     default:
       return state;
@@ -81,6 +106,7 @@ interface AppContextValue {
     docsRead: string[],
   ) => SimulationResult;
   togglePeerConnection: (peerId: string) => void;
+  sendPeerMessage: (peerId: string, body: string) => void;
   seedReturningUser: () => void;
 }
 
@@ -145,6 +171,17 @@ export function AppProvider({ children }: { children: ReactNode }) {
       completeSimulation,
       togglePeerConnection: (peerId) =>
         dispatch({ type: "togglePeer", payload: peerId }),
+      sendPeerMessage: (peerId, body) =>
+        dispatch({
+          type: "sendPeerMessage",
+          payload: {
+            id: `message-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+            peerId,
+            sender: "user",
+            body,
+            sentAt: new Date().toISOString(),
+          },
+        }),
       seedReturningUser: () => dispatch({ type: "seedReturningUser" }),
     }),
     [state, isHydrated, completeSimulation],

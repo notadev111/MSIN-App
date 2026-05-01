@@ -163,9 +163,18 @@ export interface Peer {
   compatibility: number;
 }
 
+export interface PeerMessage {
+  id: string;
+  peerId: string;
+  sender: "user" | "peer";
+  body: string;
+  sentAt: string;
+}
+
 export interface AppState {
   hasOnboarded: boolean;
   user: UserProfile | null;
   results: SimulationResult[];
   connectedPeerIds: string[];
+  messages: PeerMessage[];
 }
