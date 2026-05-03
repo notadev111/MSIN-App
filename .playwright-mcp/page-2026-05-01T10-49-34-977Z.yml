@@ -1,0 +1,44 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e6]: Acumen
+        - generic [ref=e7]:
+          - heading "Messages" [level=1] [ref=e8]
+          - paragraph [ref=e9]: Follow up with connected peers
+      - navigation [ref=e10]:
+        - link "Home" [ref=e11] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Network" [ref=e12] [cursor=pointer]:
+          - /url: /network
+        - link "Messages" [ref=e13] [cursor=pointer]:
+          - /url: /messages
+        - link "Profile" [ref=e14] [cursor=pointer]:
+          - /url: /profile
+  - main [ref=e15]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - paragraph [ref=e19]: Peer messages
+        - heading "Turn a match into a conversation." [level=1] [ref=e20]
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - img [ref=e23]
+          - heading "No connections yet" [level=2] [ref=e28]
+          - paragraph [ref=e29]: Connect with a peer first, then message them from here.
+        - link "Browse network" [ref=e30] [cursor=pointer]:
+          - /url: /network
+          - button "Browse network" [ref=e31]
+  - navigation [ref=e32]:
+    - generic [ref=e33]:
+      - link "Home" [ref=e34] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e35]
+      - link "Network" [ref=e38] [cursor=pointer]:
+        - /url: /network
+        - img [ref=e39]
+      - link "Messages" [ref=e44] [cursor=pointer]:
+        - /url: /messages
+        - img [ref=e45]
+      - link "Profile" [ref=e47] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e48]

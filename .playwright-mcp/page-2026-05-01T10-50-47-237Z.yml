@@ -1,0 +1,50 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - paragraph [ref=e6]: Acumen
+          - generic [ref=e7]:
+            - heading "Messages" [level=1] [ref=e8]
+            - paragraph [ref=e9]: Follow up with connected peers
+        - navigation [ref=e10]:
+          - link "Home" [ref=e11] [cursor=pointer]:
+            - /url: /dashboard
+          - link "Network" [ref=e12] [cursor=pointer]:
+            - /url: /network
+          - link "Messages" [ref=e13] [cursor=pointer]:
+            - /url: /messages
+          - link "Profile" [ref=e14] [cursor=pointer]:
+            - /url: /profile
+    - main [ref=e15]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - paragraph [ref=e19]: Peer messages
+          - heading "Turn a match into a conversation." [level=1] [ref=e20]
+        - generic [ref=e21]:
+          - complementary [ref=e32]:
+            - paragraph [ref=e34]: Connected
+            - button "Wei Ling Tan Strategy Associate 94% Hey, want to compare how we handled the board conflict in The Succession Crisis?" [ref=e72]:
+              - generic [ref=e37]:
+                - generic [ref=e38]:
+                  - paragraph [ref=e39]: Wei Ling Tan
+                  - paragraph [ref=e40]: Strategy Associate
+                - generic [ref=e41]: 94%
+              - paragraph [ref=e42]: Hey, want to compare how we handled the board conflict in The Succession Crisis?
+          - generic [ref=e43]:
+            - generic [ref=e45]:
+              - generic [ref=e46]:
+                - heading "Wei Ling Tan" [level=2] [ref=e47]
+                - paragraph [ref=e48]: Strategy Associate / NUS Business School
+              - generic [ref=e49]: Connected
+            - generic [ref=e74]:
+              - paragraph [ref=e75]: Hey, want to compare how we handled the board conflict in The Succession Crisis?
+              - paragraph [ref=e76]: 1 May 2026
+            - generic [ref=e56]:
+              - textbox "Message Wei" [ref=e57]
+              - button "Send" [disabled]:
+                - img
+                - text: Send
+  - button "Open Next.js Dev Tools" [ref=e63] [cursor=pointer]:
+    - img [ref=e64]
+  - alert [ref=e67]

@@ -1,0 +1,97 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e6]: Acumen
+        - generic [ref=e7]:
+          - heading "Network" [level=1] [ref=e8]
+          - paragraph [ref=e9]: Peers with adjacent strengths
+      - navigation [ref=e10]:
+        - link "Home" [ref=e11] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Network" [ref=e12] [cursor=pointer]:
+          - /url: /network
+        - link "Messages" [ref=e13] [cursor=pointer]:
+          - /url: /messages
+        - link "Profile" [ref=e14] [cursor=pointer]:
+          - /url: /profile
+  - main [ref=e15]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - paragraph [ref=e20]: Network
+          - heading "Find someone relevant fast." [level=1] [ref=e21]
+        - generic [ref=e22]:
+          - button "All" [ref=e23]
+          - button "Strategy" [ref=e24]
+          - button "Ethics" [ref=e25]
+          - button "Adaptability" [ref=e26]
+      - generic [ref=e27]:
+        - article [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]:
+              - generic [ref=e31]:
+                - generic [ref=e32]: WL
+                - generic [ref=e33]:
+                  - heading "Wei Ling Tan" [level=3] [ref=e34]
+                  - paragraph [ref=e35]: Strategy Associate / NUS Business School
+              - generic [ref=e36]: 94% match
+            - paragraph [ref=e37]: Third-generation heir to a Singapore logistics group. Focused on governance modernisation and cross-border M&A in Southeast Asia.
+            - generic [ref=e38]:
+              - generic [ref=e39]: Strategic Judgment
+              - generic [ref=e40]: Stakeholder Management
+              - generic [ref=e41]: Ethical Reasoning
+          - button "Connect" [ref=e43]:
+            - generic [ref=e44]: Connect
+            - img [ref=e45]
+        - article [ref=e47]:
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - generic [ref=e50]:
+                - generic [ref=e51]: AM
+                - generic [ref=e52]:
+                  - heading "Arjun Mehta" [level=3] [ref=e53]
+                  - paragraph [ref=e54]: Venture Analyst / INSEAD Asia
+              - generic [ref=e55]: 90% match
+            - paragraph [ref=e56]: Family office background across India and Singapore. Deep interest in next-gen leadership frameworks and institutional governance.
+            - generic [ref=e57]:
+              - generic [ref=e58]: Adaptability
+              - generic [ref=e59]: Strategic Judgment
+              - generic [ref=e60]: Decisiveness
+          - button "Connect" [ref=e62]:
+            - generic [ref=e63]: Connect
+            - img [ref=e64]
+        - article [ref=e66]:
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - generic [ref=e69]:
+                - generic [ref=e70]: CL
+                - generic [ref=e71]:
+                  - heading "Clarissa Lim" [level=3] [ref=e72]
+                  - paragraph [ref=e73]: Corporate Development / SMU School of Business
+              - generic [ref=e74]: 86% match
+            - paragraph [ref=e75]: Works on strategic partnerships for a Singapore-listed conglomerate. Experienced in stakeholder alignment across family and institutional shareholders.
+            - generic [ref=e76]:
+              - generic [ref=e77]: Stakeholder Management
+              - generic [ref=e78]: Ethical Reasoning
+              - generic [ref=e79]: Adaptability
+          - button "Connect" [ref=e81]:
+            - generic [ref=e82]: Connect
+            - img [ref=e83]
+        - article [ref=e85]:
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - generic [ref=e88]:
+                - generic [ref=e89]: MO
+                - generic [ref=e90]:
+                  - heading "Marcus Ong" [level=3] [ref=e91]
+                  - paragraph [ref=e92]: Investment Analyst / NTU Nanyang Business School
+              - generic [ref=e93]: 82% match
+            - paragraph [ref=e94]: Covers ASEAN family conglomerates for a regional private equity firm. Research focus on succession risk and governance premium.
+            - generic [ref=e95]:
+              - generic [ref=e96]: Financial Literacy
+              - generic [ref=e97]: Strategic Judgment
+              - generic [ref=e98]: Decisiveness
+          - button "Connect" [ref=e100]:
+            - generic [ref=e101]: Connect
+            - img [ref=e102]
